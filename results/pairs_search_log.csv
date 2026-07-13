@@ -1,0 +1,14 @@
+pair,mean_cer
+contrast_adaptive + denoise,0.6602
+contrast_adaptive + grayscale,0.6484
+contrast_adaptive + sharpen,0.7457
+contrast_adaptive + upscale,0.6733
+contrast_adaptive + upscale800,0.7081
+denoise + grayscale,0.6433
+denoise + sharpen,0.6725
+denoise + upscale,0.696
+grayscale + sharpen,0.6513
+grayscale + upscale,0.6804
+sharpen + upscale,0.6754
+sharpen + upscale800,0.7082
+upscale + upscale800,0.7088

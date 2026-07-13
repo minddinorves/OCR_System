@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+.venv_paddle/
+.venv_stats/
+
+# Python
+__pycache__/
+*.pyc
+
+# Datasets and generated images (too large / not code)
+test_SkinSafe/
+augmented_dataset/
+preprocessed_images/
+models/
+
+# Run logs (transient debug output)
+*.log
+
+# Tooling
+.claude/

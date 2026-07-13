@@ -1,0 +1,18 @@
+step,chain,mean_cer
+0,baseline,0.6189
+1,grayscale,0.6217
+1,threshold,0.9025
+1,denoise,0.6452
+1,sharpen,0.6483
+1,upscale,0.6764
+1,deskew,0.6084
+1,contrast_adaptive,0.6484
+1,upscale800,0.7068
+2,deskew -> grayscale,0.615
+2,deskew -> threshold,0.904
+2,deskew -> denoise,0.6331
+2,deskew -> sharpen,0.6398
+2,deskew -> upscale,0.6699
+2,deskew -> contrast_adaptive,0.6411
+2,deskew -> upscale800,0.6986
+final+fuzzy,deskew -> fuzzy,0.6076
