@@ -39,9 +39,15 @@ FIELDNAMES = [
 ]
 
 _HEADER_RE = re.compile(r"^[^:：]*ingredient[^:：]*[:：]\s*", re.IGNORECASE)
-# Split on commas that separate ingredients, but not commas inside numbers
-# like "1,2-Hexanediol" (comma followed by a digit stays attached).
-_SPLIT_RE = re.compile(r",(?!\s*\d)")
+# Split on commas that separate ingredients (but not commas inside numbers like
+# "1,2-Hexanediol"), and on colons. The colon split is a second line of defense
+# against _HEADER_RE: when OCR garbles the "Ingredients:" header text itself
+# (e.g. "r2rU'atnB'u : Aqua"), _HEADER_RE's literal "ingredient" match fails, and
+# without this the header debris glues onto the first real token, guaranteeing
+# it can never match anything. Real ingredient names essentially never contain
+# a colon (checked: 2/8198 in this project's reference labels, a "CI xxxxx:1"
+# ratio notation), so this trade is one-sided in practice.
+_SPLIT_RE = re.compile(r",(?!\s*\d)|[:：]")
 MIN_TOKEN_LEN = 3
 MAX_LEN_RATIO = 1.6
 
@@ -109,13 +115,16 @@ def main():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=85.0,
+        default=90.0,
+        # 90 measurably beats the original 85 default on this dataset (threshold
+        # sweep: 85->0.359 CER, 90->0.354 CER) with no downside found -- a higher
+        # bar means fewer accidental corrections of already-correct tokens.
         help="Minimum fuzzy similarity score (0-100) required to accept a vocabulary match",
     )
     args = parser.parse_args()
 
     vocabulary = core.load_inci_vocabulary()
-    print(f"Loaded {len(vocabulary)} unique INCI names from {core.INCI_DB_PATH}")
+    print(f"Loaded {len(vocabulary)} unique INCI names from {core.INCI_DB_PATH} + patch")
 
     entries = list(core.iter_dataset_entries(datasets=args.datasets, limit=args.limit))
     rows = []

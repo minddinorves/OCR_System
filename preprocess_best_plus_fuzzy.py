@@ -7,9 +7,15 @@ two best individual ideas: deskew the image first, run PaddleOCR, then fuzzy-mat
 the output against the INCI ingredient database (ingredient_master_dataset_fixed.csv),
 to see whether the improvements stack.
 
+NOTE: that ranking was measured with PaddleOCR's use_doc_unwarping/use_textline_orientation
+forced OFF (see ocr_core.py history). With those now ON by default (ocr_core.get_ocr),
+deskew actively HURTS instead of helping -- it conflicts with the model-based textline
+orientation correction. This script is kept for reference/comparison only; don't treat
+its "best" claim as current.
+
 Usage:
   python preprocess_best_plus_fuzzy.py
-  python preprocess_best_plus_fuzzy.py --datasets night --limit 10 --threshold 85
+  python preprocess_best_plus_fuzzy.py --datasets night --limit 10 --threshold 90
 """
 import os
 
@@ -71,7 +77,7 @@ def main():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=85.0,
+        default=90.0,
         help="Minimum fuzzy similarity score (0-100) required to accept a vocabulary match",
     )
     args = parser.parse_args()

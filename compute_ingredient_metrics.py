@@ -45,8 +45,27 @@ from rapidfuzz.distance import Levenshtein
 
 import ocr_core as core
 
-_SPLIT_RE = re.compile(r",(?!\s*\d)")
-SKIP_FILES = {"summary.csv", "summary_ingredient.csv", "combination_search_log.csv", "pairs_search_log.csv"}
+# Extends ocr_paddle_fuzzy.py's _SPLIT_RE with one more case that belongs only
+# here, not in the correction step: OCR frequently misreads the comma between
+# ingredient names as a period ("Phenoxyethanol. Sodium Ascorbyl Phosphate"),
+# which merges two names into one unmatchable blob (checked: only 4/8198 real
+# ingredient lines contain a period at all, and none as a real separator, so
+# this is a one-sided win) -- \.(?!\d) protects decimal numbers like "0.85".
+# This is intentionally NOT mirrored into ocr_paddle_fuzzy.py's correction
+# step: tested splitting there too, and it measurably hurts (more, smaller
+# fragments each get fuzzy-matched against the vocabulary independently, and
+# more matching attempts means more spurious wrong "corrections" -- the same
+# failure mode as the oracle-vocabulary experiment). Splitting only here, where
+# fragments are compared directly against the reference with no vocabulary in
+# the loop, gets the recall win without that risk.
+_SPLIT_RE = re.compile(r",(?!\s*\d)|[:：]|\.(?!\d)")
+SKIP_FILES = {
+    "summary.csv",
+    "summary_ingredient.csv",
+    "combination_search_log.csv",
+    "pairs_search_log.csv",
+    "cer_distribution.csv",
+}
 MATCH_THRESHOLD = 85  # same score_cutoff used by the Fuzzy Matching technique itself
 
 

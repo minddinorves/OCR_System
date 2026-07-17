@@ -1,0 +1,11 @@
+numpy
+opencv-python
+Pillow
+albumentations
+scipy
+tqdm
+rapidfuzz
+paddlepaddle
+paddleocr
+torch
+transformers
