@@ -185,6 +185,14 @@ def get_ocr(lang="en"):
             # output with this paddlepaddle-gpu build, even at fp32 -- CPU is
             # the only currently-correct backend on this machine.)
             enable_mkldnn=False,
+            # Lowering the detection box-acceptance threshold from the model's
+            # default (0.45) recovers real text boxes the detector already
+            # finds but was discarding as low-confidence -- a pure recall
+            # fix, no retraining needed. Validated on full "original" (n=216):
+            # CER 0.3199->0.2644, Set F1 0.5515->0.5715. Below 0.3 there is no
+            # further sweep gain (0.25/0.2/0.15 all produced byte-identical
+            # OCR output to 0.3 on a 40-image check) -- 0.3 is the plateau.
+            text_det_box_thresh=0.3,
         )
     return _OCR_INSTANCES[lang]
 
