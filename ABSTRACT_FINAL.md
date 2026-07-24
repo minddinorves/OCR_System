@@ -1,14 +1,6 @@
-# บทคัดย่อและวัตถุประสงค์ (ฉบับปรับปรุงครั้งที่ 2 — ตรงกับ pipeline ที่แก้ไขแล้วจริง)
+# บทคัดย่อและวัตถุประสงค์
 
-> ฉบับก่อนหน้าของไฟล์นี้ ("ฉบับปรับปรุงให้ตรงกับผลการทดลองจริง") อิงผลการทดลองจากช่วงเปรียบเทียบเทคนิค Preprocessing 13 แบบ (Deskew, CLAHE, EDSR Super-Resolution, Tiled OCR, Multi-Tier Fallback ฯลฯ) บนภาพ 137 ภาพ รันบน GPU โดยปิด `use_doc_unwarping`/`use_textline_orientation` — งานช่วงนั้นสรุปว่า Deskew+Fuzzy Matching ดีที่สุด แต่ดีกว่า Baseline เพียงเล็กน้อย (~1.8% CER)
->
-> หลังจากนั้นมีการวินิจฉัยและแก้ไข pipeline ครั้งใหญ่ (commit `b1ac65b`: แก้ config เครื่องมือ OCR ที่ตั้งไว้ผิด, บัค mkldnn, ช่องโหว่ฐานข้อมูลคำศัพท์, และบัคขั้นตอน post-processing) ทำให้ Set F1 ขยับจาก 0.39 → 0.55 บนภาพจริง 216 ภาพ จากนั้นปรับ threshold การตรวจจับข้อความเพิ่มอีกขั้น (0.55 → 0.57) **แนวทางเทคนิค Preprocessing แบบเดิมทั้งหมด (Deskew, CLAHE, EDSR, Tiled OCR, Multi-Tier Fallback) ไม่ได้ถูกใช้งานใน pipeline ปัจจุบันแล้ว** ไฟล์นี้จึงเขียนใหม่ทั้งหมดให้ตรงกับแนวทางและผลลัพธ์ที่ใช้งานจริงในปัจจุบัน
->
-> **ไฟล์นี้คือฉบับล่าสุด (รอบที่ 2)** เนื้อหารอบแรกที่กล่าวถึงข้างต้นถูกเก็บไว้แยกต่างหากที่ [`ABSTRACT_DRAFT2.md`](ABSTRACT_DRAFT2.md) เพื่อการอ้างอิงและเปรียบเทียบเท่านั้น ตัวเลขและ pipeline ในไฟล์นั้น**ไม่ตรง**กับโค้ดปัจจุบันใน `ocr_core.py`/`ocr_paddle_fuzzy.py` แล้ว
-
----
-
-## ชื่อเรื่อง (คงเดิม)
+## ชื่อเรื่อง
 
 การพัฒนาระบบดึงข้อมูลส่วนผสมของเครื่องสำอางจากภาพฉลากผลิตภัณฑ์โดยใช้เทคนิค OCR
 
@@ -27,7 +19,7 @@ Faculty of Science, Naresuan University, Phitsanulok 65000, Thailand
 
 งานวิจัยนี้ดำเนินการในลักษณะการวินิจฉัยและปรับแต่ง pipeline OCR เชิงประจักษ์แบบวนซ้ำ (iterative empirical pipeline engineering) แทนการเปรียบเทียบเทคนิค image preprocessing แบบดั้งเดิมจำนวนมาก โดยพบว่าการตั้งค่าฟีเจอร์ในตัวของโมเดลอย่างเหมาะสม (เปิดใช้ document unwarping และ textline orientation classification ซึ่งเดิมถูกปิดไว้) ร่วมกับการเพิ่มขอบภาพขาว (white border padding) 25% รอบภาพก่อนเข้าสู่ขั้นตอน OCR การเพิ่มคำศัพท์ที่ขาดหายไปในฐานข้อมูล INCI (curated vocabulary patch) และการปรับลด threshold การยอมรับกล่องข้อความของโมดูลตรวจจับข้อความ (text detection box threshold) ให้ผลดีขึ้นอย่างมีนัยสำคัญ โดยไม่ต้องอาศัยเทคนิค preprocessing เชิงภาพแบบดั้งเดิมเลย ใช้เทคนิค Fuzzy String Matching ด้วยไลบรารี RapidFuzz เทียบกับฐานข้อมูลชื่อสารเครื่องสำอาง (INCI) เพื่อแก้ไขคำที่ OCR อ่านผิดพลาดเป็นขั้นตอนสุดท้าย
 
-ผลการทดลองบนภาพฉลากเครื่องสำอางจริงจำนวน 216 ภาพ พบว่าการแก้ไขการตั้งค่า pipeline หลัก (mkldnn, engine settings, ฐานข้อมูลคำศัพท์, การแก้ไขข้อความหลัง OCR) ทำให้ค่า Set F1 (ตัวชี้วัดระดับชื่อสาร) ดีขึ้นจาก 0.39 เป็น 0.55 (+41%) และการปรับลด threshold การตรวจจับข้อความเพิ่มเติม (จาก 0.45 เป็น 0.30) ทำให้ Set F1 ดีขึ้นอีกเป็น 0.57 พร้อมค่า Character Error Rate (CER) ลดลงจาก 0.32 เหลือ 0.26 คอขวดหลักที่เหลืออยู่คือค่า Recall ของโมดูลตรวจจับข้อความ ซึ่งประมาณ 62.7% ของชื่อสารที่พลาดเกิดจากโมดูลตรวจจับมองไม่เห็นข้อความเลย ไม่ใช่ปัญหาการแก้ไขข้อความหลัง OCR อีกต่อไป ชี้ให้เห็นว่าการพัฒนาต่อไปควรมุ่งไปที่คุณภาพ/ความละเอียดของภาพต้นทาง หรือการปรับแต่งโมเดลตรวจจับข้อความเฉพาะทาง (fine-tuning) มากกว่าการปรับค่าพารามิเตอร์ต่อไป
+ผลการทดลองบนภาพฉลากเครื่องสำอางจริงจำนวน 216 ภาพ พบว่าการแก้ไขการตั้งค่า pipeline หลัก (mkldnn, engine settings, ฐานข้อมูลคำศัพท์, การแก้ไขข้อความหลัง OCR) ทำให้ค่า Set F1 (ตัวชี้วัดระดับชื่อสาร) ดีขึ้นจาก 0.39 เป็น 0.55 (+41%) และการปรับลด threshold การตรวจจับข้อความเพิ่มเติม (จาก 0.45 เป็น 0.30) ทำให้ Set F1 ดีขึ้นอีกเป็น 0.57 พร้อมค่า Character Error Rate (CER) ลดลงจาก 0.32 เหลือ 0.26 คอขวดหลักที่เหลืออยู่คือค่า Recall ของโมดูลตรวจจับข้อความ ซึ่งประมาณ 62.7% ของชื่อสารที่พลาดเกิดจากโมดูลตรวจจับมองไม่เห็นข้อความเลย ไม่ใช่ปัญหาการแก้ไขข้อความหลัง OCR อีกต่อไป ชี้ให้เห็นว่าการพัฒนาต่อไปควรมุ่งไปที่คุณภาพ/ความละเอียดของภาพต้นทาง หรือการปรับแต่งโมเดลตรวจจับข้อความเฉพาะทาง (fine-tuning) มากกว่าการปรับค่าพารามิเตอร์ต่อไป การ validate เพิ่มเติมบนภาพจำลองสภาพแวดล้อมทั้ง 4 แบบ (blur, indoor, low_light, night — สภาพแวดล้อมละ 216 ภาพ) พบว่าความแม่นยำข้างต้นใช้ได้กับภาพคุณภาพระดับปกติถึงแสงน้อยปานกลางเท่านั้น ส่วนภาพเบลอและภาพแสงน้อยมากทำให้ Set F1 ลดลงเหลือเพียงประมาณ 0.14 ซึ่งเป็นข้อจำกัดสำคัญที่ต้องพิจารณาก่อนนำระบบไปใช้งานจริง
 
 **คำสำคัญ:** OCR, PaddleOCR, Text Detection Threshold Tuning, Fuzzy Matching, RapidFuzz, Set F1-score, Character Error Rate
 
@@ -39,7 +31,7 @@ Consumers are increasingly concerned about the safety of cosmetic ingredients, a
 
 Rather than comparing a large battery of classical image-preprocessing techniques, this work follows an iterative, empirical OCR-pipeline diagnosis-and-repair approach. The engine's built-in features were found to be misconfigured in an earlier iteration (document unwarping and textline-orientation classification had been disabled); re-enabling them, combined with a 25% white border padding added around each image before OCR, a curated vocabulary patch filling gaps in the reference INCI ingredient database, and lowering the text-detection module's box-acceptance threshold, produced substantial accuracy gains without any classical image-preprocessing step. RapidFuzz-based fuzzy string matching against the INCI database was retained as a post-OCR correction step.
 
-On 216 real cosmetic label images, fixing the core pipeline configuration (mkldnn crash workaround, correct engine settings, vocabulary gaps, post-processing bugs) raised the ingredient-level Set F1-score from 0.39 to 0.55 (+41%). A subsequent detection-threshold adjustment (box_thresh 0.45 → 0.30) raised Set F1 further to 0.57 and reduced Character Error Rate (CER) from 0.32 to 0.26. The main remaining bottleneck is detector recall: roughly 62.7% of missed ingredient tokens are caused by the text detector failing to locate the text region at all, rather than by post-processing errors — indicating that further gains likely require better source-image resolution/quality or a fine-tuned, domain-specific text detector rather than further parameter tuning.
+On 216 real cosmetic label images, fixing the core pipeline configuration (mkldnn crash workaround, correct engine settings, vocabulary gaps, post-processing bugs) raised the ingredient-level Set F1-score from 0.39 to 0.55 (+41%). A subsequent detection-threshold adjustment (box_thresh 0.45 → 0.30) raised Set F1 further to 0.57 and reduced Character Error Rate (CER) from 0.32 to 0.26. The main remaining bottleneck is detector recall: roughly 62.7% of missed ingredient tokens are caused by the text detector failing to locate the text region at all, rather than by post-processing errors — indicating that further gains likely require better source-image resolution/quality or a fine-tuned, domain-specific text detector rather than further parameter tuning. Follow-up validation on four simulated environmental scenarios (blur, indoor, low_light, night — 216 images each) shows these gains hold only for normal-to-moderately-dim lighting: blurred and very-low-light images cause Set F1 to collapse to roughly 0.14, a significant caveat for real-world deployment.
 
 **Keywords:** OCR, PaddleOCR, Text Detection Threshold Tuning, Fuzzy Matching, RapidFuzz, Set F1-score, Character Error Rate
 
@@ -70,7 +62,7 @@ On 216 real cosmetic label images, fixing the core pipeline configuration (mkldn
 2. ใช้ **PaddleOCR 3.7.0 (PP-OCRv6_medium)** เป็นเครื่องมือหลักสำหรับการดึงข้อความจากภาพ รันบน CPU
 3. วินิจฉัยและแก้ไขการตั้งค่า pipeline หลัก 4 ส่วน ได้แก่ (1) การตั้งค่าฟีเจอร์ในตัวของโมเดล (document unwarping, textline orientation, การปิด mkldnn เพื่อหลีกเลี่ยงบัค crash บนสภาพแวดล้อมที่ใช้) (2) การเพิ่มขอบภาพขาว (border padding) ก่อนเข้าสู่ OCR (3) การเสริมฐานข้อมูลคำศัพท์ INCI ที่ขาดหายไป และ (4) การปรับ threshold การตรวจจับข้อความ (text detection box threshold)
 4. ใช้เทคนิค Fuzzy Matching (ไลบรารี RapidFuzz, `fuzz.ratio`, score cutoff 90) สำหรับตรวจจับชื่อสารจากฐานข้อมูลเครื่องสำอาง (INCI) หลัก 11,091 รายการ เสริมด้วยคำศัพท์ที่คัดสรรเพิ่มเติม 199 รายการ (รวม 11,290 รายการไม่ซ้ำ)
-5. ใช้ชุดข้อมูลภาพฉลากเครื่องสำอางจริงจำนวน **216 ภาพ** และภาพจำลองสภาพแวดล้อม (data augmentation ด้วยไลบรารี albumentations) เพิ่มเติม 4 สภาพแวดล้อม (ภาพเบลอ, แสงน้อย, แสงกลางคืน, แสงในอาคาร) รวมเป็น 5 สภาพแวดล้อม **1,080 ภาพ** (การ validate เต็มรูปแบบของ 4 สภาพแวดล้อมเสริมยังอยู่ระหว่างดำเนินการ ดูหัวข้อ 4.5)
+5. ใช้ชุดข้อมูลภาพฉลากเครื่องสำอางจริงจำนวน **216 ภาพ** และภาพจำลองสภาพแวดล้อม (data augmentation ด้วยไลบรารี albumentations) เพิ่มเติม 4 สภาพแวดล้อม (ภาพเบลอ, แสงน้อย, แสงกลางคืน, แสงในอาคาร) รวมเป็น 5 สภาพแวดล้อม **1,080 ภาพ** — validate เต็มรูปแบบครบทั้ง 5 สภาพแวดล้อมแล้ว (ดูหัวข้อ 4.5)
 6. ประเมินผลด้วยตัวชี้วัดระดับชื่อสาร (Set Precision/Recall/F1-score, Ingredient Error Rate) เป็นหลัก ร่วมกับ CER/WER เป็นตัวชี้วัดเสริมระดับตัวอักษร/คำ
 
 ---
@@ -84,9 +76,7 @@ On 216 real cosmetic label images, fixing the core pipeline configuration (mkldn
 
 ---
 
-# บทที่ 2 ทฤษฎีและงานวิจัยที่เกี่ยวข้อง (ฉบับปรับปรุงครั้งที่ 2)
-
-> ตัดหัวข้อทฤษฎีของเทคนิค preprocessing แบบดั้งเดิมที่ไม่ได้ใช้งานจริงในเวอร์ชันปัจจุบันออกทั้งหมด (Deskewing, CLAHE/Histogram Equalization, EDSR Super-Resolution, Tiled OCR, Multi-Tier Fallback, Greedy/Exhaustive Search) แทนที่ด้วยทฤษฎีของสิ่งที่ใช้งานจริง ได้แก่ การตั้งค่าฟีเจอร์ในตัวของ PaddleOCR, Border Padding, และหลักการของ Text Detection Post-processing (DB algorithm) ที่ปรับ threshold
+# บทที่ 2 ทฤษฎีและงานวิจัยที่เกี่ยวข้อง
 
 ## 2.1 Optical Character Recognition (OCR)
 
@@ -168,7 +158,7 @@ Buslaev และคณะ (2020) ได้นำเสนอ **Albumentations**
 
 ---
 
-# บทที่ 3 วิธีดำเนินงาน (ฉบับปรับปรุงครั้งที่ 2)
+# บทที่ 3 วิธีดำเนินงาน
 
 ## 3.1 ภาพรวมของระบบ
 
@@ -308,10 +298,12 @@ WER = Levenshtein_distance(normalize(hypothesis).split(), normalize(reference).s
 | คำศัพท์เสริมที่คัดสรรแล้ว | `common_ingredients_patch.csv` |
 | ผลลัพธ์รายภาพ (raw) | `results/<run>.csv` |
 | ผลตัวชี้วัดระดับชื่อสารรายภาพ/สรุป | `results/<run>_ingredient.csv`, `results/summary_ingredient.csv` |
+| ผล validate เต็มรูปแบบ "original" (216 ภาพ, box_thresh=0.30) | `results/ocr_paddle_fuzzy_FINAL_original_full_validation.csv` |
+| ผล validate เต็มรูปแบบ 4 สภาพแวดล้อมเสริม (864 ภาพ, box_thresh=0.30 — หัวข้อ 4.5) | `results/ocr_paddle_fuzzy_FINAL_augmented_full_validation.csv` |
 
 ---
 
-# บทที่ 4 ผลการทดลองและการวิเคราะห์ (ฉบับปรับปรุงครั้งที่ 2)
+# บทที่ 4 ผลการทดลองและการวิเคราะห์
 
 ## 4.1 ผลกระทบของการแก้ไข Pipeline หลัก
 
@@ -360,14 +352,32 @@ WER = Levenshtein_distance(normalize(hypothesis).split(), normalize(reference).s
 
 ผลการเปรียบเทียบเชิงคุณภาพนี้สนับสนุนการเลือกใช้ PaddleOCR (แบบ detection+recognition เดิม) ต่อไป แทนที่จะเปลี่ยนไปใช้โมเดล generative/VLM สำหรับ use case นี้
 
-## 4.5 งานที่ยังไม่เสร็จสมบูรณ์ / แผนต่อไป
+## 4.5 ผลการ Validate สภาพแวดล้อมเสริม 4 แบบ (n=216 ต่อ scenario)
 
-1. **การ validate เต็มรูปแบบของ 4 สภาพแวดล้อมเสริม** (blur, indoor, low_light, night) ด้วยค่า config ล่าสุด (รวม `text_det_box_thresh=0.30`) ยังไม่เสร็จสมบูรณ์ — ปัจจุบันมีเฉพาะผลการ validate เต็มรูปแบบของ "original" (216 ภาพ) เท่านั้น ผลของ 4 สภาพแวดล้อมเสริมจะดำเนินการและรายงานเพิ่มเติมในลำดับถัดไป
-2. **เป้าหมาย Set F1 ที่ 0.70** ประเมินว่าไม่สามารถทำได้ด้วยการปรับพารามิเตอร์ (config tuning) เพียงอย่างเดียวอีกต่อไป เนื่องจากคอขวด Recall จากการตรวจจับข้อความ (หัวข้อ 4.3) ต้องอาศัยการปรับปรุงคุณภาพภาพต้นทางหรือการ fine-tune โมเดลตรวจจับข้อความเฉพาะทาง
+หลังจากยืนยันค่า config ที่ดีที่สุดบน "original" แล้ว (หัวข้อ 4.2) จึง validate เต็มรูปแบบต่อบน 4 สภาพแวดล้อมเสริม (blur, indoor, low_light, night — สภาพแวดล้อมละ 216 ภาพ) ด้วย config ชุดเดียวกันทุกประการ (`text_det_box_thresh=0.30`, document unwarping/textline orientation เปิดใช้งาน, border padding 25%, fuzzy matching threshold 90)
 
-## 4.6 การอภิปรายผล
+| Scenario | n | mean CER | mean WER | mean IER | Set Precision | Set Recall | **Set F1** | % ภาพที่ตรวจจับข้อความไม่ได้เลย |
+|---|---|---|---|---|---|---|---|---|
+| **original** (อ้างอิง จากหัวข้อ 4.2.3) | 216 | 0.2644 | 0.4778 | 0.6757 | 0.5487 | 0.6127 | **0.5715** | — |
+| indoor | 216 | 0.2899 | 0.5287 | 0.7323 | 0.5038 | 0.5650 | **0.5272** | 0.0% |
+| low_light | 216 | 0.3309 | 0.5931 | 0.7797 | 0.4490 | 0.4873 | **0.4614** | 0.0% |
+| blur | 216 | 0.7286 | 0.8845 | 0.9408 | 0.1392 | 0.1400 | **0.1366** | 10.2% |
+| night | 216 | 0.6884 | 0.8813 | 0.9477 | 0.1437 | 0.1377 | **0.1382** | 13.4% |
 
-ผลการทดลองแสดงให้เห็นว่า**การวินิจฉัยและแก้ไขการตั้งค่า (configuration) ของโมดูล OCR สำเร็จรูปอย่างเป็นระบบ ให้ผลกระทบต่อความแม่นยำมากกว่าการเพิ่มเทคนิค image preprocessing เชิงคลาสสิกอย่างมีนัยสำคัญ** การแก้ไข engine settings ที่ตั้งผิด (เปิด document unwarping/textline orientation), การเพิ่ม border padding, การเสริมฐานข้อมูลคำศัพท์ และการปรับ detection threshold รวมกันทำให้ Set F1 ขยับจาก 0.39 เป็น 0.57 (+46%) โดยไม่ต้องใช้เทคนิค preprocessing เชิงภาพแบบดั้งเดิมแม้แต่เทคนิคเดียว
+ผลที่ได้แบ่งชัดเจนเป็นสองกลุ่ม:
+
+- **indoor และ low_light เสื่อมประสิทธิภาพแบบค่อยเป็นค่อยไป** (Set F1 ลดจาก 0.57 เหลือ 0.53 และ 0.46 ตามลำดับ) สอดคล้องกับสมมติฐานว่าแสงน้อย/สีเพี้ยนระดับปานกลางไม่กระทบการตรวจจับข้อความรุนแรง เพราะทุกภาพยังตรวจพบข้อความได้อย่างน้อยบางส่วน (0% ภาพที่ตรวจจับไม่ได้เลย)
+- **blur และ night เสื่อมประสิทธิภาพแบบฉับพลัน (catastrophic)** — Set F1 ร่วงลงเหลือเพียง ~0.14 (ต่ำกว่า original ถึง ~76%) และ mean IER สูงเกือบ 1.0 (แทบไม่มีชื่อสารใดที่ตรงกับ reference เลย) ส่วนหนึ่งเกิดจากภาพ 10.2% (blur) และ 13.4% (night) ที่โมดูลตรวจจับข้อความไม่พบกรอบข้อความแม้แต่กรอบเดียว (ผลลัพธ์ OCR ว่างเปล่าทั้งภาพ) แต่ส่วนใหญ่ของความเสียหายมาจากภาพที่ตรวจพบข้อความได้บ้างแต่ผลการรู้จำตัวอักษรผิดเพี้ยนจนแทบใช้ไม่ได้ (เช่น อ่านได้เพียงไม่กี่ตัวอักษรที่ไม่เกี่ยวข้องต่อภาพ) ซึ่งบ่งชี้ว่าที่ความละเอียดภาพต่ำมากอยู่แล้วของชุดข้อมูลนี้ (median ~170px) การเบลอหรือแสงน้อยมากเพิ่มเข้าไปอีกชั้นทำให้ทั้งโมดูลตรวจจับและโมดูลรู้จำตัวอักษรของ PP-OCRv6_medium ล้มเหลวพร้อมกัน ไม่ใช่แค่ปัญหา Recall ของการตรวจจับเพียงอย่างเดียวเหมือนที่พบใน "original" (หัวข้อ 4.3)
+
+ข้อค้นพบนี้เป็นข้อควรระวังสำคัญต่อผลลัพธ์หลักของโครงงาน (Set F1 = 0.57 บนหัวข้อ 4.1-4.2): **ตัวเลขดังกล่าวใช้ได้กับภาพที่มีคุณภาพระดับ original/indoor/low_light เท่านั้น** หากนำไปใช้กับภาพที่ผู้ใช้ถ่ายในสภาพเบลอหรือแสงน้อยมาก (night) ความแม่นยำจะตกลงอย่างมีนัยสำคัญ ระบบในสถานะปัจจุบันจึงยังไม่พร้อมสำหรับภาพคุณภาพต่ำระดับนั้นโดยไม่มีขั้นตอนเสริม (เช่น การแจ้งเตือนผู้ใช้ให้ถ่ายภาพใหม่เมื่อภาพเบลอ/มืดเกินไป)
+
+## 4.6 แผนต่อไป
+
+**เป้าหมาย Set F1 ที่ 0.70** ประเมินว่าไม่สามารถทำได้ด้วยการปรับพารามิเตอร์ (config tuning) เพียงอย่างเดียวอีกต่อไป เนื่องจากคอขวด Recall จากการตรวจจับข้อความ (หัวข้อ 4.3) และผลการล้มเหลวแบบฉับพลันในสภาพแวดล้อม blur/night (หัวข้อ 4.5) ต้องอาศัยการปรับปรุงคุณภาพภาพต้นทาง (เช่น ตรวจจับภาพเบลอ/มืดเกินไปแล้วขอให้ผู้ใช้ถ่ายใหม่ก่อนเข้าสู่ OCR) หรือการ fine-tune โมเดลตรวจจับ/รู้จำข้อความเฉพาะทางสำหรับภาพคุณภาพต่ำมาก
+
+## 4.7 การอภิปรายผล
+
+ผลการทดลองแสดงให้เห็นว่า**การวินิจฉัยและแก้ไขการตั้งค่า (configuration) ของโมดูล OCR สำเร็จรูปอย่างเป็นระบบ ให้ผลกระทบต่อความแม่นยำมากกว่าการเพิ่มเทคนิค image preprocessing เชิงคลาสสิกอย่างมีนัยสำคัญ** การแก้ไข engine settings ที่ตั้งผิด (เปิด document unwarping/textline orientation), การเพิ่ม border padding, การเสริมฐานข้อมูลคำศัพท์ และการปรับ detection threshold รวมกันทำให้ Set F1 ขยับจาก 0.39 เป็น 0.57 (+46%) โดยไม่ต้องใช้เทคนิค preprocessing เชิงภาพแบบดั้งเดิมแม้แต่เทคนิคเดียว อย่างไรก็ตาม ผลนี้เป็นจริงเฉพาะภาพคุณภาพระดับ original/indoor/low_light เท่านั้น (หัวข้อ 4.5)
 
 ประเด็นสำคัญที่ควรเน้นในการอภิปราย:
 
@@ -375,7 +385,8 @@ WER = Levenshtein_distance(normalize(hypothesis).split(), normalize(reference).s
 2. **การปรับพารามิเตอร์ inference ของโมดูลตรวจจับข้อความ (box_thresh) ให้ผลตอบแทนสูงเทียบกับต้นทุน** เพราะไม่ต้องมีข้อมูลหรือฝึกโมเดลเพิ่มเติมเลย แต่มีจุด plateau ชัดเจน (0.30) ที่หลังจากนั้นต้องอาศัยการ fine-tune จริงจึงจะไปต่อได้
 3. **การเสริมฐานข้อมูลคำศัพท์ต้องคัดสรรอย่างระมัดระวัง** — ยิ่งใส่คำศัพท์มากไม่ได้แปลว่ายิ่งดีเสมอไป (การใส่แบบ "oracle" ทุกชื่อกลับทำให้แย่ลง) ควรคัดเฉพาะคำที่พบบ่อยจริงในข้อมูลเป้าหมาย
 4. **คอขวดที่เหลืออยู่ (Recall จากการตรวจจับข้อความ) เป็นข้อจำกัดเชิงโครงสร้างของโมเดลสำเร็จรูป** ที่การปรับพารามิเตอร์ระดับ inference แก้ได้เพียงบางส่วน สะท้อนว่าขั้นต่อไปของงานวิจัยนี้ควรมุ่งไปที่คุณภาพภาพต้นทางหรือการ fine-tune โมเดลเฉพาะทาง มากกว่าการค้นหาพารามิเตอร์เพิ่มเติม
+5. **ความทนทานต่อสภาพแวดล้อม (environmental robustness) ไม่สม่ำเสมอ** — pipeline ที่ปรับแต่งจน Set F1 = 0.57 บนภาพคุณภาพปกติ กลับล้มเหลวแบบฉับพลัน (Set F1 ~0.14) บนภาพเบลอหรือแสงน้อยมาก ชี้ให้เห็นว่าความแม่นยำที่วัดได้บนชุดข้อมูล "original" ไม่ควรถูกอนุมานว่าใช้ได้กับภาพถ่ายจริงจากผู้ใช้ทุกสภาพ ระบบที่นำไปใช้งานจริงควรมีกลไกตรวจจับคุณภาพภาพก่อนเข้าสู่ OCR (blur/brightness detection) เพื่อขอให้ผู้ใช้ถ่ายใหม่ในกรณีที่คาดว่าจะได้ผลลัพธ์แย่
 
 ### ข้อสรุปภาพรวม
 
-สำหรับชุดข้อมูลภาพฉลากส่วนผสมที่ crop มาเป็นแถบเล็ก ความละเอียดต่ำ **การวินิจฉัยและแก้ไขการตั้งค่า pipeline ของโมดูล OCR สำเร็จรูปอย่างเป็นระบบ (engine configuration, border padding, ฐานข้อมูลคำศัพท์, detection threshold) ให้ผลตอบแทนสูงกว่าการเพิ่มเทคนิค preprocessing เชิงภาพแบบดั้งเดิมอย่างชัดเจน** ผลลัพธ์นี้ชี้ให้เห็นว่าก่อนลงทุนพัฒนาเทคนิคเสริมที่ซับซ้อน ควรตรวจสอบให้แน่ใจก่อนว่าโมดูลสำเร็จรูปที่ใช้อยู่ถูกตั้งค่าอย่างเหมาะสมแล้วหรือยัง Pipeline ปัจจุบัน (Set F1 = 0.57, CER = 0.26 บนภาพจริง 216 ภาพ) พร้อมนำไปพัฒนาต่อและผนวกเข้ากับระบบแนะนำสกินแคร์ที่เหมาะสมกับผู้ใช้ในขั้นต่อไป โดยงานที่เหลือคือการ validate ครบทุกสภาพแวดล้อมและพิจารณาแนวทาง fine-tuning โมเดลตรวจจับข้อความเพื่อแก้คอขวด Recall ที่เหลืออยู่
+สำหรับชุดข้อมูลภาพฉลากส่วนผสมที่ crop มาเป็นแถบเล็ก ความละเอียดต่ำ **การวินิจฉัยและแก้ไขการตั้งค่า pipeline ของโมดูล OCR สำเร็จรูปอย่างเป็นระบบ (engine configuration, border padding, ฐานข้อมูลคำศัพท์, detection threshold) ให้ผลตอบแทนสูงกว่าการเพิ่มเทคนิค preprocessing เชิงภาพแบบดั้งเดิมอย่างชัดเจน** ผลลัพธ์นี้ชี้ให้เห็นว่าก่อนลงทุนพัฒนาเทคนิคเสริมที่ซับซ้อน ควรตรวจสอบให้แน่ใจก่อนว่าโมดูลสำเร็จรูปที่ใช้อยู่ถูกตั้งค่าอย่างเหมาะสมแล้วหรือยัง Pipeline ปัจจุบัน (Set F1 = 0.57, CER = 0.26 บนภาพจริง 216 ภาพ) พร้อมนำไปพัฒนาต่อและผนวกเข้ากับระบบแนะนำสกินแคร์ที่เหมาะสมกับผู้ใช้ในขั้นต่อไป **แต่มีข้อจำกัดสำคัญที่ต้องพิจารณา**: การ validate ครบทั้ง 5 สภาพแวดล้อม (216 ภาพ/สภาพแวดล้อม, หัวข้อ 4.5) พบว่าตัวเลขนี้ใช้ได้กับภาพคุณภาพระดับ original/indoor/low_light เท่านั้น ส่วนภาพเบลอ (blur) และแสงน้อยมาก (night) ระบบล้มเหลวแบบฉับพลัน (Set F1 เหลือเพียง ~0.14) งานที่เหลือจึงไม่ใช่แค่การ fine-tune โมเดลตรวจจับข้อความเพื่อแก้คอขวด Recall เท่านั้น แต่ควรรวมกลไกตรวจสอบคุณภาพภาพก่อนเข้าสู่ OCR (แจ้งเตือนให้ถ่ายใหม่เมื่อภาพเบลอ/มืดเกินไป) ไว้ในระบบจริงด้วย เพื่อไม่ให้ผู้ใช้ได้รับผลลัพธ์ที่ผิดพลาดโดยไม่รู้ตัวจากภาพคุณภาพต่ำมาก
