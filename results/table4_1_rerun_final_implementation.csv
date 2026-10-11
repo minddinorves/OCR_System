@@ -1,0 +1,121 @@
+config,image_file,error,set_precision,set_recall,set_f1
+box_thresh=0.30 + unclip_ratio=1.8,x1.jpg,,0.6829,0.8235,0.7467
+box_thresh=0.30 + unclip_ratio=1.8,x10.jpg,,0.5714,0.3529,0.4364
+box_thresh=0.30 + unclip_ratio=1.8,x100.jpg,,0.6136,0.4821,0.54
+box_thresh=0.30 + unclip_ratio=1.8,x101.jpg,,0.8,0.8,0.8
+box_thresh=0.30 + unclip_ratio=1.8,x102.jpg,,0.2083,0.125,0.1562
+box_thresh=0.30 + unclip_ratio=1.8,x103.jpg,,0.0,0.0,0.0
+box_thresh=0.30 + unclip_ratio=1.8,x104.jpg,,0.3922,0.3774,0.3846
+box_thresh=0.30 + unclip_ratio=1.8,x105.jpg,,0.8929,0.8333,0.8621
+box_thresh=0.30 + unclip_ratio=1.8,x106.jpg,,0.4118,0.28,0.3333
+box_thresh=0.30 + unclip_ratio=1.8,x107.jpg,,0.7959,0.78,0.7879
+box_thresh=0.30 + unclip_ratio=1.8,x108.jpg,,0.1667,0.025,0.0435
+box_thresh=0.30 + unclip_ratio=1.8,x109.jpg,,0.9583,0.92,0.9388
+box_thresh=0.30 + unclip_ratio=1.8,x11.jpg,,0.9394,0.9394,0.9394
+box_thresh=0.30 + unclip_ratio=1.8,x110.jpg,,0.5714,0.0889,0.1538
+box_thresh=0.30 + unclip_ratio=1.8,x111.jpg,,0.8974,0.9722,0.9333
+box_thresh=0.30 + unclip_ratio=1.8,x112.jpg,,0.0,0.0,0.0
+box_thresh=0.30 + unclip_ratio=1.8,x113.jpg,,0.973,0.973,0.973
+box_thresh=0.30 + unclip_ratio=1.8,x114.jpg,,0.0,0.0,0.0
+box_thresh=0.30 + unclip_ratio=1.8,x115.jpg,,0.1923,0.1667,0.1786
+box_thresh=0.30 + unclip_ratio=1.8,x116.jpg,,0.3636,0.1111,0.1702
+box_thresh=0.30 + unclip_ratio=1.8,x117.jpg,,0.9692,0.9545,0.9618
+box_thresh=0.30 + unclip_ratio=1.8,x118.jpg,,0.3929,0.22,0.2821
+box_thresh=0.30 + unclip_ratio=1.8,x119.jpg,,0.8286,0.7632,0.7945
+box_thresh=0.30 + unclip_ratio=1.8,x12.jpg,,0.4783,0.4074,0.44
+box_thresh=0.30 + unclip_ratio=1.8,x120.jpg,,0.8621,0.8929,0.8772
+box_thresh=0.30 + unclip_ratio=1.8,x121.jpg,,0.2143,0.1111,0.1463
+box_thresh=0.30 + unclip_ratio=1.8,x122.jpg,,0.8462,0.8684,0.8571
+box_thresh=0.30 + unclip_ratio=1.8,x123.jpg,,0.7,0.7778,0.7368
+box_thresh=0.30 + unclip_ratio=1.8,x124.jpg,,0.825,0.8049,0.8148
+box_thresh=0.30 + unclip_ratio=1.8,x125.jpg,,0.7812,0.7576,0.7692
+box_thresh=0.30 + unclip_ratio=1.8,x126.jpg,,0.8571,0.9231,0.8889
+box_thresh=0.30 + unclip_ratio=1.8,x127.jpg,,0.6977,0.6818,0.6897
+box_thresh=0.30 + unclip_ratio=1.8,x128.jpg,,0.9592,0.9592,0.9592
+box_thresh=0.30 + unclip_ratio=1.8,x129.jpg,,0.625,0.2,0.303
+box_thresh=0.30 + unclip_ratio=1.8,x13.jpg,,0.381,0.3077,0.3404
+box_thresh=0.30 + unclip_ratio=1.8,x130.jpg,,0.4242,0.2857,0.3415
+box_thresh=0.30 + unclip_ratio=1.8,x131.jpg,,0.8571,0.8571,0.8571
+box_thresh=0.30 + unclip_ratio=1.8,x132.jpg,,0.92,0.9787,0.9485
+box_thresh=0.30 + unclip_ratio=1.8,x133.jpg,,0.8636,0.9048,0.8837
+box_thresh=0.30 + unclip_ratio=1.8,x134.jpg,,0.8636,0.8261,0.8444
+unclip_ratio=1.8 (alone),x1.jpg,,0.6829,0.8235,0.7467
+unclip_ratio=1.8 (alone),x10.jpg,,0.5714,0.3529,0.4364
+unclip_ratio=1.8 (alone),x100.jpg,,0.6136,0.4821,0.54
+unclip_ratio=1.8 (alone),x101.jpg,,0.8,0.8,0.8
+unclip_ratio=1.8 (alone),x102.jpg,,0.2083,0.125,0.1562
+unclip_ratio=1.8 (alone),x103.jpg,,0.0,0.0,0.0
+unclip_ratio=1.8 (alone),x104.jpg,,0.3922,0.3774,0.3846
+unclip_ratio=1.8 (alone),x105.jpg,,0.8929,0.8333,0.8621
+unclip_ratio=1.8 (alone),x106.jpg,,0.4706,0.32,0.381
+unclip_ratio=1.8 (alone),x107.jpg,,0.8163,0.8,0.8081
+unclip_ratio=1.8 (alone),x108.jpg,,0.0,0.0,0.0
+unclip_ratio=1.8 (alone),x109.jpg,,0.9583,0.92,0.9388
+unclip_ratio=1.8 (alone),x11.jpg,,0.9394,0.9394,0.9394
+unclip_ratio=1.8 (alone),x110.jpg,,0.5714,0.0889,0.1538
+unclip_ratio=1.8 (alone),x111.jpg,,0.8974,0.9722,0.9333
+unclip_ratio=1.8 (alone),x112.jpg,,0.0,0.0,0.0
+unclip_ratio=1.8 (alone),x113.jpg,,0.973,0.973,0.973
+unclip_ratio=1.8 (alone),x114.jpg,,0.0,0.0,0.0
+unclip_ratio=1.8 (alone),x115.jpg,,0.1923,0.1667,0.1786
+unclip_ratio=1.8 (alone),x116.jpg,,0.5556,0.1389,0.2222
+unclip_ratio=1.8 (alone),x117.jpg,,0.9692,0.9545,0.9618
+unclip_ratio=1.8 (alone),x118.jpg,,0.4074,0.22,0.2857
+unclip_ratio=1.8 (alone),x119.jpg,,0.8286,0.7632,0.7945
+unclip_ratio=1.8 (alone),x12.jpg,,0.4783,0.4074,0.44
+unclip_ratio=1.8 (alone),x120.jpg,,0.8621,0.8929,0.8772
+unclip_ratio=1.8 (alone),x121.jpg,,0.2143,0.1111,0.1463
+unclip_ratio=1.8 (alone),x122.jpg,,0.8462,0.8684,0.8571
+unclip_ratio=1.8 (alone),x123.jpg,,0.7,0.7778,0.7368
+unclip_ratio=1.8 (alone),x124.jpg,,0.825,0.8049,0.8148
+unclip_ratio=1.8 (alone),x125.jpg,,0.7812,0.7576,0.7692
+unclip_ratio=1.8 (alone),x126.jpg,,0.8571,0.9231,0.8889
+unclip_ratio=1.8 (alone),x127.jpg,,0.6977,0.6818,0.6897
+unclip_ratio=1.8 (alone),x128.jpg,,0.9592,0.9592,0.9592
+unclip_ratio=1.8 (alone),x129.jpg,,0.4167,0.1,0.1613
+unclip_ratio=1.8 (alone),x13.jpg,,0.4444,0.3077,0.3636
+unclip_ratio=1.8 (alone),x130.jpg,,0.4444,0.3265,0.3765
+unclip_ratio=1.8 (alone),x131.jpg,,0.8571,0.8571,0.8571
+unclip_ratio=1.8 (alone),x132.jpg,,0.92,0.9787,0.9485
+unclip_ratio=1.8 (alone),x133.jpg,,0.8636,0.9048,0.8837
+unclip_ratio=1.8 (alone),x134.jpg,,0.8636,0.8261,0.8444
+limit_side_len=1536,x1.jpg,,0.6585,0.7941,0.72
+limit_side_len=1536,x10.jpg,,0.5625,0.2647,0.36
+limit_side_len=1536,x100.jpg,,0.8293,0.6071,0.701
+limit_side_len=1536,x101.jpg,,0.5625,0.45,0.5
+limit_side_len=1536,x102.jpg,,0.5161,0.4,0.4507
+limit_side_len=1536,x103.jpg,,0.0,0.0,0.0
+limit_side_len=1536,x104.jpg,,0.5902,0.6792,0.6316
+limit_side_len=1536,x105.jpg,,0.6842,0.4333,0.5306
+limit_side_len=1536,x106.jpg,,0.5926,0.64,0.6154
+limit_side_len=1536,x107.jpg,,0.9434,1.0,0.9709
+limit_side_len=1536,x108.jpg,,0.0,0.0,0.0
+limit_side_len=1536,x109.jpg,,0.96,0.96,0.96
+limit_side_len=1536,x11.jpg,,0.9394,0.9394,0.9394
+limit_side_len=1536,x110.jpg,,0.3333,0.0222,0.0417
+limit_side_len=1536,x111.jpg,,0.9,1.0,0.9474
+limit_side_len=1536,x112.jpg,,0.0,0.0,0.0
+limit_side_len=1536,x113.jpg,,0.973,0.973,0.973
+limit_side_len=1536,x114.jpg,,0.7778,0.7778,0.7778
+limit_side_len=1536,x115.jpg,,0.28,0.2333,0.2545
+limit_side_len=1536,x116.jpg,,0.5833,0.3889,0.4667
+limit_side_len=1536,x117.jpg,,0.9538,0.9394,0.9466
+limit_side_len=1536,x118.jpg,,0.3333,0.2,0.25
+limit_side_len=1536,x119.jpg,,0.8611,0.8158,0.8378
+limit_side_len=1536,x12.jpg,,0.7586,0.8148,0.7857
+limit_side_len=1536,x120.jpg,,0.8621,0.8929,0.8772
+limit_side_len=1536,x121.jpg,,0.8333,0.9259,0.8772
+limit_side_len=1536,x122.jpg,,0.8462,0.8684,0.8571
+limit_side_len=1536,x123.jpg,,0.7097,0.8148,0.7586
+limit_side_len=1536,x124.jpg,,0.825,0.8049,0.8148
+limit_side_len=1536,x125.jpg,,0.7812,0.7576,0.7692
+limit_side_len=1536,x126.jpg,,0.8889,0.9231,0.9057
+limit_side_len=1536,x127.jpg,,0.7647,0.5909,0.6667
+limit_side_len=1536,x128.jpg,,0.9388,0.9388,0.9388
+limit_side_len=1536,x129.jpg,,0.0,0.0,0.0
+limit_side_len=1536,x13.jpg,,0.3636,0.1538,0.2162
+limit_side_len=1536,x130.jpg,,0.6667,0.3265,0.4384
+limit_side_len=1536,x131.jpg,,0.6944,0.7143,0.7042
+limit_side_len=1536,x132.jpg,,0.9,0.9574,0.9278
+limit_side_len=1536,x133.jpg,,0.8636,0.9048,0.8837
+limit_side_len=1536,x134.jpg,,0.0,0.0,0.0

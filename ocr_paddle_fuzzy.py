@@ -63,6 +63,36 @@ def _is_reliable_match(token, match_name):
     return shorter > 0 and longer / shorter <= MAX_LEN_RATIO
 
 
+def _split_match_glued_names(token, vocabulary, threshold):
+    """Recover two ingredient names OCR'd with the separating comma dropped
+    entirely (e.g. "DIMETHICONE NIACINAMIDE" read with a space where a comma
+    belongs, instead of the usual comma->period misread that _SPLIT_RE
+    already handles). Tries every whitespace split point in the token and
+    accepts the split whose two halves both match the vocabulary above
+    `threshold` with the highest combined score. Returns a list of one or two
+    corrected names, or None if no such split exists.
+    """
+    words = token.split(" ")
+    if len(words) < 2:
+        return None
+    best = None
+    for i in range(1, len(words)):
+        left = " ".join(words[:i])
+        right = " ".join(words[i:])
+        if len(left) < MIN_TOKEN_LEN or len(right) < MIN_TOKEN_LEN:
+            continue
+        match_l = process.extractOne(left, vocabulary, scorer=fuzz.ratio, score_cutoff=threshold)
+        match_r = process.extractOne(right, vocabulary, scorer=fuzz.ratio, score_cutoff=threshold)
+        if not match_l or not match_r:
+            continue
+        if not (_is_reliable_match(left, match_l[0]) and _is_reliable_match(right, match_r[0])):
+            continue
+        combined_score = match_l[1] + match_r[1]
+        if best is None or combined_score > best[0]:
+            best = (combined_score, match_l[0], match_r[0])
+    return [best[1], best[2]] if best else None
+
+
 def correct_with_vocabulary(lines, vocabulary, threshold):
     tokens = []
     for line in lines:
@@ -79,6 +109,10 @@ def correct_with_vocabulary(lines, vocabulary, threshold):
         match = process.extractOne(token, vocabulary, scorer=fuzz.ratio, score_cutoff=threshold)
         if match and _is_reliable_match(token, match[0]):
             corrected.append(match[0])
+            continue
+        split = _split_match_glued_names(token, vocabulary, threshold)
+        if split:
+            corrected.extend(split)
         else:
             corrected.append(token)
     return ", ".join(corrected)

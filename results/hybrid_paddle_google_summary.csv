@@ -1,0 +1,10 @@
+policy,chosen_on_dev,route_frac_heldout,precision,recall,set_f1,cer,delta_f1_vs_paddle_95ci
+Paddle only,,0.0,0.4358,0.3825,0.3975,0.4552,
+Google only,,1.0,0.5536,0.5329,0.5374,0.3711,"+0.1400 [+0.1171, +0.1642]"
+Hybrid fallback (budget <= 10%),inci_ratio < 0,0.0,0.4358,0.3825,0.3975,0.4552,"+0.0000 [+0.0000, +0.0000]"
+Hybrid fallback (budget <= 20%),n_chars < 12,0.1568,0.4381,0.3834,0.3987,0.4501,"+0.0012 [+0.0002, +0.0026]"
+Hybrid fallback (budget <= 30%),n_chars < 202,0.2841,0.4713,0.4218,0.436,0.4241,"+0.0386 [+0.0245, +0.0536]"
+Hybrid fallback (budget <= 50%),n_chars < 527,0.5034,0.5162,0.4825,0.4917,0.3909,"+0.0942 [+0.0726, +0.1173]"
+Hybrid fallback (budget <= 100%),inci_ratio < inf,1.0,0.5536,0.5329,0.5374,0.3711,"+0.1400 [+0.1171, +0.1642]"
+"Run both, pick higher inci_ratio",,0.633,0.5556,0.5342,0.5389,0.3723,"+0.1414 [+0.1194, +0.1648]"
+"Oracle (uses labels, ceiling only)",,0.5386,0.5595,0.5404,0.544,0.3717,"+0.1466 [+0.1247, +0.1697]"
