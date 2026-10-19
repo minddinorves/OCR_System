@@ -1,0 +1,14 @@
+[PASS] Dev patch file (399 names) == patch rebuilt from the 40 Dev labels only
+[PASS] Dev labels used for the patch and the 176 held-out labels do not overlap
+[PASS] ocr_paddle_fuzzy.py --threshold default is 85
+[PASS] this export applies threshold 85
+[PASS] ocr_core.get_ocr sets text_det_box_thresh=0.3
+[PASS] ocr_core.get_ocr sets use_doc_unwarping=True
+[PASS] ocr_core.PAD_FRACTION == 0.25 (border padding 25%)
+[PASS] original: stored OCR text == OCR re-run with current settings on 176/176 held-out images (cache from sweep_sensitivity.py)
+[PASS] indoor: stored OCR text is closer to box_thresh 0.30 than 0.45 on 3 random held-out images -- char edits vs 0.30: 1, vs 0.45: 143 (of 2064 stored chars); identical to fresh 0.30 run: 2/3
+[PASS] low_light: stored OCR text is closer to box_thresh 0.30 than 0.45 on 3 random held-out images -- char edits vs 0.30: 7, vs 0.45: 60 (of 1269 stored chars); identical to fresh 0.30 run: 0/3
+[PASS] blur: stored OCR text is closer to box_thresh 0.30 than 0.45 on 3 random held-out images -- char edits vs 0.30: 6, vs 0.45: 976 (of 1471 stored chars); identical to fresh 0.30 run: 1/3
+[PASS] night: stored OCR text is closer to box_thresh 0.30 than 0.45 on 3 random held-out images -- char edits vs 0.30: 31, vs 0.45: 54 (of 472 stored chars); identical to fresh 0.30 run: 1/3
+
+OVERALL: ALL CHECKS PASSED
