@@ -283,6 +283,7 @@ IER = Levenshtein(รายการชื่อสารของระบบ, 
 | ทดสอบความไวของ padding และอัตราส่วนความยาว | `sweep_sensitivity.py` → `results/sweep_sensitivity_*.csv` |
 | ทดลองเปิด/ปิด doc unwarping และ textline orientation | `old/experiment_docfeatures_ablation.py` → `results/experiment_docfeatures_ablation_*.csv` |
 | ประเมินผลขั้นสุดท้าย (Held-out, 5 สภาพแวดล้อม) | `evaluate_final_v2.py` → `results/final_v2/` |
+| วิเคราะห์ผลบน Dev ตามขั้นตอนการประเมินปัจจุบัน (box_thresh, padding, length ratio) และวิเคราะห์ชื่อที่ระบบพลาด สำหรับบทที่ 4 | `chapter4_analyses.py` → `results/chapter4/` |
 | ส่งออกผลรายภาพของ Held-out และตรวจยืนยันการตั้งค่า | `export_heldout_results.py` → `results/final_v2/heldout_per_image.csv`, `heldout_summary.csv`, `heldout_verification.txt` |
 | ตัวชี้วัดระดับชื่อสาร (Set P/R/F1, IER) | `old/compute_ingredient_metrics.py` |
 | ช่วงความเชื่อมั่น bootstrap | `old/compute_bootstrap_ci.py` |
@@ -298,6 +299,7 @@ IER = Levenshtein(รายการชื่อสารของระบบ, 
 | 2026-10-19 | หัวข้อ 3.3.1: เพิ่มผลตรวจคุณภาพข้อความเฉลยอัตโนมัติ (`audit_labels.py`, 37 รายการจาก 8,198 ชื่อ) และตัวเลือกข้อความสำหรับวิธีสร้าง/ตรวจทานเฉลย (รอผู้วิจัยเลือกและเติม) |
 | 2026-10-19 | หัวข้อ 3.3.1: ระบุว่าข้อความเฉลยถอดโดย Claude จากภาพในชุดข้อมูลเท่านั้น และยังไม่มีการตรวจทาน; เพิ่มวิธีสุ่มตรวจเฉลย 20 ผลิตภัณฑ์ (seed 0, 741 ชื่อ, `label_spotcheck.py`) รอผลการตรวจ / หัวข้อ 3.11: เพิ่มข้อจำกัดข้อ 7 เรื่องเฉลยสร้างโดย AI |
 | 2026-10-19 | หัวข้อ 3.10: แก้ข้อความเรื่องความคงที่ของผล OCR ให้ระบุว่าคงที่ภายในสภาพแวดล้อมซอฟต์แวร์เดียวกัน และเพิ่มผลตรวจการทำซ้ำของภาพจำลอง (4/12 ภาพตรงทุกตัวอักษร ความต่างรวม 45/5,276 อักขระ ยืนยันว่าใช้ box_thresh 0.30) / หัวข้อ 3.13: เพิ่ม `export_heldout_results.py` |
+| 2026-10-19 | หัวข้อ 3.13: เพิ่ม `chapter4_analyses.py` (สคริปต์ที่สร้างตารางบางส่วนของบทที่ 4) |
 
 ## ข้อมูลที่ต้องเติม / ตรวจสอบ
 
