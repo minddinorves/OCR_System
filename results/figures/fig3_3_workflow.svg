@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400" font-family="'Leelawadee UI', Tahoma, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arrowDb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7a6340"/>
+    </marker>
+    <style>
+      .step { fill: #eef3f8; stroke: #2f4f6f; stroke-width: 2.5; }
+      .user { fill: #f2f2f2; stroke: #333; stroke-width: 2; }
+      .decision { fill: #fff8e6; stroke: #a07a20; stroke-width: 2.5; }
+      .chip { fill: #ffffff; stroke: #5b7a99; stroke-width: 2; }
+      .other { fill: #f7f7f7; stroke: #999; stroke-width: 1.8; stroke-dasharray: 6 4; }
+      .store { fill: #f6f1e7; stroke: #7a6340; stroke-width: 2.2; }
+      .badge { fill: #2f4f6f; }
+      .num { font-size: 24px; font-weight: 700; fill: #ffffff; }
+      .title { font-size: 26px; font-weight: 700; fill: #1a1a1a; }
+      .sub { font-size: 20px; fill: #4a4a4a; }
+      .dtext { font-size: 22px; font-weight: 700; fill: #5a4310; }
+      .small { font-size: 20px; fill: #333; }
+      .yn { font-size: 20px; font-weight: 700; fill: #a07a20; }
+      .label { font-size: 19px; fill: #7a6340; font-style: italic; }
+      .flow { stroke: #333; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .line { stroke: #333; stroke-width: 2.2; fill: none; }
+      .dbflow { stroke: #7a6340; stroke-width: 2.2; fill: none; stroke-dasharray: 7 5; marker-end: url(#arrowDb); }
+      .dbboth { stroke: #7a6340; stroke-width: 2.2; fill: none; stroke-dasharray: 7 5; marker-end: url(#arrowDb); marker-start: url(#arrowDb); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1400" fill="#ffffff"/>
+
+  <!-- user -->
+  <rect class="user" x="420" y="30" width="360" height="64" rx="32"/>
+  <text class="title" x="600" y="72" text-anchor="middle">ผู้ใช้งาน (LINE)</text>
+  <line class="flow" x1="600" y1="94" x2="600" y2="138"/>
+
+  <!-- 1 -->
+  <rect class="step" x="390" y="140" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="185" r="22"/><text class="num" x="434" y="193" text-anchor="middle">1</text>
+  <text class="title" x="620" y="178" text-anchor="middle">รับข้อมูลจากผู้ใช้งาน</text>
+  <text class="sub" x="620" y="210" text-anchor="middle">LINE</text>
+  <line class="flow" x1="600" y1="230" x2="600" y2="248"/>
+
+  <!-- decision 1 -->
+  <polygon class="decision" points="600,250 740,310 600,370 460,310"/>
+  <text class="dtext" x="600" y="318" text-anchor="middle">เป็นภาพฉลาก?</text>
+  <line class="flow" x1="740" y1="310" x2="878" y2="310"/>
+  <text class="yn" x="800" y="298" text-anchor="middle">ไม่</text>
+  <rect class="other" x="880" y="282" width="270" height="56" rx="10"/>
+  <text class="small" x="1015" y="317" text-anchor="middle">ดำเนินการตามประเภทคำขอ</text>
+  <line class="flow" x1="600" y1="370" x2="600" y2="408"/>
+  <text class="yn" x="622" y="396">ใช่</text>
+
+  <!-- 2 -->
+  <rect class="step" x="390" y="410" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="455" r="22"/><text class="num" x="434" y="463" text-anchor="middle">2</text>
+  <text class="title" x="620" y="448" text-anchor="middle">เตรียมภาพ</text>
+  <text class="sub" x="620" y="480" text-anchor="middle">Border Padding</text>
+  <line class="flow" x1="600" y1="500" x2="600" y2="548"/>
+
+  <!-- 3 -->
+  <rect class="step" x="390" y="550" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="595" r="22"/><text class="num" x="434" y="603" text-anchor="middle">3</text>
+  <text class="title" x="620" y="588" text-anchor="middle">รู้จำข้อความจากภาพ</text>
+  <text class="sub" x="620" y="620" text-anchor="middle">PaddleOCR (PP-OCRv6_medium)</text>
+  <line class="flow" x1="600" y1="640" x2="600" y2="688"/>
+
+  <!-- 4 -->
+  <rect class="step" x="390" y="690" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="735" r="22"/><text class="num" x="434" y="743" text-anchor="middle">4</text>
+  <text class="title" x="620" y="728" text-anchor="middle">ปรับข้อความและจับคู่ชื่อ</text>
+  <text class="sub" x="620" y="760" text-anchor="middle">RapidFuzz + คลังคำศัพท์ INCI</text>
+  <line class="flow" x1="600" y1="780" x2="600" y2="813"/>
+
+  <!-- decision 2 -->
+  <polygon class="decision" points="600,815 760,870 600,925 440,870"/>
+  <text class="dtext" x="600" y="878" text-anchor="middle">ผ่านเกณฑ์ความคล้าย?</text>
+  <line class="flow" x1="440" y1="870" x2="332" y2="870"/>
+  <text class="yn" x="388" y="858" text-anchor="middle">ใช่</text>
+  <rect class="chip" x="110" y="842" width="220" height="56" rx="10"/>
+  <text class="small" x="220" y="877" text-anchor="middle">ใช้ชื่อ INCI</text>
+  <line class="flow" x1="760" y1="870" x2="868" y2="870"/>
+  <text class="yn" x="812" y="858" text-anchor="middle">ไม่</text>
+  <rect class="chip" x="870" y="842" width="220" height="56" rx="10"/>
+  <text class="small" x="980" y="877" text-anchor="middle">คงข้อความเดิม</text>
+  <path class="line" d="M220,898 V950 H600"/>
+  <path class="line" d="M980,898 V950 H600"/>
+  <line class="flow" x1="600" y1="950" x2="600" y2="978"/>
+
+  <!-- 5 -->
+  <rect class="step" x="390" y="980" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="1025" r="22"/><text class="num" x="434" y="1033" text-anchor="middle">5</text>
+  <text class="title" x="620" y="1018" text-anchor="middle">ค้นหาข้อมูลส่วนผสม</text>
+  <text class="sub" x="620" y="1050" text-anchor="middle">ฐานข้อมูล Skin Safe</text>
+  <line class="flow" x1="600" y1="1070" x2="600" y2="1118"/>
+
+  <!-- 6 -->
+  <rect class="step" x="390" y="1120" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="1165" r="22"/><text class="num" x="434" y="1173" text-anchor="middle">6</text>
+  <text class="title" x="620" y="1158" text-anchor="middle">วิเคราะห์และสร้างผลลัพธ์</text>
+  <text class="sub" x="620" y="1190" text-anchor="middle">ระดับผลิตภัณฑ์ / ระดับส่วนผสม</text>
+  <line class="flow" x1="600" y1="1210" x2="600" y2="1258"/>
+
+  <!-- 7 -->
+  <rect class="step" x="390" y="1260" width="420" height="90" rx="12"/>
+  <circle class="badge" cx="434" cy="1305" r="22"/><text class="num" x="434" y="1313" text-anchor="middle">7</text>
+  <text class="title" x="620" y="1298" text-anchor="middle">จัดเก็บและส่งผลลัพธ์</text>
+  <text class="sub" x="620" y="1330" text-anchor="middle">LINE</text>
+
+  <!-- database -->
+  <path class="store" d="M955,1090 a105,20 0 0,0 210,0 v200 a105,20 0 0,1 -210,0 z"/>
+  <ellipse class="store" cx="1060" cy="1090" rx="105" ry="20"/>
+  <text class="title" x="1060" y="1185" text-anchor="middle">ฐานข้อมูล</text>
+  <text class="title" x="1060" y="1220" text-anchor="middle">Skin Safe</text>
+  <path class="dbboth" d="M812,1025 H850 V1140 H953"/>
+  <text class="label" x="862" y="1128">ค้นหา</text>
+  <path class="dbflow" d="M812,1305 H850 V1250 H953"/>
+  <text class="label" x="862" y="1238">บันทึก</text>
+
+  <!-- return to user -->
+  <path class="flow" d="M390,1305 H70 V62 H418"/>
+  <text class="label" x="56" y="700" text-anchor="middle" transform="rotate(-90 56 700)" style="fill:#333">ส่งผลลัพธ์กลับให้ผู้ใช้งาน</text>
+</svg>

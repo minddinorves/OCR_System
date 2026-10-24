@@ -9,19 +9,21 @@ results/_before_fuzzy_fix/). Configurations compared, all 5 scenarios:
 
   before_fix  ocr_text_fuzzy as stored in the pre-fix FINAL files
   no_fuzzy    raw OCR text, no correction
-  deployed    fixed code, threshold 85, common_ingredients_patch.csv (what
-              ocr_paddle_fuzzy.py now runs). Its patch was built from all 216
-              labels, so dev and held-out are both exposed to label leakage.
-  leak_free   fixed code, threshold 85, patch built from the 40 dev labels
-              only (results/leakage_check/patch_dev_min1.csv). Reported on
-              held-out products only: the unbiased estimate, since the
-              threshold and patch were both chosen without them.
+  legacy_patch  fixed code, threshold 85, the earlier 199-name patch
+              (common_ingredients_patch.csv, ocr_core.LEGACY_PATCH_PATH) built
+              from all 216 labels, so dev and held-out are both exposed to
+              label leakage. Comparison only.
+  leak_free   the pipeline as shipped: fixed code, threshold 85, patch built
+              from the 40 dev labels only (vocabulary_patch_dev.csv,
+              ocr_core.INCI_PATCH_PATH). Reported on held-out products only:
+              the unbiased estimate, since the threshold and patch were both
+              chosen without them.
 
 Splits: all 216 / dev 40 / held-out 176, by product (label file), so
 augmented copies of dev images are never counted as held-out.
 
 Outputs (results/final_v2/):
-  ocr_paddle_fuzzy_FINAL_v2_original_full_validation.csv    per image, deployed config,
+  ocr_paddle_fuzzy_FINAL_v2_original_full_validation.csv    per image, leak_free config,
   ocr_paddle_fuzzy_FINAL_v2_augmented_full_validation.csv   same columns as the pre-fix
                                                             *_ingredient.csv files
   per_image_all_configs.csv
@@ -33,25 +35,22 @@ Usage:
 """
 import csv
 import os
-import sys
 
 import ocr_core as core
 import ocr_paddle_fuzzy as fz
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import ier, set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import ier, set_prf1, tokenize
 
 THRESHOLD = 85.0
 N_DEV = 40
 OUT_DIR = os.path.join(core.RESULTS_DIR, "final_v2")
-DEV_PATCH_PATH = os.path.join(core.RESULTS_DIR, "leakage_check", "patch_dev_min1.csv")
 FINAL = {
     "original": os.path.join(core.RESULTS_DIR, "ocr_paddle_fuzzy_FINAL_original_full_validation.csv"),
     "augmented": os.path.join(core.RESULTS_DIR, "ocr_paddle_fuzzy_FINAL_augmented_full_validation.csv"),
 }
 SCENARIOS = ("original", "indoor", "low_light", "blur", "night")
-CONFIGS = ("before_fix", "no_fuzzy", "deployed", "leak_free")
+CONFIGS = ("before_fix", "no_fuzzy", "legacy_patch", "leak_free")
 METRICS = ("set_f1", "set_precision", "set_recall", "ier", "cer", "wer")
 INGREDIENT_FIELDS = ["ier", "set_precision", "set_recall", "set_f1"]
 
@@ -65,9 +64,12 @@ def metrics(hyp, ref):
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    deployed_vocab = core.load_inci_vocabulary()
-    leak_free_vocab = list({n.lower(): n for n in
-                            core._load_names(core.INCI_DB_PATH) + core._load_names(DEV_PATCH_PATH)}.values())
+    legacy_vocab, seen = [], set()  # same de-duplication as core.load_inci_vocabulary
+    for name in core._load_names(core.INCI_DB_PATH) + core._load_names(core.LEGACY_PATCH_PATH):
+        if name.lower() not in seen:
+            seen.add(name.lower())
+            legacy_vocab.append(name)
+    leak_free_vocab = core.load_inci_vocabulary()  # main DB + vocabulary_patch_dev.csv, as the pipeline runs
     dev_labels = {e["label_file"] for e in core.iter_dataset_entries(["original"], limit=N_DEV)}
 
     per_image, scores = [], {}  # scores[(config, scenario)][label_file] = metrics
@@ -85,7 +87,7 @@ def main():
             outputs = {
                 "before_fix": row["ocr_text_fuzzy"],
                 "no_fuzzy": raw,
-                "deployed": fz.correct_with_vocabulary([raw], deployed_vocab, THRESHOLD),
+                "legacy_patch": fz.correct_with_vocabulary([raw], legacy_vocab, THRESHOLD),
                 "leak_free": fz.correct_with_vocabulary([raw], leak_free_vocab, THRESHOLD),
             }
             split = "dev" if row["label_file"] in dev_labels else "heldout"
@@ -94,8 +96,8 @@ def main():
                 scores.setdefault((config, row["dataset"]), {})[row["label_file"]] = (split, m)
                 per_image.append({"config": config, "dataset": row["dataset"], "split": split,
                                   "image_file": row["image_file"], **{k: round(v, 4) for k, v in m.items()}})
-            v2 = fz.build_row(entry, raw, outputs["deployed"], float(row["ocr_time_sec"] or 0))
-            m = metrics(outputs["deployed"], ref)
+            v2 = fz.build_row(entry, raw, outputs["leak_free"], float(row["ocr_time_sec"] or 0))
+            m = metrics(outputs["leak_free"], ref)
             v2.update({k: round(m[k], 4) for k in INGREDIENT_FIELDS})
             v2_rows.append(v2)
         core.write_csv(os.path.join(OUT_DIR, f"ocr_paddle_fuzzy_FINAL_v2_{which}_full_validation.csv"), v2_rows,
@@ -115,8 +117,8 @@ def main():
                     out[metric] = round(mean, 4)
                     out[f"{metric}_ci95"] = f"[{lo:.4f}, {hi:.4f}]"
                 summary.append(out)
-        for a, b in (("before_fix", "deployed"), ("before_fix", "leak_free"), ("no_fuzzy", "leak_free"),
-                     ("deployed", "leak_free")):
+        for a, b in (("before_fix", "legacy_patch"), ("before_fix", "leak_free"), ("no_fuzzy", "leak_free"),
+                     ("legacy_patch", "leak_free")):
             held = {lf: m for lf, (s, m) in scores[(b, scenario)].items() if s == "heldout"}
             files = sorted(held)
             for metric in ("set_f1", "cer"):

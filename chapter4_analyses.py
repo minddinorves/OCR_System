@@ -19,7 +19,6 @@ Usage:
 import csv
 import json
 import os
-import sys
 
 from rapidfuzz import fuzz
 
@@ -27,9 +26,8 @@ import ocr_core as core
 import ocr_paddle_fuzzy as fz
 from build_vocabulary_patch import build_patch
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import MATCH_THRESHOLD, set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import MATCH_THRESHOLD, set_prf1, tokenize
 
 THRESHOLD = 85.0
 N_DEV, N_FOLDS = 40, 5

@@ -36,7 +36,7 @@ from old.hybrid_paddle_google import (
     cluster_bootstrap_diff, load_rows, product_key,
 )
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import set_prf1, tokenize
+from compute_ingredient_metrics import set_prf1, tokenize
 
 DUP_THRESHOLD = 85
 VARIANTS = ["paddle_only", "google_only", "google_then_paddle", "union", "google_plus_paddle_inci"]

@@ -22,7 +22,7 @@ import cv2
 
 import ocr_core as core
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import tokenize, set_prf1
+from compute_ingredient_metrics import tokenize, set_prf1
 
 FUZZY_THRESHOLD = 90.0
 

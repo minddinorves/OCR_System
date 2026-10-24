@@ -2,8 +2,9 @@
 headline numbers, and verify the configuration they were produced with.
 
 One row per held-out image, side by side:
-  leak_free  reported system: fixed fuzzy matching, threshold 85, vocabulary
-             patch built from the 40 Dev labels only
+  leak_free  reported system = the pipeline as shipped: fixed fuzzy matching,
+             threshold 85, vocabulary_patch_dev.csv (built from the 40 Dev
+             labels only)
   no_fuzzy   raw OCR text, no correction (comparison)
 OCR text for both comes from the FINAL validation runs (box_thresh=0.30,
 25% padding, doc unwarping on).
@@ -31,7 +32,6 @@ import inspect
 import json
 import os
 import random
-import sys
 
 import cv2
 
@@ -39,14 +39,13 @@ import ocr_core as core
 import ocr_paddle_fuzzy as fz
 from build_vocabulary_patch import build_patch
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import ier, set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import ier, set_prf1, tokenize
 
 THRESHOLD = 85.0
 N_DEV = 40
 OUT_DIR = os.path.join(core.RESULTS_DIR, "final_v2")
-DEV_PATCH_PATH = os.path.join(core.RESULTS_DIR, "leakage_check", "patch_dev_min1.csv")
+DEV_PATCH_PATH = core.INCI_PATCH_PATH  # vocabulary_patch_dev.csv, the patch the pipeline uses
 FINAL = [os.path.join(core.RESULTS_DIR, f"ocr_paddle_fuzzy_FINAL_{w}_full_validation.csv")
          for w in ("original", "augmented")]
 SCENARIOS = ("original", "indoor", "low_light", "blur", "night")
@@ -71,6 +70,8 @@ def verify(dev_entries, heldout_labels, patch, rows, n_ocr, log):
     rebuilt = build_patch(1, [e["label_path"] for e in dev_entries])
     check([n.lower() for n in rebuilt] == [n.lower() for n in patch],
           f"Dev patch file ({len(patch)} names) == patch rebuilt from the {len(dev_entries)} Dev labels only")
+    check(os.path.samefile(core.INCI_PATCH_PATH, DEV_PATCH_PATH),
+          f"pipeline vocabulary patch (ocr_core.INCI_PATCH_PATH) is {os.path.basename(core.INCI_PATCH_PATH)}")
     check(not ({e["label_file"] for e in dev_entries} & heldout_labels),
           f"Dev labels used for the patch and the {len(heldout_labels)} held-out labels do not overlap")
 
@@ -130,7 +131,7 @@ def main():
     dev_entries = list(core.iter_dataset_entries(["original"], limit=N_DEV))
     dev_labels = {e["label_file"] for e in dev_entries}
     patch = core._load_names(DEV_PATCH_PATH)
-    vocab = list({n.lower(): n for n in core._load_names(core.INCI_DB_PATH) + patch}.values())
+    vocab = core.load_inci_vocabulary()  # exactly what ocr_paddle_fuzzy.py uses
 
     rows = []
     for path in FINAL:

@@ -17,7 +17,7 @@ import csv
 
 import ocr_core as core
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import tokenize, ier, set_prf1
+from compute_ingredient_metrics import tokenize, ier, set_prf1
 
 SOURCE_CSV = "results/ocr_paddle_fuzzy_FINAL_original_full_validation.csv"
 OUT_CSV = "results/ocr_paddle_fuzzy_FIXED_missing_comma_full_validation.csv"

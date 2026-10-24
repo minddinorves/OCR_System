@@ -1,4 +1,5 @@
 [PASS] Dev patch file (399 names) == patch rebuilt from the 40 Dev labels only
+[PASS] pipeline vocabulary patch (ocr_core.INCI_PATCH_PATH) is vocabulary_patch_dev.csv
 [PASS] Dev labels used for the patch and the 176 held-out labels do not overlap
 [PASS] ocr_paddle_fuzzy.py --threshold default is 85
 [PASS] this export applies threshold 85

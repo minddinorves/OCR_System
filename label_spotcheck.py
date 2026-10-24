@@ -37,8 +37,7 @@ import sys
 
 import ocr_core as core
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean  # noqa: E402
+from compute_bootstrap_ci import ci_mean
 
 OUT_DIR = os.path.join(core.RESULTS_DIR, "label_spotcheck")
 NAMES_CSV = os.path.join(OUT_DIR, "names.csv")

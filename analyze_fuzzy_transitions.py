@@ -32,7 +32,7 @@ import csv
 from rapidfuzz import fuzz, process
 
 import ocr_core as core
-from old.compute_ingredient_metrics import tokenize
+from compute_ingredient_metrics import tokenize
 from ocr_paddle_fuzzy import (
     _strip_header, _SPLIT_RE, _is_reliable_match, _split_match_glued_names,
     MIN_TOKEN_LEN,

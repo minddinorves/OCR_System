@@ -34,7 +34,7 @@ import numpy as np
 
 import ocr_core as core
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import set_prf1, tokenize
+from compute_ingredient_metrics import set_prf1, tokenize
 
 PADDLE_CSVS = [
     "results/ocr_paddle_fuzzy_FIXED_missing_comma_full_validation.csv",

@@ -1,0 +1,40 @@
+item,value
+names in exactly 1 Dev product(s),268
+names in exactly 2 Dev product(s),67
+names in exactly 3 Dev product(s),18
+names in exactly 4 Dev product(s),8
+names in exactly 5 Dev product(s),9
+names in exactly 6 Dev product(s),4
+names in exactly 7 Dev product(s),5
+names in exactly 8 Dev product(s),4
+names in exactly 9 Dev product(s),2
+names in exactly 10 Dev product(s),1
+names in exactly 11 Dev product(s),4
+names in exactly 13 Dev product(s),1
+names in exactly 17 Dev product(s),1
+names in exactly 18 Dev product(s),1
+names in exactly 20 Dev product(s),1
+names in exactly 21 Dev product(s),1
+names in exactly 26 Dev product(s),1
+names in exactly 27 Dev product(s),1
+names in exactly 30 Dev product(s),1
+names in exactly 34 Dev product(s),1
+total names in shipped patch,399
+also in legacy 199-name patch,167
+legacy names missing from shipped patch,32
+shipped names that also occur in >=1 Held-out label,295
+top name #1,Phenoxyethanol (34 Dev products)
+top name #2,Glycerin (30 Dev products)
+top name #3,Niacinamide (27 Dev products)
+top name #4,Chlorphenesin (26 Dev products)
+top name #5,"1,2-Hexanediol (21 Dev products)"
+top name #6,Fragrance (20 Dev products)
+top name #7,Ethylhexylglycerin (18 Dev products)
+top name #8,Aqua (17 Dev products)
+top name #9,Sodium Benzoate (13 Dev products)
+top name #10,Triethanolamine (11 Dev products)
+top name #11,Citric Acid (11 Dev products)
+top name #12,Maltodextrin (11 Dev products)
+top name #13,Panthenol (11 Dev products)
+top name #14,Caprylyl Glycol (10 Dev products)
+top name #15,Potassium Sorbate (9 Dev products)

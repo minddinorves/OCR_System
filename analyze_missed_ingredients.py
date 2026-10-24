@@ -42,7 +42,7 @@ import csv
 
 from rapidfuzz import fuzz
 
-from old.compute_ingredient_metrics import tokenize, MATCH_THRESHOLD
+from compute_ingredient_metrics import tokenize, MATCH_THRESHOLD
 
 SOURCE_CSV = "results/ocr_paddle_fuzzy_FINAL_original_full_validation.csv"
 OUT_CSV = "results/missed_ingredient_analysis.csv"

@@ -34,15 +34,13 @@ import argparse
 import csv
 import json
 import os
-import sys
 
 import ocr_core as core
 import ocr_paddle_fuzzy as fz
 from build_vocabulary_patch import build_patch, write_patch
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import ier, set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import ier, set_prf1, tokenize
 
 OUT_DIR = os.path.join(core.RESULTS_DIR, "leakage_check")
 FINAL_CSVS = [
@@ -75,7 +73,7 @@ def main():
     main_db = core._load_names(core.INCI_DB_PATH)
     patches = {
         "no_patch": [],
-        "leaked_patch": core._load_names(core.INCI_PATCH_PATH),
+        "leaked_patch": core._load_names(core.LEGACY_PATCH_PATH),
         "dev_patch_min1": build_patch(1, dev_paths),
         "dev_patch_min2": build_patch(2, dev_paths),
     }

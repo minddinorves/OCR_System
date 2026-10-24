@@ -1,0 +1,9 @@
+early-experiment images (original scenario, with label): 136
+current images: 216
+same file name in both: 105
+  reference text identical: 0
+  near-identical (fuzz.ratio >= 90): 0
+  clearly different product (fuzz.ratio < 50): 104
+  median similarity: 43.6
+only in the early experiment (file no longer exists): 31
+only in the current dataset: 111

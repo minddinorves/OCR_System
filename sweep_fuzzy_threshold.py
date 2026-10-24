@@ -30,7 +30,6 @@ import argparse
 import csv
 import json
 import os
-import sys
 
 import numpy as np
 
@@ -38,9 +37,8 @@ import ocr_core as core
 import ocr_paddle_fuzzy as fz
 from build_vocabulary_patch import build_patch
 
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import ier, set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import ier, set_prf1, tokenize
 
 THRESHOLDS = [None, 75, 80, 82, 84, 85, 86, 88, 90, 92, 95]  # None = no fuzzy correction
 REFERENCE_THRESHOLD = 90
@@ -82,7 +80,7 @@ def main():
         return vocab, list(dict.fromkeys(v.lower() for v in vocab))
 
     if args.patch == "leaked":
-        shared = make_vocab(core._load_names(core.INCI_PATCH_PATH))
+        shared = make_vocab(core._load_names(core.LEGACY_PATCH_PATH))
         vocab_for = {r["image_file"]: shared for r in rows}
     else:
         # Held-out images use the patch built from all 40 dev labels. Each dev

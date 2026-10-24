@@ -22,7 +22,7 @@ import csv
 
 import ocr_core as core
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import tokenize, set_prf1
+from compute_ingredient_metrics import tokenize, set_prf1
 
 SOURCE_CSV = "results/ocr_paddle_fuzzy_FINAL_original_full_validation.csv"
 SWEEP_VALUES = [80, 82, 84, 85, 86, 88, 90, 92, 95, 98]

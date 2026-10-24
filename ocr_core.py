@@ -277,14 +277,16 @@ def write_csv(path, rows, fieldnames=None):
 
 _INCI_VOCAB_CACHE = None
 INCI_DB_PATH = os.path.join(PROJECT_ROOT, "ingredient_master_dataset_fixed.csv")
-# ingredient_master_dataset_fixed.csv is missing ~200 extremely common INCI names
-# (Glycerin, Niacinamide, Fragrance, Aqua, ... -- verified 58.6% of real label
-# ingredient names have no exact match in it at all). This patch file holds names
-# that occur in >=5 different product labels in test_SkinSafe/label/ but are absent
-# from the main DB; a small curated addition like this measurably helps CER/F1,
-# whereas dumping in every rare name too was tested and made matching *worse*
-# (more confusable near-duplicate candidates -> more wrong "corrections").
-INCI_PATCH_PATH = os.path.join(PROJECT_ROOT, "common_ingredients_patch.csv")
+# ingredient_master_dataset_fixed.csv is missing many extremely common INCI names
+# (Glycerin, Niacinamide, Fragrance, Aqua, ... -- 58.6% of real label ingredient
+# occurrences have no exact match in it). The patch adds label names missing from
+# the main DB. It is built from the 40 Dev labels only (build_vocabulary_patch.py,
+# names in >= 1 Dev product), so it has never seen a Held-out label and the
+# reported Held-out results are leak-free. Adds ~0.02 Set F1 on Held-out.
+INCI_PATCH_PATH = os.path.join(PROJECT_ROOT, "vocabulary_patch_dev.csv")
+# Earlier patch: names in >= 5 of ALL 216 labels -- the same labels used for
+# scoring, so results with it leak. Kept only for comparison experiments.
+LEGACY_PATCH_PATH = os.path.join(PROJECT_ROOT, "common_ingredients_patch.csv")
 
 
 def _load_names(path):

@@ -32,7 +32,6 @@ import argparse
 import csv
 import json
 import os
-import sys
 import time
 
 import cv2
@@ -44,9 +43,8 @@ import ocr_paddle_fuzzy as fuzzy
 # Metric + bootstrap helpers live in old/ (moved there with the thesis
 # drafts); reuse them so these numbers are computed exactly like the
 # reported ones.
-sys.path.insert(0, os.path.join(core.PROJECT_ROOT, "old"))
-from compute_bootstrap_ci import ci_mean, ci_paired_delta  # noqa: E402
-from compute_ingredient_metrics import set_prf1, tokenize  # noqa: E402
+from compute_bootstrap_ci import ci_mean, ci_paired_delta
+from compute_ingredient_metrics import set_prf1, tokenize
 
 CACHE_DIR = os.path.join(core.RESULTS_DIR, "sweep_cache")
 

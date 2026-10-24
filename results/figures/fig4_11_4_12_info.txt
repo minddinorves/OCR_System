@@ -1,0 +1,8 @@
+Figure 4.11 image: x1.jpg (OCR-only Set F1 closest to median 0.7483 of 204 images < 480 px tall); fresh OCR run, current settings
+  Original (no preprocessing)          Set F1=0.7467 CER=0.2363 chars=842
+  Grayscale                            Set F1=0.6667 CER=0.2976 chars=840
+  Bicubic upscale to 480 px height     Set F1=0.7467 CER=0.2363 chars=841
+  Otsu thresholding (binarization)     Set F1=0.1972 CER=0.4508 chars=742
+Figure 4.12 image: x127.jpg (largest Set F1 gain from unwarping among 40 Dev images)
+  off: Set F1=0.0313 CER=0.8450   on: Set F1=0.8791 CER=0.1384
+  all 40 Dev (OCR only): mean Set F1 off=0.4810 on=0.6437; unwarping better on 27, worse on 9, same on 4

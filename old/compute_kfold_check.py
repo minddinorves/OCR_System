@@ -21,7 +21,7 @@ Usage:
 import csv
 
 import ocr_core as core
-from old.compute_ingredient_metrics import tokenize, set_prf1
+from compute_ingredient_metrics import tokenize, set_prf1
 
 FILE_045 = "results/ocr_paddle_fuzzy_FIXED_missing_comma_boxthresh045_full_validation.csv"
 FILE_030 = "results/ocr_paddle_fuzzy_FIXED_missing_comma_full_validation.csv"

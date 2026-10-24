@@ -1,8 +1,13 @@
-"""Bootstrap 95% confidence intervals for the headline metrics reported in
-ABSTRACT_FINAL.md (Set F1, CER), computed from the already-saved per-image
-result CSVs -- no OCR re-run needed.
+"""Bootstrap 95% confidence intervals: ci_mean (percentile bootstrap of a
+mean) and ci_paired_delta (paired bootstrap of a difference). These two
+functions are used by every current evaluation script; the CIs of the
+reported results come from evaluate_final_v2.py / export_heldout_results.py.
 
-Reports:
+NOTE: running this file directly (main below) reproduces the CIs of the
+PRE-FIX results in old/ABSTRACT_FINAL.md (Set F1 0.5715 etc.), kept for
+history only -- they are not the numbers reported in the thesis now.
+
+main() reports:
   1. Main result (box_thresh=0.30, n=216 "original"): mean Set F1 / CER with CI.
   2. Paired bootstrap on the box_thresh 0.45 -> 0.30 delta (same 216 images
      both sides) to check whether the improvement is likely not noise.
@@ -46,6 +51,8 @@ def ci_paired_delta(values_a, values_b, n_boot=N_BOOT):
 
 
 def main():
+    print("NOTE: pre-fix results (history only). Reported results: results/final_v2/ "
+          "(evaluate_final_v2.py, export_heldout_results.py)\n")
     print("=" * 70)
     print("1. Main result: box_thresh=0.30, n=216 'original' (current pipeline)")
     print("=" * 70)

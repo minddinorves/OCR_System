@@ -1,0 +1,8 @@
+image: x211.jpg  (label labelx211.txt, Held-out, original scenario)
+selection: closest to Held-out median Set F1 (0.8184, n=176) among images with >=2 fuzzy corrections (score<100) and <=30 tokens
+OCR lines: 16   tokens: 26   reference names: 45
+token decisions: matched, unchanged=6, replaced=6, split into 2 names=7, kept (score < 85)=7, kept (too short)=0
+tokens whose output matches a ground-truth name exactly: 13/26
+replaced/split tokens whose output is NOT in the ground truth (wrong corrections): 6/13
+OCR only     : Set P=0.7692 R=0.6667 F1=0.7143  CER=0.0671
+OCR + fuzzy  : Set P=0.8537 R=0.7778 F1=0.8140  CER=0.0789

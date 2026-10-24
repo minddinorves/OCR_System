@@ -20,7 +20,7 @@ import cv2
 
 import ocr_core as core
 from ocr_paddle_fuzzy import correct_with_vocabulary
-from old.compute_ingredient_metrics import tokenize, ier, set_prf1
+from compute_ingredient_metrics import tokenize, ier, set_prf1
 
 TARGET_HEIGHT = 480
 MAX_SCALE = 6.0
