@@ -1,0 +1,38 @@
+label_file,issue,text,detail
+labelx163.txt,duplicate_in_label,sodium hyaluronate,x2
+labelx17.txt,stray_symbol,Polyethylene Glycol (3) Stearate,
+labelx183.txt,duplicate_in_label,glycerin,x2
+labelx183.txt,stray_symbol,Alchemilla Vulgaris Leaf Extract*,
+labelx183.txt,stray_symbol,Equisetum Arvense Leaf Extract*,
+labelx183.txt,stray_symbol,Stellaria Media (Chickweed) Extract*,
+labelx183.txt,stray_symbol,Urtica Dioica (Nettle) Leaf Extract*,
+labelx183.txt,stray_symbol,Plantago Lanceolata Leaf Extract*,
+labelx183.txt,stray_symbol,Avena Sativa (Oat) Kernel Extract**,
+labelx183.txt,stray_symbol,Calendula Officinalis Flower Extract**,
+labelx183.txt,stray_symbol,Nepeta Cataria Extract**,
+labelx183.txt,stray_symbol,Rubus Idaeus (Raspberry) Leaf Extract**,
+labelx183.txt,stray_symbol,Baptisia Tinctoria Root Extract**,
+labelx183.txt,stray_symbol,Fragrance+,
+labelx199.txt,stray_symbol,NIACINAMIDE*,
+labelx199.txt,stray_symbol,PANTHENOL**,
+labelx199.txt,stray_symbol,PALMITOYL PENTAPEPTIDE-4***,
+labelx200.txt,possibly_merged_names,ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT (ROSMARINUS OFFICINALIS LEAF EXTRACT),
+labelx201.txt,duplicate_in_label,dimethicone,x2
+labelx210.txt,duplicate_in_label,cetethyl morpholinium ethosulfate,x2
+labelx28.txt,duplicate_in_label,ethylhexylglycerin,x2
+labelx6.txt,duplicate_in_label,potassium hydroxide,x2
+labelx8.txt,duplicate_in_label,centella asiatica leaf extract,x2
+(across labels),spelling_variant,3-o-ethyl ascorbic acid  |  3-o-ethyl-ascorbic acid,punctuation/spacing only
+(across labels),spelling_variant,alcohol denat  |  alcohol denat.,punctuation/spacing only
+(across labels),spelling_variant,ascorbyl propyl hyaluronate  |  ascorbylpropyl hyaluronate,punctuation/spacing only
+(across labels),spelling_variant,ascorbyl propyl hydrolyzed hyaluronate  |  ascorbylpropyl hydrolyzed hyaluronate,punctuation/spacing only
+(across labels),spelling_variant,avena sativa (oat) kernel extract  |  avena sativa (oat) kernel extract**,punctuation/spacing only
+(across labels),spelling_variant,butyrospermum parkii (shea butter)  |  butyrospermum parkii (shea) butter,punctuation/spacing only
+(across labels),spelling_variant,cetyl-pg hydroxyethyl palmitamide  |  cetyl/pg hydroxyethyl palmitamide,punctuation/spacing only
+(across labels),spelling_variant,coco-caprylate/caprate  |  cococaprylate/caprate,punctuation/spacing only
+(across labels),spelling_variant,dimethicone vinyl dimethicone crosspolymer  |  dimethicone/vinyl dimethicone crosspolymer,punctuation/spacing only
+(across labels),spelling_variant,ethyl hexanediol  |  ethylhexanediol,punctuation/spacing only
+(across labels),spelling_variant,hydrogenated poly (c6-14 olefin)  |  hydrogenated poly(c6-14 olefin),punctuation/spacing only
+(across labels),spelling_variant,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer  |  hydroxyethyl acrylate/sodium acryloyldimethyltaurate copolymer,punctuation/spacing only
+(across labels),spelling_variant,hydroxyethyl cellulose  |  hydroxyethylcellulose,punctuation/spacing only
+(across labels),spelling_variant,niacinamide  |  niacinamide*,punctuation/spacing only

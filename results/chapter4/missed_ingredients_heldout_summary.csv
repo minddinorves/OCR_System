@@ -1,0 +1,6 @@
+dataset,reference_names,missed_names,missed_from_empty_ocr_images,no_trace_pct_at_40,no_trace_pct_at_50,no_trace_pct_at_60,no_trace_pct_at_70
+original,6562,2355,0,5.0,13.7,27.8,39.9
+indoor,6562,2683,0,2.5,7.1,18.8,32.5
+low_light,6562,3240,0,4.6,12.4,25.2,37.8
+blur,6562,5607,581,48.4,58.2,69.6,77.5
+night,6562,5629,777,49.0,56.9,66.5,73.9

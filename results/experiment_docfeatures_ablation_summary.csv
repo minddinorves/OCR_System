@@ -1,0 +1,5 @@
+config,n,mean_cer_fuzzy,mean_set_precision,mean_set_recall,mean_set_f1
+OFF-OFF (original default),40,0.3953,0.4613,0.4873,0.4673
+ON-OFF (unwarping only),40,0.2616,0.565,0.6324,0.592
+OFF-ON (textline only),40,0.4083,0.4532,0.4756,0.4578
+ON-ON (current pipeline),40,0.2616,0.565,0.6324,0.592

@@ -63,11 +63,52 @@ def _is_reliable_match(token, match_name):
     return shorter > 0 and longer / shorter <= MAX_LEN_RATIO
 
 
+def _extract_one(token, vocabulary, threshold):
+    # Case-insensitive: ~half the labels OCR as UPPERCASE while the vocabulary
+    # is mostly Title Case, and fuzz.ratio is case-sensitive, so "GLYCERIN"
+    # scored far below the 90 cutoff against "Glycerin" and was never matched.
+    # Returns (vocabulary_name, score) or None.
+    match = process.extractOne(token, vocabulary, scorer=fuzz.ratio, processor=str.lower,
+                               score_cutoff=threshold)
+    return (match[0], match[1]) if match else None
+
+
+def _split_match_glued_names(token, vocabulary, threshold):
+    """Recover two ingredient names OCR'd with the separating comma dropped
+    entirely (e.g. "DIMETHICONE NIACINAMIDE" read with a space where a comma
+    belongs, instead of the usual comma->period misread that _SPLIT_RE
+    already handles). Tries every whitespace split point in the token and
+    accepts the split whose two halves both match the vocabulary above
+    `threshold` with the highest combined score. Returns a list of one or two
+    corrected names, or None if no such split exists.
+    """
+    words = token.split(" ")
+    if len(words) < 2:
+        return None
+    best = None
+    for i in range(1, len(words)):
+        left = " ".join(words[:i])
+        right = " ".join(words[i:])
+        if len(left) < MIN_TOKEN_LEN or len(right) < MIN_TOKEN_LEN:
+            continue
+        match_l = _extract_one(left, vocabulary, threshold)
+        match_r = _extract_one(right, vocabulary, threshold)
+        if not match_l or not match_r:
+            continue
+        if not (_is_reliable_match(left, match_l[0]) and _is_reliable_match(right, match_r[0])):
+            continue
+        combined_score = match_l[1] + match_r[1]
+        if best is None or combined_score > best[0]:
+            best = (combined_score, match_l[0], match_r[0])
+    return [best[1], best[2]] if best else None
+
+
 def correct_with_vocabulary(lines, vocabulary, threshold):
-    tokens = []
-    for line in lines:
-        line = _strip_header(line)
-        tokens.extend(t.strip(" .;:*-") for t in _SPLIT_RE.split(line))
+    # Join the OCR lines before splitting: labels wrap long names across
+    # printed lines ("Hydrogenated" / "Lecithin"), and correcting each line on
+    # its own split every wrapped name into two unmatchable fragments.
+    text = _strip_header(" ".join(lines))
+    tokens = [t.strip(" .;:*-") for t in _SPLIT_RE.split(text)]
 
     corrected = []
     for token in tokens:
@@ -76,9 +117,13 @@ def correct_with_vocabulary(lines, vocabulary, threshold):
         if len(token) < MIN_TOKEN_LEN:
             corrected.append(token)
             continue
-        match = process.extractOne(token, vocabulary, scorer=fuzz.ratio, score_cutoff=threshold)
+        match = _extract_one(token, vocabulary, threshold)
         if match and _is_reliable_match(token, match[0]):
             corrected.append(match[0])
+            continue
+        split = _split_match_glued_names(token, vocabulary, threshold)
+        if split:
+            corrected.extend(split)
         else:
             corrected.append(token)
     return ", ".join(corrected)
@@ -115,10 +160,11 @@ def main():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=90.0,
-        # 90 measurably beats the original 85 default on this dataset (threshold
-        # sweep: 85->0.359 CER, 90->0.354 CER) with no downside found -- a higher
-        # bar means fewer accidental corrections of already-correct tokens.
+        default=85.0,
+        # Picked by mean Set F1 on the 40-image dev split only (sweep_fuzzy_threshold.py,
+        # 75-95 + no fuzzy); confirmed on the 176 held-out images, where 84-86 are best
+        # and 85 beats 90 by +0.005 F1 (paired-bootstrap CI excludes 0). Below ~82 too
+        # many correct tokens get "corrected" into a wrong near neighbour.
         help="Minimum fuzzy similarity score (0-100) required to accept a vocabulary match",
     )
     args = parser.parse_args()

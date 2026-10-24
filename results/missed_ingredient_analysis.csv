@@ -1,0 +1,3172 @@
+image_file,missed_ingredient_token,best_partial_ratio_vs_raw_ocr
+x1.jpg,citrus sinensis fruit water,96.3
+x1.jpg,sodium hyaluronate,100.0
+x1.jpg,helianthus annuus virginiana leaf extract,75.0
+x1.jpg,peg-40 hydrogenated castor oil,98.3
+x1.jpg,trihydroxystearin,72.7
+x1.jpg,"cystoseira tamariscifolia extract, 1,2-hexanediol",100.0
+x1.jpg,ethylhexylglycerin,100.0
+x1.jpg,ci 77891,54.5
+x1.jpg,portulaca oleracea extract,61.9
+x10.jpg,methylpropanediol,100.0
+x10.jpg,triethanolamine,100.0
+x10.jpg,dimethicone,100.0
+x10.jpg,niacinamide,100.0
+x10.jpg,bis-peg-18 methyl ether dimethyl silane,100.0
+x10.jpg,peg-100 stearate,100.0
+x10.jpg,cyclopentasiloxane,100.0
+x10.jpg,hamamelis virginiana water,100.0
+x10.jpg,melaleuca alternifolia extract,96.7
+x10.jpg,chamomilla recutita extract,81.8
+x10.jpg,cinnamomum zeylanicum bark extract,87.5
+x10.jpg,"butylene glycol, 1,2-hexanediol",76.0
+x10.jpg,caffeoyl sh-octapeptide-4,100.0
+x100.jpg,ethylhexyl palmitate,100.0
+x100.jpg,isopropyl myristate,100.0
+x100.jpg,butyl peg-20 glyceryl triisostearate,100.0
+x100.jpg,synthetic wax,50.0
+x100.jpg,glyceryl behenate/eicosadioate,85.7
+x100.jpg,charcoal powder,66.7
+x100.jpg,butylene glycol,88.9
+x100.jpg,butyrospermum parkii butter,100.0
+x100.jpg,polyglyceryl-2 isostearate,100.0
+x100.jpg,beeswax,57.1
+x100.jpg,tocopheryl acetate,100.0
+x100.jpg,ceramide np,100.0
+x100.jpg,hydrogenated lecithin,100.0
+x100.jpg,bambusa vulgaris leaf extract,86.4
+x100.jpg,saccharomyces/iron ferment,100.0
+x100.jpg,oryza sativa germ oil,95.2
+x100.jpg,phoenix dactylifera seed extract,58.3
+x100.jpg,camellia sinensis leaf extract,89.3
+x100.jpg,alpinia zerumbet leaf extract,93.6
+x100.jpg,oryza sativa (rice) bran extract,81.1
+x100.jpg,tartaric acid,70.0
+x100.jpg,sodium metabisulfite,57.1
+x100.jpg,helianthus annuus seed oil,73.1
+x100.jpg,limnanthes alba seed oil,87.5
+x100.jpg,macadamia ternifolia seed oil,82.4
+x100.jpg,oenothera biennis oil,85.7
+x100.jpg,persea gratissima oil,92.7
+x100.jpg,rosa canina fruit oil,85.7
+x100.jpg,ceramide eop,100.0
+x101.jpg,saxifraga sarmentosa extract,100.0
+x101.jpg,phenoxyethanol,100.0
+x101.jpg,sodium ascorbyl phosphate,100.0
+x101.jpg,scutellaria baicalensis root extract,100.0
+x101.jpg,carica papaya fruit extract,96.2
+x102.jpg,water,100.0
+x102.jpg,niacinamide,100.0
+x102.jpg,butylene glycol,100.0
+x102.jpg,ethoxydiglycol,100.0
+x102.jpg,arginine,100.0
+x102.jpg,allantoin,53.3
+x102.jpg,aloe barbadensis leaf juice powder,100.0
+x102.jpg,ascorbyl glucoside,100.0
+x102.jpg,glycolic acid,60.0
+x102.jpg,sodium hyaluronate,100.0
+x102.jpg,saxifraga sarmentosa extract,100.0
+x102.jpg,ramnemia chinensis root extract,100.0
+x102.jpg,houttuynia cordata extract,100.0
+x102.jpg,arisaema amurense extract,100.0
+x102.jpg,decyl glucoside,100.0
+x102.jpg,magnolia kobus branch/flower extract,100.0
+x102.jpg,nelumbo nucifera flower extract,100.0
+x102.jpg,sodium polyacrylate,100.0
+x102.jpg,ethylhexylglycerin,100.0
+x102.jpg,palmitoyl tripeptide-1,100.0
+x102.jpg,sodium hydroxide,100.0
+x102.jpg,trideceth-6,100.0
+x102.jpg,tri-pg-3 myristyl ether citrate,100.0
+x102.jpg,xanthan gum,52.6
+x103.jpg,water,100.0
+x103.jpg,c12-15 alkyl benzoate,100.0
+x103.jpg,ethylhexyl salicylate,100.0
+x103.jpg,propanediol,100.0
+x103.jpg,dimethicone,100.0
+x103.jpg,ethylhexyl triazone,100.0
+x103.jpg,silica,66.7
+x103.jpg,titanium dioxide,100.0
+x103.jpg,polyglyceryl-4 laurate,100.0
+x103.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,100.0
+x103.jpg,"butyloctyl salicylate, 1,2-hexanediol",100.0
+x103.jpg,phenoxyethanol,100.0
+x103.jpg,lecithin,100.0
+x103.jpg,polyglyceryl-6 laurate,100.0
+x103.jpg,glycerin,100.0
+x103.jpg,talc,100.0
+x103.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,100.0
+x103.jpg,diutan gum,100.0
+x103.jpg,niacinamide,100.0
+x103.jpg,allantoin,100.0
+x103.jpg,hydroxyacetophenone,100.0
+x103.jpg,sodium hydroxide,100.0
+x103.jpg,ethylhexylglycerin,100.0
+x103.jpg,cyclopentasiloxane,100.0
+x103.jpg,zinc pca,66.7
+x103.jpg,butylene glycol,100.0
+x103.jpg,capsicum annuum fruit extract,100.0
+x103.jpg,caprylhydroxamic acid,57.1
+x103.jpg,hydrolyzed corn starch octenylsuccinate,100.0
+x103.jpg,sodium lauroyl lactylate,100.0
+x103.jpg,biosaccharide gum-4,100.0
+x103.jpg,ceramide np,100.0
+x103.jpg,ceramide ap,100.0
+x103.jpg,phytosphingosine,100.0
+x103.jpg,cholesterol,100.0
+x103.jpg,isostearyl isostearate,100.0
+x103.jpg,xanthan gum,66.7
+x103.jpg,carbomer,100.0
+x103.jpg,sodium benzoate,100.0
+x103.jpg,citric acid,50.0
+x103.jpg,green tea extract,100.0
+x103.jpg,sodium salicylate,100.0
+x103.jpg,astaxanthin,100.0
+x103.jpg,oryza sativa hull extract,100.0
+x103.jpg,butyrospermum parkii (shea butter),100.0
+x103.jpg,tocopherol,100.0
+x103.jpg,ceramide eop,100.0
+x104.jpg,aqua,75.0
+x104.jpg,isononyl isononanoate,95.0
+x104.jpg,niacinamide,80.0
+x104.jpg,glyceryl acrylate/acrylic acid copolymer,88.9
+x104.jpg,ethylhexylglycerin,70.6
+x104.jpg,aloe barbadensis leaf extract,65.2
+x104.jpg,tetrahexyldecyl ascorbate,64.0
+x104.jpg,tocopheryl acetate,60.9
+x104.jpg,xylitol,83.3
+x104.jpg,fragrance,75.0
+x104.jpg,tocopherol,66.7
+x104.jpg,arginine,62.5
+x104.jpg,"propylene glycol, 1,2-hexanediol",80.0
+x104.jpg,carrageenan,66.7
+x104.jpg,sodium hyaluronate,100.0
+x104.jpg,sodium lauroyl glutamate,70.0
+x104.jpg,ci 19140,93.3
+x104.jpg,cetearyl glucoside,85.7
+x104.jpg,helichrysum stoechas callus culture lysate,100.0
+x104.jpg,benzoic acid,83.3
+x104.jpg,ginseng gum,72.7
+x104.jpg,coumarin,66.7
+x104.jpg,glycyrrhetinic acid,80.0
+x105.jpg,bisabolol,100.0
+x105.jpg,xanthan gum,100.0
+x106.jpg,propanediol,54.5
+x106.jpg,phenoxyethanol,50.0
+x106.jpg,chlorphenesin,60.0
+x106.jpg,panthenol,66.7
+x106.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,80.0
+x106.jpg,glycerin,85.7
+x106.jpg,allantoin,80.0
+x106.jpg,disodium edta,100.0
+x106.jpg,acacia senegal gum,100.0
+x106.jpg,"castanea sativa (chestnut) leaf extract, 1,2-hexanediol",100.0
+x106.jpg,glyceryl polyacrylate,100.0
+x106.jpg,ethylhexylglycerin,100.0
+x106.jpg,centella asiatica leaf vesicles,82.0
+x107.jpg,faex extract,100.0
+x107.jpg,kaempferia parviflora rhizome extract,100.0
+x107.jpg,oleanolic acid,100.0
+x107.jpg,sh-oligopeptide-1,100.0
+x108.jpg,water,60.0
+x108.jpg,propylene glycol,60.0
+x108.jpg,niacinamide,45.5
+x108.jpg,panthenol,70.6
+x108.jpg,paraffinum liquidum,50.0
+x108.jpg,fragrance,50.0
+x108.jpg,sodium polyacrylate,63.6
+x108.jpg,phenoxyethanol,57.1
+x108.jpg,butylene glycol,57.1
+x108.jpg,isopropyl palmitate,54.5
+x108.jpg,ethylhexyl methoxycinnamate,57.1
+x108.jpg,disodium edta,50.0
+x108.jpg,octocrylene,47.6
+x108.jpg,xanthan gum,50.0
+x108.jpg,ethylhexylglycerin,50.0
+x108.jpg,morus alba root extract,50.0
+x108.jpg,glutathione,50.0
+x108.jpg,polyglyceryl-6 laurate,50.0
+x108.jpg,polyglyceryl-10 oleate,50.0
+x108.jpg,bht,50.0
+x108.jpg,chlorphenesin,50.0
+x108.jpg,ci 17200,28.6
+x108.jpg,sorbitan palmitate,50.0
+x108.jpg,"ci 15510, 3-o-ethyl ascorbic acid, 1,2-hexanediol",77.8
+x108.jpg,magnolol,53.3
+x108.jpg,sodium hyaluronate,50.0
+x108.jpg,ascorbyl propyl hyaluronate,54.5
+x108.jpg,ascorbyl dipropyl hyaluronate,54.5
+x108.jpg,dimethylsilanol hyaluronate,50.0
+x108.jpg,hydrolyzed hyaluronic acid,66.7
+x108.jpg,hydrolyzed sodium hyaluronate,66.7
+x108.jpg,hydroxypropyltrimonium hyaluronate,66.7
+x108.jpg,pentylene glycol,44.4
+x108.jpg,potassium hyaluronate,50.0
+x108.jpg,sodium acetylated hyaluronate,71.4
+x108.jpg,sodium benzoate,50.0
+x108.jpg,sodium retinoyl hyaluronate crosspolymer,50.0
+x108.jpg,sodium hyaluronate crosspolymer,50.0
+x108.jpg,zinc hydrolyzed hyaluronate,50.0
+x109.jpg,aqua,100.0
+x109.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,100.0
+x109.jpg,hydroxyphenyl propamidobenzoic acid,100.0
+x11.jpg,butylene glycol,100.0
+x11.jpg,caprylyl glycol,100.0
+x11.jpg,ammonium acryloyldimethyltaurate/vp copolymer,97.8
+x11.jpg,panthenol,100.0
+x11.jpg,pentylene glycol,100.0
+x11.jpg,melaleuca alternifolia leaf oil,100.0
+x11.jpg,solanum melongena fruit extract,100.0
+x11.jpg,corallina officinalis extract,100.0
+x110.jpg,water,100.0
+x110.jpg,glycerin,100.0
+x110.jpg,dimethicone,100.0
+x110.jpg,cyclopentasiloxane,83.3
+x110.jpg,butylene glycol,100.0
+x110.jpg,polymethylsilsesquioxane,100.0
+x110.jpg,simmondsia chinensis seed oil,96.6
+x110.jpg,lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone,96.5
+x110.jpg,isopentyldiol,100.0
+x110.jpg,octyldodecanol,100.0
+x110.jpg,dimethicone/peg-10/15 crosspolymer,100.0
+x110.jpg,panthenol,100.0
+x110.jpg,aloe barbadensis leaf juice,100.0
+x110.jpg,dimethicone crosspolymer,100.0
+x110.jpg,bisabolol,100.0
+x110.jpg,fragrance,100.0
+x110.jpg,polysilicone-11,80.0
+x110.jpg,sodium hyaluronate,94.1
+x110.jpg,echium plantagineum seed oil,96.3
+x110.jpg,polyglyceryl-10 diisostearate,93.1
+x110.jpg,polyglyceryl-10 laurate,97.8
+x110.jpg,helianthus annuus seed oil unsaponifiables,100.0
+x110.jpg,sodium polyglutamate,100.0
+x110.jpg,tocopherol,100.0
+x110.jpg,salicylic acid,88.9
+x110.jpg,amylopectin,100.0
+x110.jpg,dextrin,100.0
+x110.jpg,zinc pca,93.3
+x110.jpg,gluconolactone,83.3
+x110.jpg,propylene glycol,93.8
+x110.jpg,betaine,85.7
+x110.jpg,magnesium aspartate,100.0
+x110.jpg,zinc gluconate,100.0
+x110.jpg,copper gluconate,100.0
+x110.jpg,phenoxyethanol,100.0
+x110.jpg,chlorphenesin,100.0
+x111.jpg,carbomer,100.0
+x111.jpg,hydrolyzed algin,100.0
+x111.jpg,scutellaria baicalensis root extract,100.0
+x112.jpg,aqua,57.1
+x112.jpg,niacinamide,36.4
+x112.jpg,glycerin,50.0
+x112.jpg,propylene glycol,37.5
+x112.jpg,phenoxyethanol,28.6
+x112.jpg,aloe barbadensis leaf juice powder,37.3
+x112.jpg,carbomer,37.5
+x112.jpg,triethanolamine,33.3
+x112.jpg,chlorphenesin,30.8
+x112.jpg,allantoin,37.5
+x112.jpg,disodium edta,38.1
+x112.jpg,polysorbate 20,22.2
+x112.jpg,mannitol,28.6
+x112.jpg,xanthan gum,27.3
+x112.jpg,cellulose,44.4
+x112.jpg,tetrahydrodiferuloylmethane,32.6
+x112.jpg,fragrance,33.3
+x112.jpg,alpha-arbutin,30.0
+x112.jpg,dipotassium glycyrrhizate,30.3
+x112.jpg,ci 77492,28.6
+x112.jpg,tocopherol,30.0
+x112.jpg,glutathione,37.5
+x112.jpg,hydroxypropyl methylcellulose,36.7
+x112.jpg,sodium glycyrrhizate,35.7
+x112.jpg,citrus sinensis leaf extract,34.0
+x112.jpg,citrus aurantium dulcis fruit extract,32.4
+x112.jpg,ci 19140,50.0
+x112.jpg,citrus limon fruit extract,35.6
+x112.jpg,pyrus malus fruit extract,36.4
+x112.jpg,saccharum officinarum extract,31.0
+x112.jpg,menthol,28.6
+x112.jpg,methyl ubiquinone,36.4
+x112.jpg,ethyl menthane carboxamide,28.6
+x112.jpg,hydroxypropylcellulose,33.3
+x112.jpg,ci 42090,33.3
+x112.jpg,acrylates copolymer,36.8
+x112.jpg,oligopeptide-1,23.1
+x113.jpg,propylene glycol,100.0
+x113.jpg,hydrolyzed sodium hyaluronate,100.0
+x114.jpg,aqua,50.0
+x114.jpg,arbutin,46.2
+x114.jpg,butylene glycol,88.9
+x114.jpg,raphanus sativus root extract,50.0
+x114.jpg,phenoxyethanol,46.2
+x114.jpg,tocopherol,50.0
+x114.jpg,c13-14 isoparaffin,45.5
+x114.jpg,chlorphenesin,47.6
+x114.jpg,allantoin,61.5
+x114.jpg,ascorbyl tetraisopalmitate,70.0
+x114.jpg,disodium edta,76.9
+x114.jpg,sodium hyaluronate,93.8
+x115.jpg,water,100.0
+x115.jpg,ethylhexyl methoxycinnamate,92.6
+x115.jpg,ethylhexyl salicylate,95.2
+x115.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,94.5
+x115.jpg,cyclopentasiloxane,100.0
+x115.jpg,propanediol,100.0
+x115.jpg,tetramethylbutylphenol (nano),79.3
+x115.jpg,butyloctyl salicylate,90.5
+x115.jpg,methylene bis-benzotriazolyl tetramethylbutylphenol,94.1
+x115.jpg,disodium edta,100.0
+x115.jpg,titanium dioxide,50.0
+x115.jpg,caprylyl glycol,66.7
+x115.jpg,glyceryl stearate,100.0
+x115.jpg,salix alba bark extract,100.0
+x115.jpg,cetearyl alcohol,75.0
+x115.jpg,propylene glycol,100.0
+x115.jpg,adenosine,75.0
+x115.jpg,decyl glucoside,100.0
+x115.jpg,"ethylhexylglycerin, 1,2-hexanediol",100.0
+x115.jpg,sodium lauroyl lactylate,100.0
+x115.jpg,centella asiatica leaf extract,100.0
+x115.jpg,silica,66.7
+x115.jpg,zingiber montanum (ginger) rhizome extract,68.1
+x115.jpg,chlorphenesin,64.0
+x116.jpg,water,75.0
+x116.jpg,niacinamide,63.6
+x116.jpg,rosa damascena flower water,47.6
+x116.jpg,glycerin,62.5
+x116.jpg,propylene glycol,89.7
+x116.jpg,trehalose,55.6
+x116.jpg,phenoxyethanol,60.9
+x116.jpg,avena sativa bran extract,63.2
+x116.jpg,carbomer,50.0
+x116.jpg,triethanolamine,60.9
+x116.jpg,butylene glycol,92.9
+x116.jpg,allantoin,46.2
+x116.jpg,disodium edta,70.0
+x116.jpg,titanium dioxide,57.1
+x116.jpg,caprylyl glycol,66.7
+x116.jpg,tetrahydroxypropyl ethylenediamine,57.1
+x116.jpg,peg-40 hydrogenated castor oil,53.3
+x116.jpg,"xanthan gum, 1,2-hexanediol",57.1
+x116.jpg,melissa officinalis extract,84.4
+x116.jpg,hydroxyethyl phosphatidylcholine,94.7
+x116.jpg,ethyl linoleate,85.7
+x116.jpg,ziziphus spina-christi leaf extract,61.5
+x116.jpg,coco-glucoside,47.6
+x116.jpg,hesperidin,83.3
+x116.jpg,citric acid,87.5
+x116.jpg,ceramide np,100.0
+x116.jpg,sodium benzoate,80.0
+x116.jpg,glycosaminoglycans,94.4
+x116.jpg,nicotiana benthamiana hexapeptide-40,97.2
+x116.jpg,polypeptide-17,92.9
+x117.jpg,histidine,100.0
+x118.jpg,water,100.0
+x118.jpg,glycerin,100.0
+x118.jpg,dimethicone,100.0
+x118.jpg,butylene glycol,86.7
+x118.jpg,dipropylene glycol,88.9
+x118.jpg,niacinamide,76.2
+x118.jpg,carbomer,100.0
+x118.jpg,chlorphenesin,100.0
+x118.jpg,disodium edta,100.0
+x118.jpg,panthenol,100.0
+x118.jpg,ppg-5-deceth-30,75.0
+x118.jpg,xanthan gum,100.0
+x118.jpg,peg-14m,100.0
+x118.jpg,sodium hyaluronate,100.0
+x118.jpg,"fragrance, 3-o-ethyl ascorbic acid",100.0
+x118.jpg,citric acid,80.0
+x118.jpg,sodium citrate,84.2
+x118.jpg,"hydrolyzed collagen, 1,2-hexanediol",91.4
+x118.jpg,terminalia ferdinandiana fruit extract,97.4
+x118.jpg,cystoseira tamariscifolia extract,83.3
+x118.jpg,sodium benzoate,93.3
+x118.jpg,caprylyl glycol,86.7
+x118.jpg,citrus junos fruit extract,98.0
+x118.jpg,cynara scolymus (artichoke) leaf extract,93.7
+x118.jpg,citrus aurantium bergamia (bergamot) fruit extract,76.2
+x118.jpg,hibiscus esculentus fruit extract,81.4
+x118.jpg,houttuynia cordata extract,90.2
+x118.jpg,hydroxypropyltrisilamine hyaluronate,81.2
+x118.jpg,oenothera biennis (evening primrose) seed extract,87.5
+x118.jpg,pullulan,50.0
+x118.jpg,angelica gigas root extract,76.2
+x118.jpg,aralia continentalis root extract,76.2
+x118.jpg,pueraria lobata root extract,76.2
+x118.jpg,potassium hyaluronate,100.0
+x118.jpg,prunus persica (peach) leaf extract,91.2
+x118.jpg,retinyl palmitate,66.7
+x118.jpg,phyllostachys bambusoides leaf/stem extract,80.0
+x118.jpg,asparagus officinalis stem extract,78.3
+x118.jpg,artemisia princeps leaf extract,80.0
+x119.jpg,allantoin,100.0
+x119.jpg,alpha-arbutin,100.0
+x119.jpg,honey extract,100.0
+x119.jpg,decyl glucoside,100.0
+x119.jpg,camellia sinensis leaf extract,100.0
+x119.jpg,pyrus malus fruit extract,96.0
+x119.jpg,ci 77891,76.9
+x12.jpg,hydrogenated polydecene,100.0
+x12.jpg,butyrospermum parkii (shea) butter,93.9
+x12.jpg,lecithin,93.3
+x12.jpg,hydrolyzed hyaluronic acid,100.0
+x120.jpg,phenoxyethanol,100.0
+x120.jpg,panthenol,100.0
+x120.jpg,saccharide isomerate,100.0
+x120.jpg,cholesterol,72.7
+x121.jpg,octoxynol,70.6
+x121.jpg,ethylhexyl salicylate,90.9
+x121.jpg,xanthan gum,100.0
+x121.jpg,silica dimethyl silylate,73.3
+x121.jpg,"parfum (fragrance), 3-o-ethyl ascorbic acid",86.1
+x121.jpg,centella asiatica leaf extract,88.9
+x122.jpg,aqua,100.0
+x122.jpg,ammonium acrylate,76.9
+x122.jpg,fragrance,100.0
+x122.jpg,centella asiatica leaf extract,87.0
+x123.jpg,hydrogenated polydecene,87.0
+x123.jpg,xanthan gum,100.0
+x123.jpg,sorbitan palmitate,94.4
+x123.jpg,sodium magnesium silicate,100.0
+x123.jpg,"citric acid, 3-o-ethyl ascorbic acid",100.0
+x124.jpg,isopropyl myristate,97.3
+x124.jpg,peg-20 glyceryl triisostearate,100.0
+x124.jpg,isohexadecane,100.0
+x124.jpg,fragrance,100.0
+x124.jpg,citrus limon fruit extract,100.0
+x124.jpg,citrullus lanatus seed oil,100.0
+x124.jpg,hydrolyzed milk protein,100.0
+x124.jpg,momordica cochinchinensis fruit extract,100.0
+x125.jpg,aqua,100.0
+x125.jpg,cyclopentasiloxane,94.4
+x125.jpg,propylene glycol,100.0
+x125.jpg,cyclomethicone,100.0
+x125.jpg,titanium dioxide,96.8
+x125.jpg,dimethicone,100.0
+x125.jpg,glycerin,100.0
+x125.jpg,butylene glycol,93.3
+x125.jpg,cetyl dimethicone,100.0
+x125.jpg,peg/ppg-18/18 dimethicone,93.9
+x125.jpg,phenoxyethanol,100.0
+x125.jpg,sodium chloride,100.0
+x125.jpg,aluminum hydroxide,100.0
+x125.jpg,diisopropyl dimer dilinoleate,96.4
+x125.jpg,ci 77491,92.3
+x125.jpg,mica,75.0
+x125.jpg,hyaluronic acid,63.2
+x125.jpg,oligopeptide-1,100.0
+x126.jpg,hydrolyzed sponge,100.0
+x126.jpg,propylene glycol,100.0
+x126.jpg,citric acid,100.0
+x126.jpg,sodium magnesium silicate,100.0
+x127.jpg,diethylamino hydroxybenzoyl hexyl benzoate,100.0
+x127.jpg,polyglyceryl-10 pentastearate,100.0
+x127.jpg,gossypium herbaceum callus culture,97.1
+x127.jpg,glycyrrhizinate,84.6
+x127.jpg,citric acid,87.5
+x128.jpg,dipropylene glycol,100.0
+x128.jpg,glycerin,100.0
+x128.jpg,pentaerythrityl tetraethylhexanoate,97.1
+x128.jpg,tromethamine,100.0
+x128.jpg,carbomer,100.0
+x128.jpg,camellia sinensis leaf extract,100.0
+x128.jpg,acetyl tetrapeptide-5,100.0
+x128.jpg,phenylalanine,100.0
+x128.jpg,threonine,100.0
+x128.jpg,glutamic acid,100.0
+x129.jpg,aqua,75.0
+x129.jpg,glycereth-26,73.7
+x129.jpg,niacinamide,54.5
+x129.jpg,butylene glycol,75.0
+x129.jpg,phenoxyethanol,57.1
+x129.jpg,peg-40 hydrogenated castor oil,64.7
+x129.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,57.1
+x129.jpg,citrus dulcis (orange) peel oil,79.2
+x129.jpg,glycerin,87.5
+x129.jpg,hippophae rhamnoides fruit oil,65.5
+x129.jpg,microcrystalline cellulose,98.0
+x129.jpg,ascorbyl tetraisopalmitate,60.5
+x129.jpg,ethyl ascorbic acid,52.6
+x129.jpg,aloe barbadensis leaf juice powder,54.5
+x129.jpg,sodium starch octenylsuccinate,80.0
+x129.jpg,hydroxypropyl methylcellulose,76.9
+x129.jpg,tocopheryl acetate,82.4
+x129.jpg,c12-13 alkyl glyceryl hydrolyzed hyaluronate,80.0
+x129.jpg,calcium pantothenate,57.1
+x129.jpg,sodium carboxymethyl hyaluronate,87.7
+x129.jpg,"ci 15985, 1,2-hexanediol",77.8
+x129.jpg,caprylyl 2-glyceryl ascorbate,63.6
+x129.jpg,ascorbic acid,61.5
+x129.jpg,xanthan gum,45.5
+x129.jpg,pyridoxine hcl,57.1
+x129.jpg,ci 17110,75.0
+x129.jpg,hydrated silica,100.0
+x129.jpg,centella asiatica extract,100.0
+x129.jpg,sodium hyaluronate,100.0
+x129.jpg,colloidal gold,78.6
+x129.jpg,hydrolyzed hyaluronic acid,84.6
+x129.jpg,sodium acetylated hyaluronate,76.6
+x129.jpg,hyaluronic acid,80.0
+x129.jpg,sodium hyaluronate crosspolymer,79.2
+x13.jpg,niacinamide,60.0
+x13.jpg,glycerin,57.1
+x13.jpg,propylene glycol,83.9
+x13.jpg,phenoxyethanol,75.0
+x13.jpg,peg-40 hydrogenated castor oil,75.9
+x13.jpg,dipropylene glycol,90.9
+x13.jpg,carbomer,100.0
+x13.jpg,soluble collagen,76.9
+x13.jpg,tetrasodium edta,100.0
+x13.jpg,fragrance,100.0
+x13.jpg,aloe barbadensis leaf juice powder,87.7
+x13.jpg,ethyl ascorbic acid,100.0
+x13.jpg,imidazolidinyl urea,100.0
+x13.jpg,ethylparaben,100.0
+x130.jpg,dimethicone,70.6
+x130.jpg,propylene glycol,100.0
+x130.jpg,saccharide isomerate,100.0
+x130.jpg,laminaria digitata extract,68.1
+x130.jpg,citric acid,84.2
+x130.jpg,sodium citrate,83.3
+x130.jpg,linolenic acid,78.3
+x130.jpg,ascorbyl propyl hyaluronate,100.0
+x130.jpg,hydroxypropyltrimonium hyaluronate,100.0
+x130.jpg,pentylene glycol,92.9
+x130.jpg,dimethylsilanol hyaluronate,100.0
+x131.jpg,dimethiconol,95.2
+x131.jpg,peg-10/15 crosspolymer,100.0
+x131.jpg,sodium chloride,100.0
+x131.jpg,ci 15850,100.0
+x131.jpg,1,100.0
+x131.jpg,butylene glycol,100.0
+x131.jpg,camellia japonica flower extract,93.5
+x131.jpg,citrullus lanatus fruit extract,100.0
+x131.jpg,"centella asiatica extract, 1,2-hexanediol",100.0
+x131.jpg,ethylhexylglycerin,100.0
+x132.jpg,aqua,85.7
+x132.jpg,salicylic acid,100.0
+x132.jpg,glycolic acid,100.0
+x132.jpg,caprylic/capric triglyceride,100.0
+x132.jpg,bellis perennis flower extract,100.0
+x133.jpg,sodium hyaluronate,100.0
+x133.jpg,ethylene glycol,85.7
+x134.jpg,mineral oil,100.0
+x134.jpg,glyceryl peg-100 stearate,78.0
+x134.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,100.0
+x134.jpg,retinyl palmitate (vitamin a),100.0
+x134.jpg,helianthus annuus (sunflower) seed oil,100.0
+x135.jpg,aqua,100.0
+x135.jpg,cyclopentasiloxane,94.4
+x135.jpg,ethyl alcohol,69.2
+x135.jpg,isopropyl palmitate,47.4
+x135.jpg,ethylhexyl methoxycinnamate,44.4
+x135.jpg,niacinamide,45.5
+x135.jpg,lauryl peg-9 polydimethylsiloxyethyl dimethicone,44.4
+x135.jpg,titanium dioxide,50.0
+x135.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,41.3
+x135.jpg,octocrylene,54.5
+x135.jpg,biosaccharide gum-1,42.1
+x135.jpg,tetramethylbutylphenol,68.2
+x135.jpg,peg/ppg-18/18 dimethicone,52.0
+x135.jpg,aloe barbadensis extract,45.8
+x135.jpg,glyceryl acetate,56.2
+x135.jpg,buddleja officinalis flower extract,40.0
+x135.jpg,phenoxyethanol,50.0
+x135.jpg,sodium palmitate,50.0
+x135.jpg,isostearyl acrylates/c10-30 alkyl crosspolymer,45.7
+x135.jpg,tetra-di-t-butyl hydroxide,42.3
+x135.jpg,chlorphenesin,69.2
+x135.jpg,stearic acid,50.0
+x135.jpg,propylene glycol,93.8
+x135.jpg,"lecithin, 1,2-hexanediol",44.4
+x135.jpg,decyl glucoside,46.7
+x135.jpg,fragrance,44.4
+x135.jpg,xanthan gum,100.0
+x135.jpg,maltodextrin,100.0
+x136.jpg,avena sativa (oat) kernel extract,96.9
+x136.jpg,bisabolol,100.0
+x136.jpg,xanthan gum,100.0
+x136.jpg,potassium laurate,100.0
+x136.jpg,tocopherol,100.0
+x137.jpg,hydrogenated polydecene,100.0
+x137.jpg,butylene glycol,100.0
+x137.jpg,cetearyl alcohol,100.0
+x137.jpg,anhydroxylitol,100.0
+x137.jpg,phenoxyethanol,100.0
+x137.jpg,glyceryl stearate,100.0
+x137.jpg,butyrospermum parkii (shea) butter,75.0
+x137.jpg,trehalose,100.0
+x137.jpg,peg-100 stearate,83.3
+x137.jpg,xylitol,100.0
+x137.jpg,chlorphenesin,100.0
+x137.jpg,glucose,100.0
+x137.jpg,disodium edta,70.0
+x137.jpg,lecithin,100.0
+x137.jpg,hydrolyzed hyaluronic acid,100.0
+x138.jpg,sucrose stearate,100.0
+x138.jpg,butylene glycol,100.0
+x138.jpg,butyrospermum parkii (shea) butter,100.0
+x138.jpg,peg-8,88.9
+x138.jpg,polyquaternium-51,60.9
+x138.jpg,rosmarinus officinalis (rosemary) leaf extract,100.0
+x138.jpg,chamomilla recutita (matricaria) flower extract,100.0
+x138.jpg,"pentylene glycol, 1,2-hexanediol",100.0
+x138.jpg,ascorbyl palmitate,77.4
+x138.jpg,biosaccharide gum-4,88.9
+x138.jpg,ci 77492,87.5
+x138.jpg,ci 77491,80.0
+x139.jpg,cucumis sativus (cucumber) fruit extract,90.0
+x139.jpg,aluminum starch octenylsuccinate,100.0
+x139.jpg,hibiscus sabdariffa (roselle) flower extract,76.4
+x139.jpg,citrus aurantium dulcis (orange) peel extract,69.0
+x139.jpg,eisenia bicyclis extract,69.6
+x139.jpg,phaseolus radiatus sprout extract,100.0
+x14.jpg,cetyl alcohol,100.0
+x14.jpg,simmondsia chinensis seed oil,96.6
+x14.jpg,peg-100 stearate,100.0
+x14.jpg,peg-8,100.0
+x14.jpg,haematococcus pluvialis extract,97.7
+x14.jpg,sodium benzoate,96.6
+x14.jpg,oleanolic acid,77.8
+x140.jpg,sodium hyaluronate crosspolymer-3,100.0
+x142.jpg,water,100.0
+x142.jpg,anigozanthos flavidus extract,100.0
+x142.jpg,potassium chloride,100.0
+x143.jpg,aqua,25.0
+x143.jpg,glycerin,25.0
+x143.jpg,propylene glycol,38.1
+x143.jpg,zanthoxylum bungeanum fruit extract,39.2
+x143.jpg,panthenol,42.9
+x143.jpg,phenoxyethanol,42.1
+x143.jpg,ethylhexylglycerin,22.2
+x143.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,38.5
+x143.jpg,hydroxyethylcellulose,25.0
+x143.jpg,triethanolamine,33.3
+x143.jpg,butylene glycol,33.3
+x143.jpg,caprylhydroxamic acid,26.3
+x143.jpg,paeonia suffruticosa root extract,40.7
+x143.jpg,xanthan gum,37.5
+x143.jpg,acrylamide/sodium acryloyldimethyltaurate copolymer,40.0
+x143.jpg,ammonium sulfate,40.0
+x143.jpg,pentylene glycol,31.2
+x143.jpg,peg-40 hydrogenated castor oil,39.1
+x143.jpg,sodium sulfate,35.7
+x143.jpg,propanediol,50.0
+x143.jpg,aroma,60.0
+x143.jpg,hydroxyphenyl propamidobenzoic acid,29.1
+x143.jpg,butyrospermum parkii (shea) butter,39.2
+x143.jpg,niacinamide,30.0
+x143.jpg,water,40.0
+x143.jpg,beta-glucan,27.3
+x143.jpg,ascorbyl propyl hyaluronate,39.0
+x143.jpg,"dimethylsilanol hyaluronate, 1,2-hexanediol",33.3
+x143.jpg,laminaria digitata extract,42.6
+x143.jpg,hydrogenated lecithin,35.3
+x143.jpg,caprylyl glycol,28.6
+x143.jpg,cetyl-pg hydroxyethyl palmitamide,29.1
+x143.jpg,ceramide np,45.5
+x143.jpg,glucose,36.4
+x143.jpg,sodium hyaluronate,38.9
+x143.jpg,chondrus crispus extract,35.6
+x143.jpg,cholesterol,40.0
+x143.jpg,hydroxypropyltrimonium hyaluronate,30.4
+x143.jpg,hydrolyzed hyaluronic acid,32.6
+x143.jpg,sodium acetylated hyaluronate,38.5
+x143.jpg,ceramide ap,45.5
+x143.jpg,ceramide as,45.5
+x143.jpg,ceramide ng,45.5
+x143.jpg,hyaluronic acid,33.3
+x143.jpg,hydrolyzed sodium hyaluronate crosspolymer,38.3
+x143.jpg,potassium hyaluronate,33.3
+x143.jpg,ceramide eop,60.9
+x144.jpg,aqua,50.0
+x144.jpg,butylene glycol,48.3
+x144.jpg,propylene glycol,53.3
+x144.jpg,niacinamide,55.6
+x144.jpg,phenoxyethanol,50.0
+x144.jpg,glycerin,54.5
+x144.jpg,citrullus lanatus fruit extract,82.4
+x144.jpg,hamamelis virginiana leaf water,44.4
+x144.jpg,propanediol,54.5
+x144.jpg,polysorbate 20,66.7
+x144.jpg,maris aqua,60.0
+x144.jpg,alpha-arbutin,50.0
+x144.jpg,disodium edta,72.7
+x144.jpg,triethylene glycol,57.1
+x144.jpg,peg-40 hydrogenated castor oil,54.5
+x144.jpg,sodium hyaluronate,64.0
+x144.jpg,ascorbic acid,100.0
+x144.jpg,polyacrylate crosspolymer-6,100.0
+x144.jpg,hydrolyzed collagen,100.0
+x144.jpg,lactobacillus/punica granatum fruit ferment extract,100.0
+x144.jpg,potassium sorbate,100.0
+x145.jpg,divinyldimethicone/dimethicone copolymer,100.0
+x145.jpg,propylene glycol,100.0
+x145.jpg,acmella oleracea extract,100.0
+x145.jpg,terminalia ferdinandiana fruit extract,100.0
+x145.jpg,potassium sorbate,100.0
+x145.jpg,passiflora edulis fruit extract,100.0
+x145.jpg,sodium metaphosphate,100.0
+x146.jpg,water,80.0
+x146.jpg,hydroxyacetophenone,80.0
+x146.jpg,ethylhexylglycerin,66.7
+x146.jpg,vitis vinifera (grape) fruit extract,85.7
+x146.jpg,coffea arabica seed extract,88.9
+x146.jpg,polygonum cuspidatum root extract,81.8
+x147.jpg,sodium acrylate/acryloyldimethyltaurate/dimethylacrylamide crosspolymer,95.8
+x147.jpg,dimethylacrylamide/acrylic acid/polystyrene ethyl methacrylate copolymer,100.0
+x147.jpg,helianthus annuus seed oil unsaponifiables,97.6
+x147.jpg,aspalathus linearis extract,100.0
+x148.jpg,magnesium aluminum silicate,100.0
+x148.jpg,isostearamidopropyl ethyldimonium ethosulfate,95.9
+x148.jpg,madecassic acid,77.8
+x148.jpg,camellia sinensis leaf extract,73.3
+x148.jpg,malic acid,88.9
+x148.jpg,polysorbate 60,66.7
+x148.jpg,sodium hydroxide,93.3
+x148.jpg,hydrolyzed candida saitoana extract,66.7
+x148.jpg,phenoxyethanol,69.6
+x148.jpg,potassium sorbate,75.0
+x148.jpg,tartaric acid,85.7
+x148.jpg,asiaticoside,60.0
+x148.jpg,asiatic acid,90.0
+x148.jpg,saccharum officinarum extract,71.4
+x148.jpg,vaccinium myrtillus fruit extract,93.9
+x148.jpg,citrus medica limonum (lemon) fruit extract,71.8
+x148.jpg,pyrus malus fruit extract,80.0
+x148.jpg,olea europaea (olive) fruit oil,100.0
+x149.jpg,phenoxyethanol,92.9
+x149.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,100.0
+x149.jpg,caprylic/capric triglyceride,96.4
+x149.jpg,ci 77492 (iron oxides),95.5
+x149.jpg,ci 77499 (iron oxides),95.5
+x15.jpg,water,100.0
+x15.jpg,hydroxyacetophenone,85.7
+x15.jpg,arginine,62.5
+x15.jpg,carbomer,87.5
+x15.jpg,pantolactone,70.0
+x15.jpg,pentylene glycol,81.2
+x15.jpg,citrus aurantium dulcis (orange) peel extract,85.4
+x15.jpg,taraxacum officinale (dandelion) rhizome/root extract,78.2
+x15.jpg,citrus limon (lemon) seed oil,66.7
+x15.jpg,tocopheryl acetate,76.5
+x150.jpg,lauric acid,100.0
+x150.jpg,lauryl hydroxysultaine,100.0
+x150.jpg,trisodium ethylenediamine disuccinate,100.0
+x150.jpg,sodium stearoyl lactylate,100.0
+x150.jpg,capric acid,100.0
+x150.jpg,vaccinium myrtillus fruit extract,100.0
+x150.jpg,sodium hyaluronate crosspolymer-2,100.0
+x150.jpg,hydrolyzed sodium hyaluronate,100.0
+x150.jpg,tocopheryl acetate,100.0
+x151.jpg,aqua,100.0
+x151.jpg,glycerin,100.0
+x151.jpg,niacinamide,100.0
+x151.jpg,dimethicone,100.0
+x151.jpg,betaine,100.0
+x151.jpg,isohexadecane,100.0
+x151.jpg,cetyl alcohol,92.3
+x151.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,100.0
+x151.jpg,crocus chrysanthus bulb extract,100.0
+x151.jpg,acetyl hexapeptide-8,100.0
+x151.jpg,acacia senegal gum,100.0
+x151.jpg,laminaria saccharina extract,100.0
+x151.jpg,hydrolyzed hyaluronic acid,88.5
+x151.jpg,saccharide isomerate,95.0
+x151.jpg,isomalt,85.7
+x151.jpg,dipotassium glycyrrhizate,84.0
+x151.jpg,caesalpinia spinosa gum,69.6
+x151.jpg,centella asiatica extract,96.0
+x151.jpg,stearyl alcohol,93.3
+x151.jpg,butylene glycol,93.3
+x151.jpg,glyceryl stearate,94.1
+x151.jpg,cetearyl alcohol,81.2
+x151.jpg,cetearyl olivate,56.2
+x151.jpg,sorbitan olivate,50.0
+x151.jpg,chlorphenesin,46.2
+x151.jpg,peg-75 stearate,60.0
+x151.jpg,palmitic acid,53.8
+x151.jpg,stearic acid,58.3
+x151.jpg,tocopheryl acetate,50.0
+x151.jpg,maltodextrin,50.0
+x151.jpg,phytotriethanolamine,45.0
+x151.jpg,c13-14 isoparaffin,38.9
+x151.jpg,laureth-7,55.6
+x151.jpg,ceteth-20,44.4
+x151.jpg,steareth-20,54.5
+x151.jpg,caprylyl glycol,53.3
+x151.jpg,hexanediol,60.0
+x151.jpg,citric acid,54.5
+x151.jpg,potassium sorbate,58.8
+x151.jpg,sodium benzoate,66.7
+x151.jpg,cyclopentasiloxane,50.0
+x151.jpg,perfume,42.9
+x151.jpg,phenoxyethanol,50.0
+x151.jpg,triethoxycaprylylsilane,47.8
+x151.jpg,aluminum hydroxide,50.0
+x151.jpg,sodium citrate,78.6
+x151.jpg,ci 16035,37.5
+x151.jpg,ci 77891,37.5
+x152.jpg,cyclopentasiloxane,61.5
+x152.jpg,glyceryl stearate,83.3
+x152.jpg,cetyl alcohol,100.0
+x152.jpg,ascorbyl glucoside,57.1
+x152.jpg,sodium chloride,71.4
+x152.jpg,sodium glutamic acid diacetate,100.0
+x152.jpg,aminopropyl ascorbyl phosphate,75.0
+x153.jpg,water,75.0
+x153.jpg,propylene glycol,89.7
+x153.jpg,niacinamide,72.7
+x153.jpg,glycerin,66.7
+x153.jpg,sodium acrylate/acryloyldimethyltaurate/vp copolymer,75.0
+x153.jpg,isononyl isononanoate,52.6
+x153.jpg,salicylic acid,73.7
+x153.jpg,polyacrylate-13,66.7
+x153.jpg,chlorphenesin,57.1
+x153.jpg,hamamelis virginiana leaf extract,50.0
+x153.jpg,caprylyl glycol,75.0
+x153.jpg,potassium hydroxide,66.7
+x153.jpg,c13-14 isoparaffin,47.1
+x153.jpg,panthenol,71.4
+x153.jpg,polysorbate 60,94.7
+x153.jpg,sodium hydroxide,82.4
+x153.jpg,ethylhexylglycerin,62.5
+x153.jpg,citrus aurantium bergamia fruit oil,87.1
+x153.jpg,sodium benzoate,92.9
+x153.jpg,citrus hystrix oil,66.7
+x153.jpg,eucalyptus globulus leaf oil,64.3
+x153.jpg,melaleuca alternifolia leaf oil,74.2
+x153.jpg,madecassic acid,92.9
+x153.jpg,potassium sorbate,72.7
+x153.jpg,lavandula hybrida extract,77.3
+x153.jpg,cetyl alcohol,81.8
+x153.jpg,ceramide ap,100.0
+x153.jpg,ceramide eop,100.0
+x153.jpg,hydroxypropyltrimonium hyaluronate,81.2
+x153.jpg,potassium hyaluronate,84.2
+x153.jpg,sodium acetylated hyaluronate,78.8
+x153.jpg,sodium hyaluronate crosspolymer,82.4
+x153.jpg,sodium retinyl acetate,77.8
+x154.jpg,water,100.0
+x154.jpg,ethoxydiglycol,85.7
+x154.jpg,ammonium acryloyldimethyltaurate/vp copolymer,98.9
+x154.jpg,dipropylene glycol,88.9
+x154.jpg,glycerin,100.0
+x154.jpg,butylene glycol,100.0
+x154.jpg,niacinamide,81.8
+x154.jpg,propanediol,100.0
+x154.jpg,squalane,100.0
+x154.jpg,phenoxyethanol,85.7
+x154.jpg,potassium hydroxide,84.2
+x154.jpg,isononyl isononanoate,77.8
+x154.jpg,bisabolol,88.9
+x154.jpg,aloe barbadensis leaf juice powder,94.1
+x154.jpg,dipotassium glycyrrhizate,100.0
+x154.jpg,polyacrylate crosspolymer-6,88.9
+x154.jpg,chlorphenesin,100.0
+x154.jpg,xanthan gum,100.0
+x154.jpg,disodium edta,84.6
+x154.jpg,lauryl algin,66.7
+x154.jpg,centella asiatica extract,89.8
+x154.jpg,zinc sulfate,91.7
+x154.jpg,myristoyl hexapeptide-11,91.7
+x154.jpg,hamamelis virginiana (witch hazel) extract,87.8
+x154.jpg,potassium sorbate,69.0
+x154.jpg,anthemis nobilis flower extract,84.7
+x154.jpg,beeswax,76.9
+x154.jpg,camellia sinensis leaf extract,86.7
+x154.jpg,ethylhexylglycerin,71.0
+x154.jpg,fucus vesiculosus extract,81.6
+x154.jpg,kaolin,66.7
+x154.jpg,maltodextrin,100.0
+x154.jpg,palmitic acid,92.3
+x154.jpg,palmitoyl tripeptide-1,92.7
+x154.jpg,silica,66.7
+x155.jpg,water,100.0
+x155.jpg,glycerin,100.0
+x155.jpg,potassium hydroxide,100.0
+x155.jpg,palmitic acid,100.0
+x155.jpg,glyceryl stearate,100.0
+x155.jpg,phenoxyethanol,100.0
+x155.jpg,fragrance,100.0
+x155.jpg,polyquaternium-7,93.8
+x155.jpg,disodium edta,100.0
+x155.jpg,tocopheryl acetate,100.0
+x155.jpg,butylene glycol dicaprylate/dicaprate,100.0
+x155.jpg,caprylic/capric triglyceride,92.9
+x155.jpg,hydrolyzed collagen,100.0
+x155.jpg,hydrogenated lecithin,100.0
+x155.jpg,butyrospermum parkii (shea) butter,100.0
+x155.jpg,hydrolyzed hyaluronic acid,100.0
+x155.jpg,pentylene glycol,100.0
+x155.jpg,sodium hyaluronate crosspolymer,100.0
+x155.jpg,tropolone,100.0
+x156.jpg,aqua,100.0
+x156.jpg,niacinamide,100.0
+x156.jpg,"glycerin, 1,2-hexanediol",100.0
+x156.jpg,alpha-arbutin,100.0
+x156.jpg,methylpropanediol,100.0
+x156.jpg,"sodium ascorbyl phosphate, 3-o-ethyl ascorbic acid",100.0
+x156.jpg,citric acid,100.0
+x156.jpg,peg-40 hydrogenated castor oil,100.0
+x156.jpg,phenoxyethanol,100.0
+x156.jpg,salicylic acid,100.0
+x156.jpg,glycolic acid,100.0
+x156.jpg,butylene glycol,92.9
+x156.jpg,sodium hydroxide,73.3
+x156.jpg,acacia senegal gum,100.0
+x156.jpg,xanthan gum,100.0
+x156.jpg,chlorphenesin,100.0
+x156.jpg,sodium citrate,100.0
+x156.jpg,allantoin,100.0
+x156.jpg,ascorbyl glucoside,100.0
+x156.jpg,ascorbyl phosphonate,100.0
+x156.jpg,allium cepa bulb extract,100.0
+x156.jpg,sodium hyaluronate,100.0
+x156.jpg,sodium gluceptate,100.0
+x156.jpg,centella asiatica extract,100.0
+x157.jpg,diethylamino hydroxybenzoyl hexyl benzoate,100.0
+x157.jpg,polyglyceryl-10 pentastearate,100.0
+x157.jpg,hydrolyzed milk protein,100.0
+x157.jpg,dipotassium glycyrrhizinate,96.3
+x158.jpg,dicaprylyl ether,100.0
+x158.jpg,peg-75 stearate,100.0
+x158.jpg,tocopheryl acetate,100.0
+x158.jpg,euterpe oleracea fruit oil,100.0
+x158.jpg,citric acid,100.0
+x158.jpg,sodium benzoate,100.0
+x159.jpg,liquid paraffin,90.9
+x159.jpg,aloe barbadensis leaf extract,100.0
+x16.jpg,neopentyl glycol dicaprylate/dicaprate,100.0
+x16.jpg,sodium polyacrylate,100.0
+x16.jpg,aluminum hydroxide,100.0
+x16.jpg,hydrolyzed sodium hyaluronate,100.0
+x16.jpg,sodium acetylated hyaluronate,100.0
+x16.jpg,sodium hyaluronate,100.0
+x16.jpg,sodium hyaluronate crosspolymer,100.0
+x16.jpg,sodium acrylates copolymer,100.0
+x16.jpg,biosaccharide gum-4,100.0
+x16.jpg,stearic acid,100.0
+x16.jpg,disodium edta,100.0
+x160.jpg,water,100.0
+x160.jpg,dimethicone,100.0
+x160.jpg,sodium chloride,82.4
+x160.jpg,cetyl peg/ppg-10/1 dimethicone,62.2
+x160.jpg,titanium dioxide,50.0
+x160.jpg,dimethicone vinyl dimethicone crosspolymer,71.4
+x160.jpg,"phenoxyethanol, 1,2-hexanediol",93.3
+x160.jpg,caprylyl glycol,93.3
+x160.jpg,triethoxycaprylylsilane,69.6
+x160.jpg,aluminum hydroxide,50.0
+x160.jpg,disodium edta,80.0
+x160.jpg,butylene glycol,54.5
+x160.jpg,arbutin,57.1
+x160.jpg,ascorbic acid,60.0
+x160.jpg,glutathione,66.7
+x160.jpg,hydrogenated lecithin,52.6
+x160.jpg,eucalyptus globulus leaf extract,93.3
+x160.jpg,mentha arvensis extract,80.0
+x160.jpg,desamido collagen,100.0
+x160.jpg,hydrolyzed collagen,100.0
+x160.jpg,erythritol,100.0
+x160.jpg,soluble collagen,100.0
+x160.jpg,sodium pca,82.4
+x161.jpg,phenylbenzimidazole sulfonic acid,100.0
+x161.jpg,aminomethyl propanol,100.0
+x161.jpg,titanium dioxide,100.0
+x161.jpg,"zea mays (corn) starch, 1,2-hexanediol",97.3
+x161.jpg,cetyl alcohol,100.0
+x161.jpg,tocopheryl acetate,100.0
+x161.jpg,c13-14 isoparaffin,100.0
+x161.jpg,cetearyl alcohol,100.0
+x161.jpg,cetearyl glucoside,100.0
+x161.jpg,peg-100 stearate,100.0
+x162.jpg,water,75.0
+x162.jpg,propylene glycol,66.7
+x162.jpg,niacinamide,66.7
+x162.jpg,c12-15 alkyl benzoate,77.8
+x162.jpg,isononyl isononanoate,66.7
+x162.jpg,ammonium acryloyldimethyltaurate/vp copolymer,66.7
+x162.jpg,disodium edta,78.3
+x162.jpg,triheptanoin,50.0
+x162.jpg,caprylyl glycol,100.0
+x162.jpg,phenethyl alcohol,66.7
+x162.jpg,glycerin,100.0
+x162.jpg,tocopheryl acetate,66.7
+x162.jpg,xanthan gum,50.0
+x162.jpg,potassium hydroxide,71.4
+x162.jpg,pentylene glycol,66.7
+x162.jpg,benzoic acid,57.1
+x162.jpg,hyaluronic acid,69.2
+x162.jpg,"lavandula angustifolia oil, 3-o-ethyl ascorbic acid",60.0
+x162.jpg,galactomyces ferment filtrate,66.7
+x162.jpg,soluble collagen,60.0
+x162.jpg,citrus aurantium dulcis fruit oil,60.0
+x162.jpg,citrus aurantium bergamia fruit oil,60.0
+x162.jpg,polyglyceryl-6 laurate,66.7
+x162.jpg,polyglyceryl-10 oleate,66.7
+x162.jpg,mentha arvensis leaf oil,61.5
+x162.jpg,sorbitan palmitate,75.0
+x162.jpg,ceteareth-25,50.0
+x162.jpg,lavandula hybrida extract,60.0
+x162.jpg,salvia sclarea oil,57.1
+x162.jpg,cetyl alcohol,53.8
+x162.jpg,magnolol,50.0
+x162.jpg,behenic acid,57.1
+x162.jpg,ceramide np,90.9
+x162.jpg,ceramide ap,100.0
+x162.jpg,ceramide eop,100.0
+x162.jpg,ceramide eos,95.7
+x162.jpg,sodium hyaluronate,90.9
+x162.jpg,caprooyl phytosphingosine,100.0
+x162.jpg,caprooyl sphingosine,100.0
+x162.jpg,ascorbyl propyl hyaluronate,71.4
+x162.jpg,ascorbylpropyl hyaluronate,71.4
+x162.jpg,hydrolyzed hyaluronic acid,80.0
+x162.jpg,hydroxypropyltrimonium hyaluronate,76.9
+x162.jpg,potassium hyaluronate,76.9
+x162.jpg,propanediol,80.0
+x162.jpg,sodium acetylated hyaluronate,80.0
+x162.jpg,sodium benzoate,77.8
+x163.jpg,water,88.9
+x163.jpg,glycerin,87.5
+x163.jpg,dimethicone,90.9
+x163.jpg,dipropylene glycol,100.0
+x163.jpg,phenoxyethanol,100.0
+x163.jpg,saccharide isomerate,81.1
+x163.jpg,carbomer,100.0
+x163.jpg,chlorphenesin,100.0
+x163.jpg,disodium edta,92.3
+x163.jpg,panthenol,100.0
+x163.jpg,ppg-8-ceteth-20,54.5
+x163.jpg,potassium hydroxide,97.3
+x163.jpg,xanthan gum,100.0
+x163.jpg,peg-14m,85.7
+x163.jpg,sodium hyaluronate,91.4
+x163.jpg,citric acid,85.7
+x163.jpg,"hydrolyzed collagen, 1,2-hexanediol",88.2
+x163.jpg,terminalia ferdinandiana fruit extract,94.7
+x163.jpg,cystoseira tamariscifolia extract,90.9
+x163.jpg,potassium sorbate,82.4
+x163.jpg,citrus junos fruit extract,88.5
+x163.jpg,glucose,57.1
+x163.jpg,hibiscus esculentus fruit extract,76.2
+x163.jpg,hydrolyzed hyaluronic acid,88.5
+x163.jpg,sodium hyaluronate,91.4
+x163.jpg,hydroxypropyltrimonium hyaluronate,97.1
+x163.jpg,genistein,66.7
+x163.jpg,panax ginseng root extract,76.2
+x163.jpg,phellodendron amurense bark extract,91.4
+x163.jpg,potassium hyaluronate,95.2
+x163.jpg,prunus persica (peach) leaf extract,80.0
+x163.jpg,rehmannia chinensis root extract,81.2
+x164.jpg,water,100.0
+x164.jpg,"hydroxyacetophenone, 1,2-hexanediol",100.0
+x164.jpg,potassium chloride,100.0
+x166.jpg,simmondsia chinensis seed oil,100.0
+x166.jpg,lactobacillus/soymilk ferment filtrate,100.0
+x166.jpg,bacillus/soybean ferment extract,93.8
+x166.jpg,aloe barbadensis leaf extract,92.0
+x166.jpg,ethylhexylglycerin,100.0
+x167.jpg,deionized water,59.3
+x167.jpg,isododecane,60.0
+x167.jpg,niacinamide,57.1
+x167.jpg,propanediol,45.5
+x167.jpg,polyglyceryl-2 stearate,50.0
+x167.jpg,dimethicone,54.5
+x167.jpg,sodium hyaluronate crosspolymer,65.1
+x167.jpg,glyceryl stearate,57.1
+x167.jpg,stearyl alcohol,54.5
+x167.jpg,triethanolamine,56.0
+x167.jpg,"butylene glycol, 2-phenoxyethanol",54.5
+x167.jpg,carbomer,53.3
+x167.jpg,peg-40 hydrogenated castor oil,46.7
+x167.jpg,trideceth-9,47.1
+x167.jpg,perfume,57.1
+x167.jpg,chlorphenesin,46.2
+x167.jpg,hydrolyzed sodium hyaluronate,65.1
+x167.jpg,glycerine,55.6
+x167.jpg,centella asiatica extract,51.4
+x167.jpg,algin,66.7
+x167.jpg,disodium edta,70.0
+x167.jpg,polygonum cuspidatum root extract,43.5
+x167.jpg,hydrolyzed baicalensis root extract,45.0
+x167.jpg,camellia sinensis leaf extract,44.4
+x167.jpg,magnesium ascorbyl phosphate,54.2
+x167.jpg,hydrolyzed xanthan gum,46.7
+x167.jpg,chamomilla recutita flower/leaf extract,46.7
+x167.jpg,glycyrrhiza glabra root extract,43.2
+x167.jpg,scutellaria baicalensis root extract,46.2
+x167.jpg,collagen,93.3
+x167.jpg,rosmarinus officinalis leaf extract,47.4
+x168.jpg,phenoxyethanol,100.0
+x168.jpg,panthenol,100.0
+x168.jpg,saccharide isomerate,100.0
+x168.jpg,cholesterol,72.7
+x168.jpg,potassium sorbate,75.0
+x169.jpg,aqua (water),47.1
+x169.jpg,butylene glycol,60.0
+x169.jpg,dipropylene glycol,60.0
+x169.jpg,cyclopentasiloxane,85.7
+x169.jpg,stearyl alcohol,96.6
+x169.jpg,niacinamide,50.0
+x169.jpg,methylparaben,61.5
+x169.jpg,sodium stearoyl glutamate,64.7
+x169.jpg,cetearyl glucoside,80.0
+x169.jpg,ethylparaben,66.7
+x169.jpg,sodium hyaluronate,66.7
+x169.jpg,propylene glycol,64.0
+x169.jpg,maltodextrin,58.3
+x169.jpg,sodium hydroxide,74.1
+x169.jpg,sodium metabisulfite,64.5
+x169.jpg,tocopherol,100.0
+x17.jpg,aqua,100.0
+x17.jpg,cyclopentasiloxane,100.0
+x17.jpg,triethylhexanoin,93.8
+x17.jpg,glycerin,100.0
+x17.jpg,niacinamide,100.0
+x17.jpg,dimethicone,100.0
+x17.jpg,propylene glycol,100.0
+x17.jpg,stearic acid,100.0
+x17.jpg,cetyl alcohol,100.0
+x17.jpg,glyceryl stearate,100.0
+x17.jpg,peg-100 stearate,100.0
+x17.jpg,titanium dioxide,87.5
+x17.jpg,butyrospermum parkii (shea butter),100.0
+x17.jpg,sodium polyacrylate,100.0
+x17.jpg,trideceth-6,100.0
+x17.jpg,peg/ppg-18/18 dimethicone,100.0
+x17.jpg,diisopropyl dimer dilinoleate,93.1
+x17.jpg,polyglyceryl-4 isostearate,92.3
+x17.jpg,hexyl laurate,92.3
+x17.jpg,c9-15 fluoroalcohol phosphate,100.0
+x17.jpg,silica,100.0
+x17.jpg,alumina,100.0
+x17.jpg,cetearyl alcohol,100.0
+x17.jpg,xanthan gum,100.0
+x17.jpg,tocopheryl acetate,72.2
+x17.jpg,tetrahydrodiferuloylmethane,70.4
+x17.jpg,hamamelis virginiana water,73.1
+x17.jpg,bht,100.0
+x17.jpg,phenoxyethanol,100.0
+x17.jpg,chlorphenesin,100.0
+x17.jpg,perfume,100.0
+x17.jpg,benzoic acid,100.0
+x170.jpg,ethylhexyl salicylate,84.8
+x170.jpg,xanthan gum,100.0
+x170.jpg,centella asiatica leaf extract,92.9
+x171.jpg,neopentyl glycol dicaprylate/dicaprate,100.0
+x171.jpg,sodium polyacrylate,100.0
+x171.jpg,aluminum hydroxide,100.0
+x171.jpg,hydrolyzed sodium hyaluronate,100.0
+x171.jpg,sodium acetylated hyaluronate,100.0
+x171.jpg,sodium hyaluronate,100.0
+x171.jpg,sodium hyaluronate crosspolymer,100.0
+x171.jpg,acrylates copolymer,100.0
+x171.jpg,stearic acid,100.0
+x171.jpg,disodium edta,100.0
+x172.jpg,caprylic/capric triglyceride,100.0
+x172.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,100.0
+x172.jpg,glycyrrhiza inflata root extract,100.0
+x172.jpg,centella asiatica extract,100.0
+x172.jpg,hydrolyzed hyaluronic acid,100.0
+x172.jpg,pentylene glycol,100.0
+x172.jpg,sodium hyaluronate crosspolymer,100.0
+x173.jpg,ethylhexyl palmitate,84.6
+x173.jpg,peg-20 glyceryl triisostearate,100.0
+x173.jpg,synthetic wax,53.8
+x173.jpg,polyacrylamide,70.0
+x173.jpg,c13-14 isoparaffin,50.0
+x173.jpg,butylene glycol,88.9
+x173.jpg,butyrospermum parkii butter,93.0
+x173.jpg,laureth-7,61.5
+x173.jpg,tocopheryl acetate,100.0
+x173.jpg,oryza sativa bran oil,89.5
+x173.jpg,ceramide np,95.2
+x173.jpg,dipropylene glycol,100.0
+x173.jpg,hydrogenated lecithin,72.2
+x173.jpg,bambusa vulgaris leaf extract,100.0
+x173.jpg,camellia sinensis leaf extract,100.0
+x173.jpg,saccharomyces/copper ferment,82.1
+x173.jpg,saccharomyces/iron ferment,100.0
+x173.jpg,saccharomyces stearate,80.0
+x173.jpg,leuconostoc/radish root ferment filtrate,80.0
+x173.jpg,alpinia zerumbet leaf extract,84.0
+x173.jpg,calophyllum inophyllum seed oil,67.7
+x173.jpg,limnanthes alba seed oil,75.0
+x173.jpg,helianthus annuus seed oil,77.3
+x173.jpg,corylus avellana seed oil,92.0
+x173.jpg,macadamia ternifolia seed oil,80.0
+x173.jpg,oenothera biennis oil,60.0
+x173.jpg,rosa canina fruit oil,57.1
+x173.jpg,simmondsia chinensis seed oil,92.6
+x174.jpg,citrus aurantium dulcis fruit extract,100.0
+x174.jpg,"citrus sinensis fruit extract, 3-o-ethyl-ascorbic acid",100.0
+x174.jpg,vitis vinifera fruit extract,100.0
+x174.jpg,glutathione,100.0
+x174.jpg,hydroxypropyltrimonium hyaluronate,100.0
+x174.jpg,"glycerin, 1,2-hexanediol",100.0
+x174.jpg,cyclohexasiloxane,62.1
+x174.jpg,cyclopentasiloxane,60.0
+x175.jpg,glycerin,50.0
+x175.jpg,cyclohexasiloxane,31.6
+x175.jpg,squalane,62.5
+x175.jpg,bis-peg-18 methyl ether dimethyl silane,36.8
+x175.jpg,sucrose stearate,53.3
+x175.jpg,stearyl alcohol,41.7
+x175.jpg,peg-8 stearate,53.3
+x175.jpg,myristyl myristate,78.8
+x176.jpg,c13-14 isoparaffin,100.0
+x176.jpg,dimethicone crosspolymer,100.0
+x176.jpg,chrysanthemum parthenium (feverfew) flower/leaf/stem juice,100.0
+x177.jpg,chrysanthemum parthenium (feverfew) extract,100.0
+x177.jpg,glycyrrhiza glabra (licorice) root extract,100.0
+x177.jpg,glyceryl stearate citrate,100.0
+x178.jpg,water\aqua\eau,100.0
+x178.jpg,dimethicone,100.0
+x178.jpg,butylene glycol,100.0
+x178.jpg,glycerin,100.0
+x178.jpg,trisiloxane,100.0
+x178.jpg,trehalose,100.0
+x178.jpg,sucrose,100.0
+x178.jpg,hydroxyethyl urea,88.2
+x178.jpg,camellia sinensis (green tea) leaf extract,100.0
+x178.jpg,silybum marianum (lady's thistle) extract,100.0
+x178.jpg,betula alba (birch) bark extract,100.0
+x178.jpg,saccharomyces lysate extract,96.4
+x178.jpg,aloe barbadensis leaf water,88.9
+x178.jpg,aloe barbadensis leaf extract,100.0
+x178.jpg,thermus thermophillus ferment,86.2
+x178.jpg,caffeine,100.0
+x178.jpg,sorbitol,100.0
+x179.jpg,hydrogenated poly(c6-14 olefin),100.0
+x179.jpg,methyl trimethicone,100.0
+x179.jpg,"phytosteryl/behenyl/octyldodecyl lauroyl glutamate, 1,2-hexanediol",100.0
+x179.jpg,c12-20 alkyl glucoside,100.0
+x179.jpg,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,100.0
+x179.jpg,arachidyl glucoside,100.0
+x179.jpg,glyceryl caprylate,100.0
+x179.jpg,camellia sinensis leaf extract,100.0
+x179.jpg,camellia sinensis seed oil,100.0
+x18.jpg,aqua (water),54.5
+x18.jpg,cyclopentasiloxane,44.4
+x18.jpg,trimethylsiloxysilicate,70.0
+x18.jpg,dimethicone,70.0
+x18.jpg,ethylhexyl methoxycinnamate,58.8
+x18.jpg,zinc oxide,60.0
+x18.jpg,cetyl peg/ppg-10/1 dimethicone,79.2
+x18.jpg,silica,50.0
+x18.jpg,glycerin,61.5
+x18.jpg,isododecane,63.6
+x18.jpg,polymethylsilsesquioxane,60.0
+x18.jpg,disteardimonium hectorite,55.6
+x18.jpg,aluminum hydroxide,83.9
+x18.jpg,triethoxycaprylylsilane,63.2
+x18.jpg,chlorphenesin,60.0
+x18.jpg,dimethicone crosspolymer,76.9
+x18.jpg,ceteareth-20,52.6
+x18.jpg,tocopheryl acetate,53.3
+x18.jpg,magnesium sulfate,52.9
+x18.jpg,caprylyl glycol,40.0
+x18.jpg,maltodextrin,50.0
+x18.jpg,echinacea purpurea extract,61.5
+x18.jpg,rosa damascena flower water,63.2
+x18.jpg,"glycine, 1,2-hexanediol",59.5
+x18.jpg,xanthan gum,47.1
+x18.jpg,hydroxyethylcellulose,50.0
+x18.jpg,aloe barbadensis leaf extract,58.3
+x18.jpg,rubus idaeus fruit extract,50.0
+x18.jpg,glucose,54.5
+x18.jpg,chondrus crispus (carrageenan),45.5
+x18.jpg,sodium acetylated hyaluronate,76.6
+x18.jpg,hydrolyzed hyaluronic acid,57.1
+x18.jpg,ci 77891 (titanium dioxide),74.4
+x18.jpg,ci 77491,100.0
+x18.jpg,ci 77492,87.5
+x18.jpg,ci 77499 (iron oxides),72.7
+x180.jpg,water\aqua\eau,100.0
+x180.jpg,butylene glycol,100.0
+x180.jpg,peg-100 stearate,100.0
+x180.jpg,dimethicone,100.0
+x180.jpg,silica,100.0
+x180.jpg,cetyl ricinoleate,94.1
+x180.jpg,olea europaea (olive) fruit oil,100.0
+x180.jpg,trametes versicolor extract,100.0
+x180.jpg,glycerin,100.0
+x180.jpg,jojoba wax peg-120 esters,96.0
+x180.jpg,behenyl alcohol,100.0
+x180.jpg,hydrogenated lecithin,100.0
+x180.jpg,myristyl alcohol,100.0
+x180.jpg,panax ginseng root extract,100.0
+x180.jpg,coffea arabica (coffee) seed oil,100.0
+x180.jpg,caffeine,100.0
+x180.jpg,aminopropyl ascorbyl phosphate,96.7
+x180.jpg,caprylic/capric triglyceride,100.0
+x180.jpg,hypnea musciformis extract,100.0
+x180.jpg,gelidiella acerosa extract,100.0
+x180.jpg,sigesbeckia orientalis extract,100.0
+x180.jpg,ascophyllum nodosum extract,100.0
+x180.jpg,chrysanthellum indicum extract,100.0
+x180.jpg,asparagopsis armata extract,100.0
+x180.jpg,pyrus malus (apple) fruit extract,100.0
+x180.jpg,scutellaria baicalensis root extract,100.0
+x180.jpg,butyrospermum parkii (shea) butter,94.1
+x180.jpg,simmondsia chinensis (jojoba) seed oil,100.0
+x180.jpg,niacinamide,100.0
+x180.jpg,linoleic acid,100.0
+x180.jpg,phytosphingosine,100.0
+x180.jpg,tocopheryl acetate,100.0
+x180.jpg,trehalose,100.0
+x180.jpg,inulin,100.0
+x180.jpg,methyl trimethicone,100.0
+x180.jpg,tribehenin,100.0
+x180.jpg,sorbitol,100.0
+x180.jpg,ethylhexylglycerin,100.0
+x180.jpg,caprylyl glycol,93.3
+x180.jpg,carbomer,100.0
+x180.jpg,sodium hydroxide,100.0
+x180.jpg,sodium metabisulfite,100.0
+x180.jpg,sodium sulfite,100.0
+x180.jpg,disodium edta,100.0
+x180.jpg,phenoxyethanol,100.0
+x180.jpg,chlorphenesin,100.0
+x180.jpg,sorbic acid,100.0
+x180.jpg,potassium sorbate,100.0
+x180.jpg,mica,100.0
+x180.jpg,titanium dioxide (ci 77891),100.0
+x180.jpg,iron oxides (ci 77491),100.0
+x180.jpg,iron oxides (ci 77492),100.0
+x180.jpg,bismuth oxychloride (ci 77163),100.0
+x181.jpg,simmondsia chinensis (jojoba) seed oil,100.0
+x181.jpg,cetyl ethylhexanoate,90.0
+x181.jpg,glyceryl caprylate,97.1
+x182.jpg,dipropylene glycol,100.0
+x182.jpg,dimethicone,95.2
+x182.jpg,amaranthus caudatus seed extract,100.0
+x182.jpg,ulmus davidiana root extract,100.0
+x182.jpg,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,96.8
+x182.jpg,beta vulgaris (beet) root extract,100.0
+x182.jpg,portulaca oleracea extract,100.0
+x182.jpg,citrus aurantium bergamia (bergamot) fruit oil,100.0
+x182.jpg,hydrolyzed corn starch,90.9
+x182.jpg,propylene glycol,100.0
+x182.jpg,aloe barbadensis leaf juice,92.6
+x182.jpg,panthenol,80.0
+x182.jpg,algae extract,84.6
+x182.jpg,folic acid,100.0
+x182.jpg,acetic acid,100.0
+x182.jpg,cholesterol,81.8
+x182.jpg,xanthan gum,100.0
+x182.jpg,palmitoyl pentapeptide-4,91.7
+x183.jpg,caprylic/capric triglyceride,100.0
+x183.jpg,stellaria media (chickweed) extract,100.0
+x183.jpg,plantago lanceolata leaf extract,100.0
+x183.jpg,baptisia tinctoria root extract,100.0
+x183.jpg,phenyl trimethicone,95.2
+x184.jpg,stearyl alcohol,100.0
+x185.jpg,centella asiatica extract(72%),100.0
+x185.jpg,dipropylene glycol,88.9
+x185.jpg,caprylyl methicone,100.0
+x185.jpg,c30-45 alkyl cetearyl dimethicone crosspolymer,100.0
+x185.jpg,leuconostoc/radish root ferment filtrate,100.0
+x185.jpg,ceramide ap,100.0
+x185.jpg,stearic acid,100.0
+x186.jpg,polyglyceryl-3 methylglucose distearate,100.0
+x186.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,95.5
+x186.jpg,borago officialis seed oil,100.0
+x187.jpg,aqua,100.0
+x187.jpg,glycerin,100.0
+x187.jpg,dicaprylyl ether,56.2
+x187.jpg,dimethicone,100.0
+x187.jpg,cetyl alcohol,57.1
+x187.jpg,helianthus annuus seed oil,60.0
+x187.jpg,peg-30 stearate,94.7
+x187.jpg,panthenol,80.0
+x187.jpg,niacinamide,100.0
+x187.jpg,prunus amygdalus dulcis oil,100.0
+x187.jpg,dimethicone/vinyl dimethicone crosspolymer,100.0
+x187.jpg,carbomer,100.0
+x187.jpg,benzyl alcohol,58.3
+x187.jpg,sodium hydroxide,100.0
+x187.jpg,citric acid,45.5
+x188.jpg,water / aqua / eau,87.5
+x188.jpg,butylene glycol,96.6
+x188.jpg,glycerin,100.0
+x188.jpg,pentaerythrityl tetraethylhexanoate,98.6
+x188.jpg,arachidyl alcohol,94.1
+x188.jpg,dimethicone,100.0
+x188.jpg,behenyl alcohol,89.7
+x188.jpg,arachidyl glucoside,97.3
+x188.jpg,cetyl ethylhexanoate,97.4
+x188.jpg,cyclohexasiloxane,100.0
+x188.jpg,acrylate/sodium acryloyldimethyl taurate copolymer,94.0
+x188.jpg,phenoxyethanol,100.0
+x188.jpg,panax ginseng root extract,96.2
+x188.jpg,triethylhexanoin,93.8
+x188.jpg,butylene glycol dicaprylate/dicaprate,97.2
+x188.jpg,polyacrylate-13,100.0
+x188.jpg,lauryl peg-9 polydimethylsiloxyethyl dimethicone,93.8
+x188.jpg,cetyl peg/ppg-10/1 dimethicone,91.2
+x188.jpg,disteardimonium hectorite,98.0
+x188.jpg,methoxy peg-114/polyepsilon caprolactone,90.0
+x188.jpg,fragrance / parfum,94.1
+x188.jpg,disodium edta,100.0
+x188.jpg,sorbitan isostearate,97.4
+x188.jpg,ethylhexylglycerin,100.0
+x188.jpg,honey / miel,75.0
+x188.jpg,polysorbate 60,85.7
+x188.jpg,perilla ocymoides seed extract,93.3
+x188.jpg,dextrin,100.0
+x188.jpg,polysorbate 20,85.7
+x188.jpg,lilium candidum bulb extract,100.0
+x188.jpg,paeonia albiflora root extract,93.3
+x188.jpg,rehmannia glutinosa root extract,90.6
+x188.jpg,polygonatum officinale rhizome/root extract,93.0
+x188.jpg,nelumbo nucifera flower extract,83.9
+x188.jpg,glucose,100.0
+x188.jpg,carthamus tinctorius (safflower) flower extract,87.2
+x188.jpg,"glycyrrhiza uralensis (licorice) root extract, 1,2-hexanediol",88.5
+x188.jpg,gardenia florida fruit extract,93.3
+x188.jpg,alpha-isoamethyl ionone,91.3
+x188.jpg,limonene,100.0
+x188.jpg,hydrogenated lecithin,95.2
+x188.jpg,linalool,87.5
+x188.jpg,panax ginseng flower extract,92.9
+x188.jpg,hydroxyisohexyl 3-cyclohexene carboxaldehyde,93.2
+x188.jpg,hexyl cinnamal,85.7
+x188.jpg,sodium polyaspartate,95.0
+x188.jpg,phytosphingosine,100.0
+x188.jpg,sodium methyl stearoyl taurate,86.7
+x188.jpg,tocopherol,100.0
+x189.jpg,dipropylene glycol,66.7
+x189.jpg,sodium lauryl sulfate,85.0
+x189.jpg,phenoxyethanol,100.0
+x189.jpg,disodium edta,100.0
+x19.jpg,citrus aurantium dulcis fruit extract,100.0
+x19.jpg,"citrus sinensis fruit extract, 3-o-ethyl-ascorbic acid",100.0
+x19.jpg,hydroxypropyltrimonium hyaluronate,100.0
+x19.jpg,butylene glycol,100.0
+x19.jpg,"glycerin, 1,2-hexanediol",100.0
+x19.jpg,caprylyl glycol,100.0
+x19.jpg,glucose,100.0
+x190.jpg,water,100.0
+x190.jpg,moringa oleifera seed extract,100.0
+x190.jpg,solanum melongena (eggplant) fruit extract,100.0
+x190.jpg,polyglyceryl-3 methylglucose distearate,97.4
+x190.jpg,dipotassium glycyrrhizate,100.0
+x191.jpg,dicaprylyl carbonate,92.3
+x191.jpg,"hydrogenated poly (c6-14 olefin), 1,2-hexanediol",100.0
+x191.jpg,arachidyl glucoside,100.0
+x191.jpg,c12-20 alkyl glucoside,100.0
+x191.jpg,hydrogenated polyisobutene,100.0
+x191.jpg,polyglyceryl-10 laurate,100.0
+x191.jpg,hydrogenated lecithin,95.2
+x191.jpg,ethylhexyl palmitate,95.0
+x191.jpg,acrylates/ammonium methacrylate copolymer,97.6
+x191.jpg,prunus mume fruit extract,100.0
+x191.jpg,polyglyceryl-10 pentastearate,100.0
+x191.jpg,glycol distearate,78.6
+x191.jpg,dipotassium glycyrrhizate,100.0
+x192.jpg,water,100.0
+x192.jpg,hydrolyzed hyaluronic acid,100.0
+x192.jpg,sodium acetylated hyaluronate,100.0
+x192.jpg,corallina officinalis extract,89.4
+x192.jpg,glycyrrhiza glabra (licorice) root extract,69.8
+x193.jpg,"caprylic/capric triglyceride, 1,2-hexanediol",100.0
+x193.jpg,hdi/trimethylol hexyllactone crosspolymer,100.0
+x193.jpg,centella asiatica extract,87.0
+x193.jpg,hydrolyzed sodium hyaluronate,100.0
+x193.jpg,dipotassium glycyrrhizate,77.8
+x193.jpg,sodium hyaluronate crosspolymer,76.9
+x193.jpg,copper tripeptide-1,100.0
+x194.jpg,cetearyl olivate,100.0
+x194.jpg,bacillus/folic acid ferment filtrate extract,100.0
+x194.jpg,palmitoyl tetrapeptide-7,100.0
+x194.jpg,aspartic acid,100.0
+x194.jpg,xanthan gum,100.0
+x195.jpg,isostearyl isostearate,90.9
+x195.jpg,ethylene/acrylic acid copolymer,100.0
+x195.jpg,citrus limon (lemon) peel oil,100.0
+x195.jpg,averrhoa carambola (star fruit) extract,77.8
+x195.jpg,hibiscus esculentus fruit extract,100.0
+x195.jpg,citral,100.0
+x196.jpg,water,100.0
+x196.jpg,hydrogenated polydecene,100.0
+x196.jpg,dipropylene glycol,89.7
+x196.jpg,butyrospermum parkii (shea) butter,94.1
+x196.jpg,polyglyceryl-3 methylglucose distearate,94.9
+x196.jpg,laminaria japonica extract,100.0
+x196.jpg,prunus armeniaca (apricot) kernel oil,100.0
+x196.jpg,glyceryl caprylate,100.0
+x196.jpg,methylpropanediol,88.2
+x196.jpg,disodium edta,100.0
+x196.jpg,dimethylsilanol hyaluronate,100.0
+x196.jpg,sodium acetylated hyaluronate,100.0
+x196.jpg,"sodium hyaluronate dimethylsilanol, 1,2-hexanediol",96.0
+x197.jpg,caprylic/capric triglyceride,100.0
+x197.jpg,stearyl alcohol,100.0
+x197.jpg,sodium hyaluronate,100.0
+x197.jpg,sodium lactate,100.0
+x197.jpg,phytosteryl canola glycerides,100.0
+x197.jpg,trisodium ethylenediamine disuccinate,100.0
+x197.jpg,pentylene glycol,100.0
+x198.jpg,myristyl alcohol,100.0
+x198.jpg,myristyl myristate,100.0
+x198.jpg,glyceryl stearate,100.0
+x198.jpg,palmitic acid,100.0
+x198.jpg,stearic acid,100.0
+x198.jpg,simmondsia chinensis seed oil,100.0
+x198.jpg,prunus amygdalus dulcis oil,100.0
+x198.jpg,cetyl ricinoleate,100.0
+x198.jpg,sodium hydroxide,100.0
+x198.jpg,arachidic acid,100.0
+x199.jpg,cetearyl glucoside,100.0
+x199.jpg,peg-100 stearate,93.8
+x2.jpg,water,25.0
+x2.jpg,glycerin,25.0
+x2.jpg,niacinamide,36.4
+x2.jpg,aloe barbadensis leaf juice,34.8
+x2.jpg,allantoin,33.3
+x2.jpg,tocopheryl acetate,25.0
+x2.jpg,aloe barbadensis leaf juice powder,30.2
+x2.jpg,menthol,42.9
+x2.jpg,sodium hyaluronate,41.4
+x2.jpg,centella asiatica extract,32.0
+x2.jpg,maclura cochinchinensis leaf prenylflavonoids,33.8
+x2.jpg,rosa centifolia flower extract,32.1
+x2.jpg,trifolium pratense flower extract,33.9
+x2.jpg,phenoxyethanol,28.6
+x2.jpg,sucrose,42.9
+x2.jpg,fragrance,22.2
+x2.jpg,zea mays (corn) starch,31.8
+x2.jpg,xanthan gum,54.5
+x2.jpg,disodium edta,36.4
+x2.jpg,hydroxypropyl methylcellulose,24.4
+x2.jpg,ci 12490,25.0
+x2.jpg,ci 74160,25.0
+x2.jpg,potassium sorbate,35.7
+x2.jpg,sodium benzoate,33.3
+x2.jpg,ci 19140,25.0
+x2.jpg,butylene glycol,34.8
+x2.jpg,propanediol,28.6
+x2.jpg,ci 42090,25.0
+x2.jpg,ci 14720,25.0
+x2.jpg,ethyl hexanediol,31.2
+x20.jpg,ethylhexyl triazone,100.0
+x20.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,100.0
+x20.jpg,diethylamino hydroxybenzoyl hexyl benzoate,100.0
+x20.jpg,dimethicone/peg-10/15 crosspolymer,100.0
+x20.jpg,sodium chloride,100.0
+x20.jpg,c12-15 alkyl benzoate,100.0
+x20.jpg,titanium dioxide,100.0
+x20.jpg,lithops pseudotruncatella callus lysate,94.9
+x20.jpg,caesalpinia spinosa fruit pod extract,100.0
+x20.jpg,ascorbyl tetraisopalmitate,100.0
+x200.jpg,water(aqua/eau),100.0
+x200.jpg,dimethicone,100.0
+x200.jpg,butylene glycol,100.0
+x200.jpg,alcohol denat,100.0
+x200.jpg,betaine,100.0
+x200.jpg,glycerin,100.0
+x200.jpg,isohexadecane,100.0
+x200.jpg,hydrogenated polydecene,100.0
+x200.jpg,ppg-3 dipivalate,100.0
+x200.jpg,silica,100.0
+x200.jpg,behenyl alcohol,93.3
+x200.jpg,stearyl alcohol,93.3
+x200.jpg,myristyl myristate,100.0
+x200.jpg,glyceryl stearate se,95.0
+x200.jpg,polysorbate 60,100.0
+x200.jpg,peg-100 stearate,100.0
+x200.jpg,peg/ppg-14/7 dimethyl ether,100.0
+x200.jpg,peg/ppg-17/4 dimethyl ether,100.0
+x200.jpg,phenoxyethanol,100.0
+x200.jpg,dimethylacrylamide/sodium acryloyldimethyltaurate crosspolymer,100.0
+x200.jpg,titanium dioxide (ci 77891),100.0
+x200.jpg,sorbitan tristearate,95.0
+x200.jpg,erythritol,100.0
+x200.jpg,fragrance (parfum),94.4
+x200.jpg,alcohol,100.0
+x200.jpg,"aminopropyl dimethicone, 2-o-ethyl ascorbic acid",89.6
+x200.jpg,carbomer,100.0
+x200.jpg,trisodium edta,92.9
+x200.jpg,xanthan gum,90.9
+x200.jpg,caffeine,100.0
+x200.jpg,potassium hydroxide,94.7
+x200.jpg,isostearic acid,93.3
+x200.jpg,sodium metaphosphate,95.0
+x200.jpg,phytosteryl/octyldodecyl lauroyl glutamate,97.6
+x200.jpg,aluminum hydroxide,94.4
+x200.jpg,linalool,100.0
+x200.jpg,tocopherol,100.0
+x200.jpg,sodium metabisulfite,95.0
+x200.jpg,limonene,100.0
+x200.jpg,citrus unshiu peel extract,96.2
+x200.jpg,sodium hyaluronate,100.0
+x200.jpg,angelica keiskei leaf/stem extract,91.2
+x200.jpg,ziziphus jujuba fruit extract,93.1
+x200.jpg,panax ginseng root extract,100.0
+x200.jpg,sodium acetylated hyaluronate,100.0
+x200.jpg,scutellaria baicalensis root extract,100.0
+x200.jpg,iron oxides (ci 77491),100.0
+x200.jpg,alpinia speciosa leaf extract,100.0
+x200.jpg,rosmarinus officinalis (rosemary) leaf extract (rosmarinus officinalis leaf extract),100.0
+x200.jpg,sanguisorba officinalis root extract,100.0
+x200.jpg,pyrola incarnata extract,91.7
+x201.jpg,linoleamidopropyl pg-dimonium chloride phosphate,100.0
+x201.jpg,ammonium acryloyldimethyltaurate/beheneth-25 methacrylate crosspolymer,98.6
+x201.jpg,iodopropynyl butylcarbamate,98.1
+x201.jpg,sodium hyaluronate crosspolymer,100.0
+x201.jpg,sodium hyaluronate,100.0
+x201.jpg,hydrolyzed hyaluronic acid,100.0
+x201.jpg,sodium acetylated hyaluronate,100.0
+x201.jpg,pentylene glycol,100.0
+x201.jpg,ethylhexylglycerin,100.0
+x201.jpg,aqua,100.0
+x202.jpg,phenylbenzimidazole sulfonic acid,97.0
+x202.jpg,c12-15 alkyl benzoate,100.0
+x202.jpg,glycerin,87.5
+x202.jpg,sodium ascorbyl phosphate,93.9
+x202.jpg,cetyl alcohol,87.0
+x202.jpg,tocopherol,100.0
+x202.jpg,perfume,85.7
+x203.jpg,sodium pca,100.0
+x203.jpg,petrolatum,100.0
+x204.jpg,mineral oil,100.0
+x204.jpg,sodium polyacrylate,100.0
+x204.jpg,c13-14 isoparaffin,100.0
+x204.jpg,tocopheryl acetate,100.0
+x204.jpg,alpha-arbutin,100.0
+x204.jpg,octyl methoxycinnamate,100.0
+x205.jpg,aqua,100.0
+x205.jpg,ethylhexyl salicylate,100.0
+x205.jpg,biosaccharide gum-4,94.7
+x205.jpg,glycerin,100.0
+x205.jpg,peg-100 stearate,81.2
+x205.jpg,cetyl alcohol,100.0
+x205.jpg,caprylic/capric triglyceride,94.5
+x205.jpg,phenoxyethanol,100.0
+x205.jpg,passiflora edulis fruit extract,98.4
+x205.jpg,dl-panthenol,100.0
+x205.jpg,lupinus albus seed oil,100.0
+x205.jpg,dl-alpha-tocopherol,100.0
+x205.jpg,laureth-7,100.0
+x205.jpg,scutellaria baicalensis root extract,100.0
+x205.jpg,potassium sorbate,100.0
+x205.jpg,sodium benzoate,100.0
+x206.jpg,deionized water,100.0
+x206.jpg,butylene glycol,100.0
+x206.jpg,zinc pca,100.0
+x206.jpg,salicylic acid,100.0
+x206.jpg,niacinamide,100.0
+x206.jpg,sodium hyaluronate,100.0
+x206.jpg,carnitine,100.0
+x206.jpg,tocopherol,100.0
+x206.jpg,peg-40 hydrogenated castor oil,96.7
+x206.jpg,coco-glucoside,100.0
+x206.jpg,glyceryl oleate,100.0
+x206.jpg,triethanolamine,100.0
+x206.jpg,citric acid,90.9
+x207.jpg,aluminum chlorohydrate,54.5
+x207.jpg,niacinamide,47.1
+x207.jpg,centella asiatica extract,72.7
+x207.jpg,streptococcus thermophilus ferment,100.0
+x207.jpg,nephelium lappaceum seed extract,100.0
+x208.jpg,propanediol,100.0
+x208.jpg,aluminum hydroxide,100.0
+x208.jpg,triethylhexanoin,100.0
+x208.jpg,silica,66.7
+x208.jpg,isostearic acid,100.0
+x208.jpg,propylheptyl caprylate,100.0
+x208.jpg,sodium chloride,100.0
+x208.jpg,cetyl dimethicone,100.0
+x208.jpg,disteardimonium hectorite,100.0
+x208.jpg,propylene carbonate,100.0
+x208.jpg,dimethicone/peg-10/15 crosspolymer,100.0
+x208.jpg,lauryl peg-9 polydimethylsiloxyethyl dimethicone,100.0
+x208.jpg,oxothiazolidine,86.7
+x208.jpg,bisabolol,100.0
+x208.jpg,tocopheryl acetate,100.0
+x208.jpg,bis-ethylhexyl hydroxydimethoxy benzylmalonate,100.0
+x208.jpg,butylene glycol,100.0
+x208.jpg,polyglyceryl-3 polydimethylsiloxyethyl dimethicone,100.0
+x208.jpg,phenyl trimethicone,100.0
+x209.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,96.5
+x209.jpg,salix alba bark extract,100.0
+x209.jpg,melaleuca alternifolia (tea tree) extract,100.0
+x209.jpg,chondrus crispus extract,100.0
+x209.jpg,hydrolyzed sodium hyaluronate,100.0
+x21.jpg,propanediol,100.0
+x21.jpg,sclerotium gum,100.0
+x21.jpg,saccharide isomerate,100.0
+x21.jpg,butylene glycol,100.0
+x21.jpg,"mannitol, 1,2-hexanediol",95.8
+x21.jpg,houttuynia cordata extract,100.0
+x21.jpg,cellulose gum,87.0
+x21.jpg,caprylic/capric triglyceride,100.0
+x21.jpg,leptospermum scoparium branch/leaf oil,100.0
+x21.jpg,nigella sativa seed oil,100.0
+x21.jpg,taraxacopsis kurzii seed oil,76.4
+x21.jpg,glycyrrhiza glabra root extract,100.0
+x21.jpg,centella asiatica extract,100.0
+x21.jpg,scutellaria baicalensis root extract,100.0
+x21.jpg,phenethyl alcohol,100.0
+x21.jpg,potassium sorbate,100.0
+x21.jpg,glucose,100.0
+x21.jpg,chondrus crispus extract,81.0
+x21.jpg,morus alba lauroyl wheat amino acids,85.7
+x21.jpg,hyaluronic acid extract,78.9
+x21.jpg,hydroxypropyltrimonium hyaluronic acid,78.1
+x21.jpg,sodium benzoate,100.0
+x210.jpg,propylene glycol,100.0
+x210.jpg,cetearyl alcohol,100.0
+x210.jpg,phenoxyethanol,100.0
+x210.jpg,fragrance,100.0
+x210.jpg,cetyl alcohol,100.0
+x210.jpg,butyrospermum parkii butter,96.2
+x210.jpg,cetethyl morpholinium ethosulfate,93.8
+x210.jpg,zinc ricinoleate,100.0
+x210.jpg,propanediol,100.0
+x210.jpg,hamamelis virginiana leaf extract,97.0
+x210.jpg,vitis vinifera fruit extract,88.9
+x210.jpg,panthenol,100.0
+x210.jpg,lecithin,100.0
+x210.jpg,potassium sorbate,94.1
+x210.jpg,tocopherol,100.0
+x210.jpg,arachis hypogaea oil,100.0
+x210.jpg,folic acid,80.0
+x211.jpg,cyclopentasiloxane,100.0
+x211.jpg,phenyl trimethicone,100.0
+x211.jpg,dimethicone crosspolymer,100.0
+x211.jpg,acrylates/dimethicone copolymer,100.0
+x211.jpg,cetyl peg/ppg-10/1 dimethicone,100.0
+x211.jpg,silica,100.0
+x211.jpg,dimethicone/vinyl dimethicone crosspolymer,100.0
+x211.jpg,ethylhexyl methoxycinnamate,100.0
+x211.jpg,ci 77891,87.5
+x211.jpg,mica,100.0
+x211.jpg,propylene carbonate,100.0
+x211.jpg,phenoxyethanol,100.0
+x211.jpg,diethylamino hydroxybenzoyl hexyl benzoate,100.0
+x211.jpg,oryza sativa bran extract,100.0
+x211.jpg,diisostearyl malate,100.0
+x212.jpg,propanediol,100.0
+x212.jpg,sclerotium gum,100.0
+x212.jpg,butylene glycol,100.0
+x212.jpg,hydroxypropyl methylcellulose,96.6
+x212.jpg,dipotassium glycyrrhizate,100.0
+x212.jpg,caprylyl glycol,100.0
+x212.jpg,"mannitol, 1,2-hexanediol",95.8
+x212.jpg,houttuynia cordata extract,100.0
+x212.jpg,peg-40 hydrogenated castor oil,100.0
+x212.jpg,polysorbate 20,100.0
+x212.jpg,caprylic/capric triglyceride,100.0
+x212.jpg,leptospermum scoparium branch/leaf oil,98.7
+x212.jpg,glycyrrhiza glabra root extract,100.0
+x212.jpg,centella asiatica extract,100.0
+x212.jpg,polygonum cuspidatum root extract,100.0
+x212.jpg,phenethyl alcohol,100.0
+x212.jpg,potassium sorbate,100.0
+x212.jpg,scutellaria baicalensis root extract,100.0
+x212.jpg,rosmarinus officinalis leaf extract,72.3
+x212.jpg,ethylhexylglycerin,70.6
+x212.jpg,sodium hyaluronate,100.0
+x212.jpg,lactobacillus/rye flour ferment,57.1
+x212.jpg,magnolia biondii bark extract,64.2
+x212.jpg,chondrus crispus extract,63.6
+x212.jpg,propylene glycol,77.4
+x212.jpg,palm glycerides,72.0
+x212.jpg,capryloyl glycine,76.5
+x212.jpg,potassium lauroyl wheat amino acids,65.6
+x212.jpg,artemisia capillaris flower extract,78.0
+x212.jpg,morus alba root extract,80.0
+x212.jpg,ziziphus jujuba fruit extract,61.5
+x212.jpg,hydroxypropyltrimonium hyaluronate,75.0
+x212.jpg,hydrolyzed hyaluronic acid,79.1
+x212.jpg,sodium acetylated hyaluronate,75.0
+x212.jpg,sodium benzoate,100.0
+x212.jpg,hyaluronic acid,100.0
+x213.jpg,aqua,100.0
+x213.jpg,caprylic/capric triglyceride,88.9
+x213.jpg,stearyl alcohol,100.0
+x213.jpg,glyceryl stearate,100.0
+x213.jpg,hamamelis virginiana leaf extract,100.0
+x213.jpg,saccharomyces/persimmon fruit juice ferment extract,100.0
+x213.jpg,phenoxyethanol,100.0
+x213.jpg,allantoin,100.0
+x213.jpg,disodium edta,100.0
+x213.jpg,sodium lactate,92.9
+x213.jpg,bifida ferment lysate,95.2
+x214.jpg,water,100.0
+x214.jpg,ethylhexyl methoxycinnamate,92.6
+x214.jpg,alcohol denatured,88.2
+x214.jpg,cyclopentasiloxane,97.1
+x214.jpg,diethylamino hydroxybenzoyl hexyl benzoate,96.4
+x214.jpg,methylsilanol mannuronate,96.0
+x214.jpg,glycerin,87.5
+x214.jpg,butylene glycol,93.3
+x214.jpg,caprylyl methicone,100.0
+x214.jpg,titanium dioxide,100.0
+x214.jpg,methylene bis-benzotriazolyl tetramethylbutylphenol,96.1
+x214.jpg,dimethicone,100.0
+x214.jpg,octyldodecyl olivate,100.0
+x214.jpg,peg-60 glyceryl isostearate,100.0
+x214.jpg,artemia extract,100.0
+x214.jpg,octyldodecanol,100.0
+x214.jpg,echium plantagineum seed oil,100.0
+x214.jpg,helianthus annuus seed oil unsaponifiables,96.4
+x214.jpg,tocopherol,100.0
+x214.jpg,oxothiazolidine,100.0
+x214.jpg,zinc pca,100.0
+x214.jpg,polyglyceryl-10 diisostearate,96.6
+x214.jpg,polyglyceryl-10 laurate,100.0
+x214.jpg,cetyl ethylhexanoate,100.0
+x214.jpg,pentaerythrityl distearate,100.0
+x214.jpg,oryza sativa (rice) bran wax,92.9
+x214.jpg,dextrin palmitate,100.0
+x214.jpg,panthenol,100.0
+x214.jpg,tocopheryl acetate,100.0
+x214.jpg,xanthan gum,100.0
+x214.jpg,disodium edta,100.0
+x214.jpg,phenoxyethanol,100.0
+x214.jpg,methylparaben,100.0
+x215.jpg,propanediol,100.0
+x215.jpg,disteardimonium hectorite,100.0
+x215.jpg,glyceryl caprylate,100.0
+x215.jpg,sorbitan isostearate,100.0
+x215.jpg,sorbitan sesquiisostearate,100.0
+x215.jpg,camellia sinensis leaf extract,100.0
+x215.jpg,ci 77499,83.3
+x216.jpg,water,44.4
+x216.jpg,cyclopentasiloxane,40.0
+x216.jpg,glycerin,50.0
+x216.jpg,cetyl peg/ppg-10/1 dimethicone,42.9
+x216.jpg,cetyl ethylhexanoate,45.0
+x216.jpg,isononyl isononanoate,41.7
+x216.jpg,isododecane,37.5
+x216.jpg,trimethylsiloxysilicate/dimethiconol crosspolymer,40.0
+x216.jpg,polyglyceryl-4 isostearate,40.0
+x216.jpg,hexyl laurate,53.8
+x216.jpg,disteardimonium hectorite,40.0
+x216.jpg,aluminum hydroxide,50.0
+x216.jpg,silica,50.0
+x216.jpg,triethoxycaprylylsilane,40.0
+x216.jpg,phenoxyethanol,44.4
+x216.jpg,dimethicone crosspolymer,40.0
+x216.jpg,propylene carbonate,48.6
+x216.jpg,chlorphenesin,46.2
+x216.jpg,bisabolol,44.4
+x216.jpg,tocopheryl acetate,40.0
+x216.jpg,disodium edta,44.4
+x216.jpg,alumina,54.5
+x216.jpg,bacillus/soybean ferment extract,43.8
+x216.jpg,lactobacillus/rye flour ferment,61.3
+x216.jpg,"lactobacillus/soymilk ferment filtrate, 1,2-hexanediol",50.0
+x216.jpg,aloe barbadensis leaf juice powder,52.9
+x216.jpg,cocamidopropyl dimethylamine,40.0
+x216.jpg,butylene glycol,36.4
+x216.jpg,propanediol,45.5
+x216.jpg,salicylic acid,37.5
+x216.jpg,hydrolyzed algin,43.8
+x216.jpg,polysorbate 60,42.9
+x216.jpg,zinc sulfate,50.0
+x216.jpg,centella asiatica extract,40.9
+x216.jpg,ethylhexylglycerin,34.8
+x216.jpg,anthemis nobilis flower extract,40.0
+x216.jpg,ascorbic acid,57.1
+x216.jpg,beeswax,57.1
+x216.jpg,benzalkonium chloride,50.0
+x216.jpg,butyrospermum parkii (shea) butter,46.4
+x216.jpg,camellia sinensis leaf extract,40.8
+x216.jpg,fucus vesiculosus extract,60.0
+x216.jpg,isomerized safflower acid,40.0
+x216.jpg,kaolin,50.0
+x216.jpg,maltodextrin,41.7
+x216.jpg,palmitic acid,38.5
+x216.jpg,palmitoyl tripeptide-5,34.8
+x216.jpg,ci 77891,87.5
+x22.jpg,ascorbylpropyl hydrolyzed hyaluronate,100.0
+x23.jpg,ethylhexyl salicylate,100.0
+x23.jpg,neopentyl glycol diheptanoate,100.0
+x23.jpg,titanium dioxide,100.0
+x23.jpg,tocopheryl acetate,100.0
+x23.jpg,caprylic/capric triglyceride,100.0
+x23.jpg,sorbitan stearate,100.0
+x23.jpg,palmitoyl tetrapeptide-10,100.0
+x24.jpg,glyceryl acrylate/acrylic acid copolymer,97.5
+x25.jpg,deionized water,66.7
+x25.jpg,hexanediol,100.0
+x25.jpg,triethanolamine,100.0
+x25.jpg,peg-8,75.0
+x25.jpg,butylene glycol,64.3
+x25.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,66.7
+x25.jpg,salicylic acid,66.7
+x25.jpg,witch hazel extract,100.0
+x25.jpg,sodium benzoate,63.6
+x25.jpg,sodium hyaluronate,100.0
+x25.jpg,rice ferment filtrate (sake),68.0
+x25.jpg,perfume,60.0
+x25.jpg,allantoin,66.7
+x25.jpg,phenoxyethanol,100.0
+x25.jpg,isostearamidopropyl ethyldimonium ethosulfate,100.0
+x25.jpg,honey extract,100.0
+x25.jpg,alpha-arbutin,100.0
+x25.jpg,propylene glycol,55.2
+x25.jpg,anthemis nobilis flower extract,100.0
+x25.jpg,olea europaea (olive) fruit oil,88.0
+x26.jpg,aqua,57.1
+x26.jpg,cyclopentasiloxane,55.6
+x26.jpg,zinc oxide,50.0
+x26.jpg,titanium dioxide,50.0
+x26.jpg,butylene glycol,100.0
+x26.jpg,dipropylene glycol,100.0
+x26.jpg,octyl salicylate,54.5
+x26.jpg,"caprylyl methicone, 1,2-hexanediol",57.1
+x26.jpg,niacinamide,72.7
+x26.jpg,camellia sinensis leaf water,66.7
+x26.jpg,chamaecyparis obtusa water,60.0
+x26.jpg,ceramide np,81.8
+x26.jpg,dimethicone copolymer,50.0
+x26.jpg,sodium chloride,50.0
+x26.jpg,disteareth extract,50.0
+x26.jpg,tranexamic acid,66.7
+x26.jpg,allantoin,55.6
+x26.jpg,ci 77492,50.0
+x26.jpg,zeolite,50.0
+x26.jpg,perfume,57.1
+x26.jpg,glycerin,100.0
+x26.jpg,beta-glucan,100.0
+x26.jpg,stearic acid,60.0
+x26.jpg,triethoxycaprylylsilane,50.0
+x26.jpg,astaxanthin,50.0
+x26.jpg,ethylhexylglycerin,100.0
+x26.jpg,sodium hyaluronate,44.4
+x26.jpg,hydrogenated lecithin,100.0
+x26.jpg,sucrose distearate,50.0
+x26.jpg,linalool,60.0
+x26.jpg,alpha-isomethyl ionone,46.2
+x27.jpg,ethylhexyl salicylate,75.7
+x27.jpg,butylene glycol,84.6
+x27.jpg,neopentyl glycol diheptanoate,80.9
+x27.jpg,cetearyl alcohol,80.0
+x27.jpg,phenoxyethanol,100.0
+x27.jpg,glyceryl stearate,100.0
+x27.jpg,dimethicone,80.0
+x27.jpg,titanium dioxide,100.0
+x27.jpg,niacinamide,70.6
+x27.jpg,vp/hexadecene copolymer,100.0
+x27.jpg,"potassium hydroxide, 3-o-ethyl ascorbic acid",100.0
+x27.jpg,tocopheryl acetate,100.0
+x27.jpg,caprylic/capric triglyceride,100.0
+x27.jpg,buddleja officinalis flower extract,90.6
+x27.jpg,cetyl palmitate,96.6
+x27.jpg,sorbitan stearate,96.8
+x27.jpg,palmitoyl tetrapeptide-10,91.3
+x28.jpg,tranexamic acid,80.0
+x28.jpg,niacinamide,63.6
+x28.jpg,ethylhexylglycerin,100.0
+x28.jpg,phospholipids,78.3
+x28.jpg,propoxytriglycol,62.5
+x28.jpg,sodium magnesium silicate,82.6
+x28.jpg,dl-alpha-tocopheryl acetate,100.0
+x28.jpg,butylene glycol,100.0
+x28.jpg,aspalathus linearis extract,100.0
+x29.jpg,water,100.0
+x29.jpg,titanium dioxide,43.8
+x29.jpg,cyclopentasiloxane,72.2
+x29.jpg,isohexadecane,48.0
+x29.jpg,glycerin,62.5
+x29.jpg,propylene glycol,59.3
+x29.jpg,dimethicone,45.5
+x29.jpg,polymethylsilsesquioxane,66.7
+x29.jpg,polyglyceryl-2 dipolyhydroxystearate,87.5
+x29.jpg,polyglyceryl-3 distearate,70.0
+x29.jpg,magnesium sulfate,76.5
+x29.jpg,cetyl peg/ppg-10/1 dimethicone,36.7
+x29.jpg,citrullus vulgaris (watermelon) fruit extract,93.3
+x29.jpg,ci 77491,93.3
+x29.jpg,diazolidinyl urea,52.9
+x29.jpg,methylparaben,56.0
+x29.jpg,propylparaben,53.8
+x29.jpg,fragrance,71.4
+x29.jpg,"solanum lycopersicum fruit extract, 3-o-ethyl ascorbic acid",73.3
+x3.jpg,citrus aurantium dulcis fruit extract,100.0
+x3.jpg,ci 16255,85.7
+x30.jpg,water,100.0
+x30.jpg,propanediol,100.0
+x30.jpg,glycerin,87.5
+x30.jpg,cyclopentasiloxane,88.9
+x30.jpg,niacinamide,90.9
+x30.jpg,"phenyl trimethicone, 1,2-hexanediol",82.9
+x30.jpg,lactobacillus ferment filtrate,50.0
+x30.jpg,galactomyces ferment filtrate,48.3
+x30.jpg,morinda citrifolia fruit extract,56.7
+x30.jpg,portulaca oleracea extract,96.2
+x30.jpg,camellia japonica seed extract,96.7
+x30.jpg,phaseolus radiatus seed extract,96.8
+x30.jpg,decursinol,100.0
+x30.jpg,swiftlet nest extract,90.5
+x30.jpg,centella asiatica extract,84.0
+x30.jpg,camellia sinensis leaf extract,86.7
+x30.jpg,nelumbo nucifera flower extract,80.6
+x30.jpg,phenoxyethanol,100.0
+x30.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,65.9
+x30.jpg,sodium hyaluronate,94.4
+x30.jpg,adenosine,88.9
+x30.jpg,butylene glycol,86.7
+x30.jpg,benzophenone-9,92.9
+x30.jpg,sodium hydroxide,100.0
+x30.jpg,disodium edta,100.0
+x30.jpg,polysilicone-11,60.9
+x30.jpg,dipropylene glycol,55.6
+x30.jpg,triethyl citrate,58.3
+x30.jpg,triacontanyl pvp,50.0
+x30.jpg,hamamelis virginiana (witch hazel) extract,85.7
+x30.jpg,ci 14700,50.0
+x30.jpg,ci 19140,62.5
+x30.jpg,hydrogenated lecithin,100.0
+x30.jpg,glucose,100.0
+x30.jpg,arginine,100.0
+x30.jpg,hydroxypropyl methylcellulose,68.2
+x30.jpg,citric acid,100.0
+x30.jpg,calcium carbonate,94.1
+x30.jpg,acetyl glucosamine,88.9
+x30.jpg,ascorbic acid,100.0
+x30.jpg,glutathione,90.9
+x31.jpg,deionized water,51.9
+x31.jpg,niacinamide,63.2
+x31.jpg,propanediol,50.0
+x31.jpg,butylene glycol,50.0
+x31.jpg,caprylic/capric triglyceride,66.7
+x31.jpg,zinc gluconate,37.5
+x31.jpg,salicylic acid,46.2
+x31.jpg,sodium polyacrylate,42.1
+x31.jpg,c13-14 isoparaffin,38.9
+x31.jpg,amylopectin,45.5
+x31.jpg,centella asiatica extract,46.2
+x31.jpg,dextrin,46.2
+x31.jpg,xanthan gum,36.4
+x31.jpg,carbomer,54.5
+x31.jpg,peumus boldus leaf extract,38.1
+x31.jpg,glycerine,58.8
+x31.jpg,hydrolyzed collagen,40.0
+x31.jpg,phenoxyethanol,46.2
+x31.jpg,laureth-7,53.3
+x31.jpg,sodium hyaluronate crosspolymer,41.7
+x31.jpg,pentylene glycol,50.0
+x31.jpg,pistacia lentiscus gum,44.4
+x31.jpg,lecithin,50.0
+x31.jpg,helichrysum italicum extract,34.8
+x31.jpg,hydrolyzed algin,40.0
+x31.jpg,chlorphenesin,50.0
+x31.jpg,sodium lauroyl lactylate,44.4
+x31.jpg,glyceryl caprylate,41.7
+x31.jpg,tea,66.7
+x31.jpg,disodium edta,40.0
+x31.jpg,ceramide np,90.0
+x31.jpg,ceramide ap,90.0
+x31.jpg,phytosphingosine,33.3
+x31.jpg,ethylhexylglycerin,47.1
+x31.jpg,nicotiana benthamiana hexapeptide-40 sh-polypeptide-76,74.6
+x32.jpg,aqua,75.0
+x32.jpg,propanediol,81.8
+x32.jpg,niacinamide,81.8
+x32.jpg,panthenol,100.0
+x32.jpg,isododecane,100.0
+x32.jpg,butylene glycol,66.7
+x32.jpg,dimethyl isosorbide,57.9
+x32.jpg,phenoxyethanol,50.0
+x32.jpg,tocopherol,50.0
+x32.jpg,tranexamic acid,53.3
+x32.jpg,dipotassium glycyrrhizate,65.2
+x32.jpg,cyclohexasiloxane,70.6
+x32.jpg,bis-peg-18 methyl ether dimethyl silane,80.0
+x32.jpg,carbomer,54.5
+x32.jpg,pentylene glycol,81.2
+x32.jpg,lactobacillus/rice ferment,45.2
+x32.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,54.5
+x32.jpg,fragrance,57.1
+x32.jpg,hydrogenated polyisobutene,69.2
+x32.jpg,allantoin,88.9
+x32.jpg,ascorbyl tetraisopalmitate,84.6
+x32.jpg,disodium edta,100.0
+x32.jpg,menthyl pca,63.6
+x32.jpg,arisaema amurense extract,58.8
+x32.jpg,saccharide isomerate,51.6
+x32.jpg,sodium hydroxide,68.8
+x32.jpg,sodium hyaluronate,88.9
+x32.jpg,camellia sinensis seed oil,57.7
+x32.jpg,"decyl glucoside, 1,2-hexanediol",50.0
+x32.jpg,glycerin,62.5
+x32.jpg,croton lechleri resin extract,70.3
+x32.jpg,maltodextrin,50.0
+x32.jpg,glyceryl stearate,71.4
+x32.jpg,cetearyl alcohol,87.5
+x32.jpg,hydrogenated lecithin,100.0
+x32.jpg,xanthan gum,100.0
+x32.jpg,polysorbate 80,92.9
+x32.jpg,citric acid,54.5
+x32.jpg,sodium citrate,64.3
+x32.jpg,magnolia sieboldii extract,53.3
+x32.jpg,potassium sorbate,58.8
+x32.jpg,sodium benzoate,66.7
+x32.jpg,hydroxypropyltrimonium chondrus crispus extract,60.0
+x32.jpg,zymomonas ferment extract,68.3
+x32.jpg,glycopeptides,61.5
+x32.jpg,glucose,57.1
+x32.jpg,honey extract,76.2
+x32.jpg,hydrolyzed hyaluronic acid,57.7
+x32.jpg,sodium acetylated hyaluronate,66.7
+x32.jpg,hyaluronic acid,66.7
+x32.jpg,hydrolyzed sodium hyaluronate,75.9
+x32.jpg,sodium hyaluronate crosspolymer,87.1
+x32.jpg,potassium hyaluronate,95.2
+x33.jpg,zinc oxide,88.9
+x33.jpg,butylene glycol,100.0
+x33.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,98.9
+x33.jpg,ethylhexyl salicylate,100.0
+x33.jpg,terephthalylidene dicamphor sulfonic acid,100.0
+x33.jpg,titanium dioxide,100.0
+x33.jpg,"c12-15 alkyl benzoate, 1,2-hexanediol",94.6
+x33.jpg,niacinamide,100.0
+x33.jpg,hydrogenated polycyclopentadiene,71.4
+x33.jpg,cetearyl alcohol,100.0
+x33.jpg,aluminum hydroxide,100.0
+x33.jpg,ammonium polyacryloyldimethyl taurate/vp copolymer,97.4
+x33.jpg,polymethylsilsesquioxane,76.2
+x33.jpg,polyphenylsilsesquioxane,76.2
+x33.jpg,xanthan gum,100.0
+x33.jpg,dimethicone,100.0
+x33.jpg,caprylic/capric triglyceride,100.0
+x33.jpg,phosphoryl panthenol,66.7
+x33.jpg,wine extract,100.0
+x33.jpg,sodium polyacrylate,75.7
+x33.jpg,sodium hyaluronic acid,100.0
+x33.jpg,ceramide crosspolymer,100.0
+x33.jpg,acetyl ap,77.8
+x33.jpg,sodium retinyl hyaluronate,81.8
+x33.jpg,isoleucine,61.5
+x33.jpg,linoleate,88.9
+x33.jpg,biotin,100.0
+x33.jpg,resveratrol,100.0
+x34.jpg,citrus aurantium dulcis fruit extract,100.0
+x34.jpg,"citrus sinensis fruit extract, 3-o-ethyl-ascorbic acid",100.0
+x34.jpg,hydroxypropyltrimonium hyaluronate,100.0
+x34.jpg,trideceth-10,90.9
+x34.jpg,butylene glycol,100.0
+x34.jpg,"glycerin, 1,2-hexanediol",95.7
+x35.jpg,cetyl alcohol,100.0
+x35.jpg,sodium polyacrylate,78.9
+x35.jpg,ammonium polyacryldimethyltauramide,66.7
+x36.jpg,ethylhexyl methoxycinnamate,74.4
+x36.jpg,sodium myristate,76.9
+x36.jpg,polyacrylate,58.8
+x36.jpg,octocrylene,57.1
+x36.jpg,phenoxyethanol,50.0
+x36.jpg,lanolin fruit extract,75.0
+x36.jpg,collagen,66.7
+x37.jpg,xylitol,75.0
+x37.jpg,glycerin,85.7
+x37.jpg,glyceryl stearate,76.5
+x37.jpg,cetyl alcohol,100.0
+x37.jpg,polymethylsilsesquioxane,93.3
+x37.jpg,propanediol,85.7
+x37.jpg,ammonium polyacryldimethyltauramide,69.2
+x38.jpg,dipropylene glycol,100.0
+x38.jpg,sodium chloride,100.0
+x38.jpg,arachidic acid,92.9
+x38.jpg,rubus idaeus (raspberry) fruit extract,97.3
+x38.jpg,vaccinium angustifolium (blueberry) fruit extract,97.9
+x38.jpg,caprylyl glycol,100.0
+x38.jpg,bellis perennis (daisy) flower extract,100.0
+x38.jpg,jasminum officinale (jasmine) flower extract,100.0
+x38.jpg,prunus mume flower extract,100.0
+x39.jpg,water,60.0
+x39.jpg,butylene glycol,50.0
+x39.jpg,alcohol,50.0
+x39.jpg,peg-40 hydrogenated castor oil,50.0
+x39.jpg,sorbitan sesquioleate,66.7
+x39.jpg,triethylhexanoin,80.0
+x39.jpg,methylparaben,47.6
+x39.jpg,dipotassium glycyrrhizate,68.0
+x39.jpg,tranexamic acid,66.7
+x39.jpg,disodium edta,53.8
+x39.jpg,menthol,42.9
+x39.jpg,sodium hyaluronate,50.0
+x39.jpg,camphor,57.1
+x39.jpg,coix lacryma-jobi ma-yuen seed extract,54.5
+x39.jpg,houttuynia cordata extract,59.1
+x4.jpg,aqua,50.0
+x4.jpg,caprylic/capric triglyceride,100.0
+x4.jpg,dimethicone,100.0
+x4.jpg,cyclopentasiloxane,60.0
+x4.jpg,ethylhexyl methoxycinnamate,57.1
+x4.jpg,ethylhexyl dicarbonate,100.0
+x4.jpg,magnesium sulfate,78.6
+x4.jpg,hexamethyldisiloxane,100.0
+x4.jpg,ci 77019,50.0
+x4.jpg,silica dimethyl silylate,100.0
+x4.jpg,chlorphenesin,60.0
+x4.jpg,tocopheryl acetate,57.1
+x4.jpg,diethyl phthalate,100.0
+x4.jpg,disodium edta,100.0
+x4.jpg,ci 77891,50.0
+x4.jpg,citrullus lanatus seed oil,100.0
+x4.jpg,"propanediol, 1,2-hexanediol",100.0
+x4.jpg,pearl extract,78.3
+x4.jpg,glycerin,66.7
+x4.jpg,ci 15850,50.0
+x4.jpg,disodium stearoyl glutamate,100.0
+x4.jpg,hordeum vulgare extract,100.0
+x4.jpg,glyceryl undecylenate,100.0
+x4.jpg,citrullus lanatus fruit extract,100.0
+x4.jpg,linoleic acid,100.0
+x4.jpg,linolenic acid,100.0
+x4.jpg,ascorbyl palmitate,75.9
+x40.jpg,fragaria ananassa fruit extract,96.7
+x40.jpg,pyrus malus fruit extract,100.0
+x40.jpg,carica papaya fruit extract,100.0
+x40.jpg,glycyrrhiza glabra (licorice) root extract,63.8
+x41.jpg,ribes nigrum seed oil,100.0
+x41.jpg,polyacrylate crosspolymer-6,100.0
+x41.jpg,opuntia ficus-indica stem extract,100.0
+x41.jpg,hydrogenated phosphatidylcholine,100.0
+x41.jpg,rosmarinus officinalis leaf extract,100.0
+x42.jpg,polyglyceryl-2 stearyl alcohol,100.0
+x42.jpg,onopordum acanthium flower/leaf/stem extract,97.7
+x42.jpg,hydroxyethyl alginate,61.5
+x42.jpg,scutellaria baicalensis root extract,100.0
+x42.jpg,"sebacic acid, 10-decanedioic acid",92.9
+x43.jpg,aqua,66.7
+x43.jpg,niacinamide,50.0
+x43.jpg,propanediol,50.0
+x43.jpg,butylene glycol,66.7
+x43.jpg,ethoxydiglycol,50.0
+x43.jpg,bis-peg/ppg-16/16 peg/ppg-16/16 dimethicone,66.7
+x43.jpg,glycerin,62.5
+x43.jpg,phenoxyethanol,43.5
+x43.jpg,isopropyl myristate,51.6
+x43.jpg,cyclomethicone,50.0
+x43.jpg,carbomer,75.0
+x43.jpg,triethanolamine,52.6
+x43.jpg,cyclopentasiloxane,53.3
+x43.jpg,aloe barbadensis leaf juice powder,66.7
+x43.jpg,chlorphenesin,66.7
+x43.jpg,caprylic/capric triglyceride,53.3
+x43.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,55.6
+x43.jpg,allantoin,60.0
+x43.jpg,isohexadecane,50.0
+x43.jpg,camellia japonica flower extract,65.6
+x43.jpg,glyceryl caprylate,72.2
+x43.jpg,magnolia kobus branch/flower/leaf extract,94.9
+x43.jpg,nelumbo nucifera flower extract,96.8
+x43.jpg,dimethicone crosspolymer,85.7
+x43.jpg,sodium hyaluronate,87.5
+x43.jpg,polysorbate 80,66.7
+x43.jpg,sorbitan oleate,84.2
+x43.jpg,aureobasidium pullulans ferment,87.3
+x43.jpg,saccharomyces ferment,90.5
+x43.jpg,fragrance,100.0
+x43.jpg,alpha-arbutin,83.3
+x43.jpg,caprylyl 2-glyceryl ascorbate,80.0
+x43.jpg,collagen,53.3
+x43.jpg,"dipotassium glycyrrhizate, 1,2-hexanediol",48.8
+x43.jpg,xanthan gum,58.8
+x43.jpg,ethyl hexanediol,50.0
+x43.jpg,glucomannan,66.7
+x43.jpg,ci 16255,50.0
+x43.jpg,isomalt,50.0
+x43.jpg,hexacarboxymethyl dipeptide-12,50.0
+x43.jpg,algae extract,76.9
+x43.jpg,hemerocallis fulva flower extract,66.7
+x43.jpg,hydrolyzed rice extract,66.7
+x43.jpg,polyvinyl alcohol,48.3
+x43.jpg,oryza sativa callus culture extract,66.7
+x43.jpg,sodium coco-glucoside,51.4
+x43.jpg,beeswax,80.0
+x43.jpg,theobroma cacao seed butter,71.4
+x43.jpg,cetyl palmitate,60.0
+x43.jpg,euphorbia cerifera cera,62.5
+x43.jpg,sorbitan stearate,60.0
+x43.jpg,narcissus tazetta bulb extract,66.7
+x43.jpg,rhododendron ferrugineum leaf cell culture extract,66.7
+x43.jpg,sodium benzoate,66.7
+x43.jpg,potassium sorbate,62.5
+x43.jpg,ethylhexylglycerin,50.0
+x43.jpg,hydrogenated lecithin,50.0
+x43.jpg,lactic acid,50.0
+x43.jpg,niacin,50.0
+x43.jpg,resveratrol,46.2
+x43.jpg,tocopheryl acetate,61.1
+x43.jpg,dimethyl sulfone,50.0
+x43.jpg,panax ginseng root extract,57.1
+x43.jpg,portulaca oleracea extract,61.5
+x43.jpg,thioctic acid,38.5
+x43.jpg,palmitoyl tetrapeptide-10,44.4
+x43.jpg,palmitoyl tripeptide-5,44.4
+x44.jpg,peg-120 methyl glucose dioleate,96.8
+x44.jpg,butyl methoxydibenzoylmethane,86.2
+x44.jpg,disodium edta,100.0
+x44.jpg,allantoin,100.0
+x44.jpg,maltodextrin,75.0
+x44.jpg,"deoxymyristoyl palmitoyl amide mea, 1,2-hexanediol",78.3
+x44.jpg,hydrogenated lecithin,100.0
+x44.jpg,lactobacillus ferment,100.0
+x44.jpg,hydrolyzed hyaluronic acid,100.0
+x44.jpg,sodium hyaluronate crosspolymer,100.0
+x45.jpg,mineral oil,100.0
+x45.jpg,cetearyl alcohol,100.0
+x45.jpg,dimethicone,100.0
+x45.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,100.0
+x45.jpg,retinyl palmitate,100.0
+x45.jpg,helianthus annuus (sunflower) seed oil,100.0
+x46.jpg,niacinamide,66.7
+x46.jpg,carbomer,80.0
+x46.jpg,glycerin,50.0
+x46.jpg,propylene glycol,43.8
+x46.jpg,phenoxyethanol,100.0
+x46.jpg,allantoin,100.0
+x47.jpg,bifida ferment filtrate,100.0
+x47.jpg,caprylyl glycol,100.0
+x48.jpg,simmondsia chinensis seed oil,100.0
+x48.jpg,peg-100 stearate,100.0
+x48.jpg,aluminum hydroxide,100.0
+x48.jpg,arginine,75.0
+x48.jpg,ci 15985,75.0
+x48.jpg,sodium benzoate,100.0
+x48.jpg,boric acid,90.0
+x49.jpg,oryza sativa (rice) bran extract,79.3
+x49.jpg,butylene glycol,60.0
+x49.jpg,glycerin,50.0
+x49.jpg,dimethicone,54.5
+x49.jpg,dipropylene glycol,66.7
+x49.jpg,acryloyldimethyl taurate copolymer,74.2
+x49.jpg,ethylhexyl salicylate,53.7
+x49.jpg,dimethiconol,50.0
+x49.jpg,titanium dioxide (ci 77891),58.5
+x49.jpg,niacinamide,54.5
+x49.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,60.7
+x49.jpg,vanilla planifolia fruit extract,44.4
+x49.jpg,yogurt extract,58.3
+x49.jpg,aglae americana leaf extract,50.0
+x49.jpg,polysorbate 80,50.0
+x49.jpg,fragaria chiloensis (strawberry) fruit extract,47.8
+x49.jpg,boswellia serrata resin extract,67.8
+x49.jpg,ascorbyl glucoside,91.4
+x49.jpg,oryza sativa (rice) bran oil,96.3
+x49.jpg,beet root extract,48.0
+x49.jpg,sorbitan oleate,80.0
+x49.jpg,daucus carota sativa (carrot) extract,64.9
+x49.jpg,diacetyl boldine,51.9
+x49.jpg,magnesium ascorbyl phosphate,48.9
+x49.jpg,tetrahexyldecyl ascorbate,48.9
+x49.jpg,sodium riboflavin phosphate,44.4
+x49.jpg,fragrance,77.8
+x5.jpg,dipropylene glycol,100.0
+x5.jpg,glycerin,100.0
+x5.jpg,bifida ferment filtrate,86.4
+x5.jpg,hydrolyzed collagen,100.0
+x5.jpg,lactococcus ferment,100.0
+x5.jpg,panthenol,100.0
+x5.jpg,butylene glycol,100.0
+x5.jpg,adenosine,100.0
+x50.jpg,aqua (water),50.0
+x50.jpg,octocrylene,63.6
+x50.jpg,ethylhexyl methoxycinnamate,50.0
+x50.jpg,dibutyl adipate,53.8
+x50.jpg,dipropylene glycol,66.7
+x50.jpg,"diethylhexyl 2,6-naphthalate",75.0
+x50.jpg,methylene bis-benzotriazolyl tetramethylbutylphenol (nano),52.9
+x50.jpg,butylene glycol,66.7
+x50.jpg,cyclopentasiloxane,66.7
+x50.jpg,cetyl phosphate,62.1
+x50.jpg,titanium dioxide,69.6
+x50.jpg,cetearyl alcohol,53.8
+x50.jpg,phenoxyethanol,50.0
+x50.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,54.5
+x50.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,77.8
+x50.jpg,decyl glucoside,52.2
+x50.jpg,disodium edta,69.2
+x50.jpg,tocopheryl acetate,62.1
+x50.jpg,vp/hexadecene copolymer,50.0
+x50.jpg,sodium polyacrylate,73.7
+x50.jpg,hydroxyethyl cellulose,47.6
+x50.jpg,polysorbate 20,54.5
+x50.jpg,butylene glycol dicaprylate/dicaprate,66.7
+x50.jpg,hydrolyzed sodium hyaluronate,65.5
+x50.jpg,sodium hyaluronate crosspolymer,72.7
+x50.jpg,sodium hyaluronate,87.5
+x50.jpg,ethylhexylglycerin,50.0
+x50.jpg,geranium robertianum extract,50.0
+x50.jpg,scutellaria baicalensis root extract,75.0
+x50.jpg,houttuynia cordata extract,66.7
+x50.jpg,citrus reticulata (tangerine) peel extract,51.9
+x50.jpg,centaurea cyanus flower extract,53.3
+x50.jpg,aspalathus linearis extract,75.0
+x50.jpg,elaeis guineensis extract,66.7
+x50.jpg,porphyra yezoensis extract,50.0
+x50.jpg,phaseolus radiatus sprout extract,53.3
+x51.jpg,water,100.0
+x51.jpg,hydroxyacetophenone,80.0
+x51.jpg,adenosine,100.0
+x51.jpg,polyacrylate-13,66.7
+x51.jpg,garcinia mangostana peel extract,96.9
+x51.jpg,pueraria lobata root extract,90.9
+x51.jpg,ulmus davidiana root extract,96.3
+x52.jpg,sorbeth-30 tetraoleate,100.0
+x52.jpg,olea europaea fruit oil,100.0
+x53.jpg,butylene glycol,92.9
+x53.jpg,polyglyceryl-4 isostearate,92.0
+x53.jpg,sodium hyaluronate,100.0
+x54.jpg,aqua,50.0
+x54.jpg,glycerin,37.5
+x54.jpg,alcohol denat,38.1
+x54.jpg,niacinamide,40.0
+x54.jpg,peg-40 hydrogenated castor oil,40.0
+x54.jpg,isobutylamido thiazolyl resorcinol,33.3
+x54.jpg,sodium hyaluronate,38.1
+x54.jpg,aloe barbadensis leaf juice powder,40.0
+x54.jpg,glucosylrutin,37.5
+x54.jpg,isoquercitrin,25.0
+x54.jpg,trisodium edta,31.6
+x54.jpg,citric acid,37.5
+x54.jpg,phenoxyethanol,34.8
+x54.jpg,parfum,33.3
+x54.jpg,ci 16035,75.0
+x55.jpg,butylene glycol,100.0
+x55.jpg,ethylhexyl methoxycinnamate,100.0
+x55.jpg,sodium acrylate/acryloyldimethyl taurate copolymer,90.1
+x55.jpg,amorphophallus konjac root extract,100.0
+x55.jpg,sodium polyacrylate,100.0
+x55.jpg,phenoxyethanol,100.0
+x55.jpg,ethylhexyl stearate,100.0
+x55.jpg,hamamelis virginiana extract,85.7
+x55.jpg,"disodium edta, 1,2-hexanediol",100.0
+x56.jpg,aqua,75.0
+x56.jpg,niacinamide,62.5
+x56.jpg,glycereth-26,58.3
+x56.jpg,glycerin,87.5
+x56.jpg,phenoxyethanol,57.1
+x56.jpg,carbomer,75.0
+x56.jpg,dimethicone,45.5
+x56.jpg,sucrose isostearate,63.2
+x56.jpg,triethanolamine,53.3
+x56.jpg,cyclopentasiloxane,52.6
+x56.jpg,ethylene brassylate,64.0
+x56.jpg,betaine,60.0
+x56.jpg,chlorphenesin,47.6
+x56.jpg,sodium hyaluronate (0.85-16 mda & 13-18 mda),72.0
+x56.jpg,sea water,55.6
+x56.jpg,ci 77491,37.5
+x56.jpg,propanediol,54.5
+x56.jpg,croton lechleri resin extract,80.0
+x56.jpg,biosaccharide gum-1,73.3
+x56.jpg,morus alba fruit extract,83.3
+x56.jpg,sodium acetylated hyaluronate,76.6
+x56.jpg,sodium acrylate/acrylate crosspolymer,67.7
+x56.jpg,c12-13 alkyl glyceryl hydrolyzed hyaluronate,81.1
+x56.jpg,sodium carboxymethyl hydrolyzed rhodophyceae extract,86.2
+x56.jpg,hydroxypropyl butylene glycol,89.7
+x56.jpg,sodium ascorbyl phosphate,61.2
+x56.jpg,boric acid,53.3
+x56.jpg,"sorbic acid, 1,2-hexanediol",50.0
+x56.jpg,ethyl hexanediol,68.8
+x56.jpg,cystosaria tamariscifolia extract,80.0
+x56.jpg,palmitic acid,47.1
+x56.jpg,tocopherol,60.0
+x57.jpg,dimethiconol,95.2
+x57.jpg,peg-10/15 crosspolymer,100.0
+x57.jpg,sodium tocopheryl acetate,100.0
+x57.jpg,ascorbyl glucoside,69.0
+x57.jpg,ci 15850,100.0
+x57.jpg,1,100.0
+x57.jpg,butylene glycol,100.0
+x57.jpg,camellia japonica flower extract,93.5
+x57.jpg,"centella asiatica extract, 1,2-hexanediol",100.0
+x57.jpg,sodium benzoate,100.0
+x58.jpg,ammonium acryloyldimethyltaurate/vp copolymer,61.5
+x58.jpg,propanediol,60.0
+x58.jpg,carbomer,57.1
+x58.jpg,tocopheryl acetate,90.0
+x58.jpg,xanthan gum,47.6
+x58.jpg,potassium hydroxide,50.0
+x58.jpg,disodium edta,75.0
+x58.jpg,dimethyl isosorbide,55.6
+x58.jpg,ethylhexylglycerin,100.0
+x58.jpg,sodium hyaluronate,75.0
+x58.jpg,benzoic acid,60.0
+x58.jpg,pentylene glycol,89.7
+x58.jpg,hydroxypinacolone retinoate,75.0
+x58.jpg,citrus sinensis peel oil expressed,54.5
+x58.jpg,trihepthanoin,57.1
+x58.jpg,butylene glycol,88.9
+x58.jpg,citrus aurantium bergamia fruit oil,54.5
+x58.jpg,citrus limon peel oil,54.5
+x58.jpg,ceteareth-25,60.0
+x58.jpg,jasminum sambac flower extract,60.0
+x58.jpg,cetyl alcohol,66.7
+x58.jpg,cananga odorata flower oil,60.0
+x58.jpg,lavandula hybrida extract,50.0
+x58.jpg,behenic acid,63.2
+x58.jpg,ceramide ns,63.2
+x58.jpg,ceramide ap,66.7
+x58.jpg,ceramide eop,63.2
+x58.jpg,ceramide eos,63.2
+x58.jpg,glycine soja (soybean) oil,85.7
+x58.jpg,hydrogenated lecithin,100.0
+x58.jpg,acetyl hexapeptide-8,75.0
+x58.jpg,caproyl phytosphingosine,58.8
+x58.jpg,caproyl sphingosine,58.8
+x58.jpg,palmitoyl tripeptide-8,75.0
+x58.jpg,ascorbyl palmitate,75.0
+x58.jpg,citric acid,61.5
+x58.jpg,glyceryl oleate,85.7
+x59.jpg,aqua,75.0
+x59.jpg,glycerin,93.3
+x59.jpg,caprylic/capric triglyceride,92.3
+x59.jpg,caprylyl glycol,100.0
+x59.jpg,ceramide eop,90.0
+x59.jpg,squalane,100.0
+x59.jpg,c19-14 isoparaffin,70.6
+x59.jpg,propylene glycol,87.5
+x59.jpg,hydrolyzed hyaluronic acid,80.0
+x59.jpg,"hamamelis virginiana water, 1,2-hexanediol",77.8
+x59.jpg,lactic acid,72.7
+x59.jpg,vitis vinifera seed oil,78.0
+x59.jpg,ethylhexylglycerin,56.0
+x59.jpg,tocopheryl acetate,90.9
+x59.jpg,polyacrylate,72.7
+x59.jpg,ceteareth-12,75.0
+x59.jpg,sorbitan oleate,82.8
+x59.jpg,xanthan gum,57.1
+x59.jpg,glucose,71.4
+x59.jpg,disodium edta,80.0
+x59.jpg,cetearyl alcohol,100.0
+x59.jpg,hydroxypropyltrimonium hyaluronate,88.0
+x59.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,66.7
+x59.jpg,myristyl myristate,60.6
+x59.jpg,glyceryl stearate,66.7
+x59.jpg,ceteareth-20,75.0
+x59.jpg,behenic acid,55.6
+x59.jpg,sodium benzoate,75.0
+x59.jpg,potassium sorbate,80.0
+x59.jpg,sodium hyaluronate crosspolymer,84.6
+x6.jpg,"disodium edta, 1,2-hexanediol",100.0
+x6.jpg,potassium hydroxide,94.7
+x6.jpg,ascorbyl propyl hyaluronate,96.3
+x6.jpg,hyaluronic acid,100.0
+x6.jpg,hydroxypropyltrimonium hyaluronate,97.1
+x6.jpg,sodium acetylated hyaluronate,100.0
+x6.jpg,zinc hydrolyzed hyaluronate,100.0
+x6.jpg,chamomilla recutita (matricaria) flower extract,97.9
+x6.jpg,scutellaria baicalensis root extract,97.2
+x60.jpg,citrus sinensis fruit water,100.0
+x60.jpg,sodium hyaluronate,100.0
+x60.jpg,peg-40 hydrogenated castor oil,100.0
+x60.jpg,trihydroxystearin,72.7
+x60.jpg,ethylhexylglycerin,100.0
+x60.jpg,ascorbyl palmitate,100.0
+x61.jpg,glyceryl stearate,85.7
+x61.jpg,peg-100 stearate,50.0
+x61.jpg,snail secretion filtrate,62.5
+x61.jpg,sodium polyacrylate,100.0
+x61.jpg,achillea millefolium flower/leaf/stem extract,97.8
+x61.jpg,melissa officinalis leaf extract,100.0
+x61.jpg,primula veris flower extract,100.0
+x61.jpg,veronica officinalis flower/leaf/stem extract,95.3
+x61.jpg,trideceth-6,81.8
+x61.jpg,sodium hyaluronate,66.7
+x61.jpg,alcohol,66.7
+x61.jpg,citric acid,61.5
+x61.jpg,lactobacillus/soybean ferment extract,83.3
+x61.jpg,saccharomyces/imperata cylindrica root ferment extract,81.3
+x61.jpg,saccharomyces/viscum album ferment extract,93.6
+x61.jpg,soy isoflavones,88.9
+x62.jpg,water,75.0
+x62.jpg,hamamelis virginiana (witch hazel) leaf extract,90.9
+x62.jpg,hydroxyethyl acrylate/sodium acryloyldimethyltaurate copolymer,95.1
+x62.jpg,peg-60 hydrogenated castor oil,93.3
+x62.jpg,sodium phytate,100.0
+x62.jpg,sodium hyaluronate,94.1
+x62.jpg,momordica grosvenorii fruit extract,97.1
+x62.jpg,polyporus umbellatus (mushroom) extract,97.4
+x62.jpg,carthamus tinctorius (safflower) flower extract,100.0
+x63.jpg,dipropylene glycol methoxycinnamate,80.0
+x63.jpg,butylene glycol,88.9
+x63.jpg,"diethylhexyl 2,6-naphthalate",64.7
+x63.jpg,methylene bis-benzotriazolyl tetramethylbutylphenol (nano),60.0
+x63.jpg,potassium cetyl phosphate,57.1
+x63.jpg,titanium dioxide,57.1
+x63.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,69.2
+x63.jpg,cetearyl alcohol,64.5
+x63.jpg,phenoxyethanol,66.7
+x63.jpg,glyceryl stearate,63.2
+x63.jpg,peg-100 stearate,50.0
+x63.jpg,silica,66.7
+x63.jpg,chlorphenesin,64.0
+x63.jpg,xanthan gum,50.0
+x63.jpg,polysorbate 20,51.9
+x63.jpg,peg-8,50.0
+x63.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,68.0
+x63.jpg,acrylates/c12-22 alkyl methacrylate copolymer,61.8
+x63.jpg,decyl glucoside,57.1
+x63.jpg,disodium edta,80.0
+x63.jpg,sodium pca,70.0
+x63.jpg,tocopheryl acetate,58.8
+x63.jpg,vp/hexadecene copolymer,60.0
+x63.jpg,glycerin,85.7
+x63.jpg,carbomer,61.5
+x63.jpg,sodium hydroxide,62.5
+x63.jpg,propanediol,54.5
+x63.jpg,arginine,54.5
+x63.jpg,coco-glucoside,57.1
+x63.jpg,allantoin,55.6
+x63.jpg,buddleja officinalis flower extract,66.7
+x63.jpg,disodium lauryl sulfosuccinate,60.0
+x63.jpg,myrciaria dubia fruit extract,50.0
+x63.jpg,pentylene glycol,89.7
+x63.jpg,sodium acetylated hyaluronate,69.6
+x63.jpg,sodium hyaluronate,97.1
+x63.jpg,ethylhexylglycerin,84.6
+x64.jpg,isononyl methoxycinnamate,60.0
+x64.jpg,ethylhexyl/c12-15 dipalmitate,73.3
+x64.jpg,titanium dioxide,55.2
+x64.jpg,tetrasodium edta,91.7
+x64.jpg,camellia sinensis leaf extract,76.9
+x64.jpg,hydrogenated persea gratissima fruit extract,100.0
+x64.jpg,ceramide 3,94.7
+x64.jpg,stearic acid,100.0
+x64.jpg,tetrahexyldecyl ascorbate,61.5
+x64.jpg,helichrysum stoechas callus culture lysate,100.0
+x64.jpg,panthenol,71.4
+x64.jpg,zinc gluconate,71.4
+x64.jpg,glycyrrhiza glabra (licorice) root extract,71.4
+x65.jpg,octyl salicylate,100.0
+x65.jpg,peg-10 dimethicone,100.0
+x65.jpg,trimethylolpropane tricaprylate/tricaprate,100.0
+x65.jpg,carnitine,76.9
+x65.jpg,ci 77491,85.7
+x65.jpg,ci 77499,80.0
+x66.jpg,polyglyceryl-2 stearate,100.0
+x66.jpg,sodium chloride,74.1
+x66.jpg,lanolin,85.7
+x66.jpg,hydrolyzed algin,96.8
+x66.jpg,disodium edta,96.0
+x66.jpg,scutellaria baicalensis root extract,100.0
+x66.jpg,althaea officinalis root extract,74.2
+x67.jpg,potassium cetyl phosphate,96.0
+x67.jpg,disodium edta,100.0
+x67.jpg,carbomer,72.7
+x67.jpg,"laureth-7, 1,2-hexanediol",73.2
+x67.jpg,tocopherol,90.0
+x67.jpg,terminalia ferdinandiana extract,84.2
+x67.jpg,oryza sativa (rice) seed extract,93.8
+x68.jpg,aqua,85.7
+x68.jpg,ethylhexylglycerin,92.3
+x68.jpg,aloe barbadensis leaf extract,92.0
+x68.jpg,proline,80.0
+x69.jpg,salicylic acid,78.6
+x69.jpg,peg-60 hydrogenated castor oil,100.0
+x69.jpg,glyceryl acrylate/acrylic acid copolymer,97.5
+x69.jpg,caprylic/capric triglyceride,92.9
+x69.jpg,polysorbate 20,92.9
+x69.jpg,sodium hyaluronate crosspolymer,100.0
+x69.jpg,hydrolyzed hyaluronic acid,100.0
+x7.jpg,hydrogenated phosphatidylcholine,96.9
+x7.jpg,chamomilla recutita (matricaria) flower extract,95.6
+x7.jpg,hibiscus esculentus fruit extract,100.0
+x70.jpg,water,57.1
+x70.jpg,propylene glycol,43.8
+x70.jpg,c12-15 alkyl benzoate,42.9
+x70.jpg,niacinamide,45.5
+x70.jpg,betaine,72.7
+x70.jpg,glycerin,50.0
+x70.jpg,isononyl isononanoate,47.6
+x70.jpg,ammonium acryloyldimethyltaurate/vp copolymer,33.3
+x70.jpg,propanediol,45.5
+x70.jpg,carbomer,40.0
+x70.jpg,tocopheryl acetate,50.0
+x70.jpg,xanthan gum,36.4
+x70.jpg,potassium hydroxide,40.0
+x70.jpg,caprylyl glycol,52.2
+x70.jpg,disodium edta,46.2
+x70.jpg,trihepanoin,45.5
+x70.jpg,hydroxypropyl cyclodextrin,40.0
+x70.jpg,ethylhexylglycerin,38.9
+x70.jpg,sodium hyaluronate,41.4
+x70.jpg,pentylene glycol,37.5
+x70.jpg,benzoic acid,41.7
+x70.jpg,melatonin,46.2
+x70.jpg,anthemis nobilis flower water,44.8
+x70.jpg,cananga odorata flower oil,42.3
+x70.jpg,citrus aurantium dulcis peel oil expressed,36.6
+x70.jpg,lavandula angustifolia oil,38.5
+x70.jpg,adenosine,53.3
+x70.jpg,jasminum officinale flower oil,40.0
+x70.jpg,michelia alba flower oil,40.0
+x70.jpg,lavandula hybrida extract,40.0
+x70.jpg,"pelargonium graveolens flower oil, 1,2-hexanediol",41.8
+x70.jpg,sodium benzoate,46.7
+x70.jpg,potassium sorbate,35.7
+x70.jpg,citric acid,40.0
+x70.jpg,ascorbyl propyl hyaluronate,37.5
+x70.jpg,ascorbylpropyl hydrolyzed hyaluronate,37.9
+x70.jpg,butylene glycol,40.0
+x70.jpg,dimethylsilanol hyaluronate,40.0
+x70.jpg,potassium hyaluronate,38.1
+x70.jpg,sodium acetylated hyaluronate,41.4
+x70.jpg,hydrolyzed sodium hyaluronate,37.9
+x70.jpg,hydroxypropyltrimonium hyaluronate crosspolymer,34.4
+x70.jpg,sodium retinoyl hyaluronate,41.9
+x70.jpg,zinc hydrolyzed hyaluronate,42.1
+x71.jpg,deionized water,42.1
+x71.jpg,niacinamide,63.2
+x71.jpg,propanediol,40.0
+x71.jpg,butylene glycol,57.1
+x71.jpg,caprylic/capric triglyceride,70.6
+x71.jpg,tranexamic acid,47.1
+x71.jpg,magnesium ascorbyl phosphate,40.0
+x71.jpg,centella asiatica extract,50.0
+x71.jpg,sodium polyacrylate,44.4
+x71.jpg,c13-14 isoparaffin,36.4
+x71.jpg,ethylhexyl palmitate,42.1
+x71.jpg,carbomer,54.5
+x71.jpg,dipropylene glycol,35.3
+x71.jpg,phospholipids,30.8
+x71.jpg,polysorbate 80,40.0
+x71.jpg,glycerin,57.1
+x71.jpg,cholesterol,42.9
+x71.jpg,laureth-7,53.3
+x71.jpg,pentylene glycol,34.8
+x71.jpg,aleolocollagen,40.0
+x71.jpg,pistacia lentiscus gum,40.0
+x71.jpg,lecithin,37.5
+x71.jpg,helichrysum italicum extract,50.0
+x71.jpg,hydrolyzed algin,41.7
+x71.jpg,polysorbate 20,40.0
+x71.jpg,sodium chondroitin sulfate,40.0
+x71.jpg,chlorphenesin,38.5
+x71.jpg,sodium lauroyl lactylate,40.0
+x71.jpg,glyceryl caprylate,45.5
+x71.jpg,tea,100.0
+x71.jpg,disodium edta,50.0
+x71.jpg,ceramide np,84.2
+x71.jpg,ceramide ap,84.2
+x71.jpg,phytosphingosine,31.2
+x71.jpg,ethylhexylglycerin,50.0
+x71.jpg,nicotiana benthamiana hexapeptide-40 sh-polypeptide-76,75.9
+x71.jpg,bakuchiol,100.0
+x72.jpg,butylene glycol,69.6
+x72.jpg,pentylene glycol,62.5
+x72.jpg,dipropylene glycol,50.0
+x72.jpg,ppg-10 methyl glucose ether,77.6
+x72.jpg,phenoxyethanol,80.0
+x72.jpg,sodium hyaluronate,100.0
+x72.jpg,disodium edta,85.7
+x72.jpg,hydroxyethylcellulose,88.9
+x72.jpg,succinic acid,69.2
+x72.jpg,sodium acetylated hyaluronate,85.7
+x73.jpg,aqua,50.0
+x73.jpg,glycerin,75.0
+x73.jpg,cetyl alcohol,61.5
+x73.jpg,caprylic/capric triglyceride,57.8
+x73.jpg,cyclopentasiloxane,50.0
+x73.jpg,isopropyl myristate,66.7
+x73.jpg,stearyl alcohol,57.1
+x73.jpg,propylene glycol,88.9
+x73.jpg,triethanolamine,50.0
+x73.jpg,ceteareth-25,44.4
+x73.jpg,niacinamide,55.6
+x73.jpg,glyceryl stearate,76.5
+x73.jpg,carbomer,54.5
+x73.jpg,c9-15 alkyl phosphate,52.2
+x73.jpg,sorbitan sesquioleate,60.0
+x73.jpg,xanthan gum,44.4
+x73.jpg,disodium edta,70.0
+x73.jpg,tocopheryl acetate,66.7
+x73.jpg,glutathione,57.1
+x73.jpg,lactobacillus/rice ferment extract,85.2
+x73.jpg,saccharomyces/soymilk ferment extract,74.6
+x74.jpg,niacinamide,84.2
+x74.jpg,divinyldimethicone/dimethicone copolymer,98.4
+x74.jpg,propylene glycol,100.0
+x74.jpg,acmella oleracea extract,100.0
+x74.jpg,terminalia ferdinandiana fruit extract,100.0
+x74.jpg,potassium sorbate,100.0
+x75.jpg,water,100.0
+x75.jpg,xanthan gum,100.0
+x75.jpg,polyglyceryl-10 laurate,91.3
+x75.jpg,dipropylene glycol,100.0
+x75.jpg,caprylyl glycol,100.0
+x75.jpg,palmitoyl tetrapeptide-7,100.0
+x75.jpg,hydrolyzed glycosaminoglycans,93.1
+x76.jpg,caprylic/capric triglyceride,100.0
+x76.jpg,sodium acrylate/sodium acryloyldimethyl taurate copolymer,100.0
+x76.jpg,hydrogenated polydecene,100.0
+x76.jpg,glycyrrhiza inflata root extract,100.0
+x76.jpg,centella asiatica extract,100.0
+x76.jpg,hydrolyzed sodium hyaluronate,100.0
+x76.jpg,pentylene glycol,100.0
+x76.jpg,sodium hyaluronate crosspolymer,100.0
+x77.jpg,propylene glycol,40.0
+x77.jpg,aloe barbadensis leaf extract,53.8
+x77.jpg,triethanolamine,60.0
+x77.jpg,phenoxyethanol,35.7
+x77.jpg,snail secretion filtrate,47.1
+x78.jpg,ethylhexyl salicylate,100.0
+x78.jpg,zea mays (corn) starch,100.0
+x78.jpg,cetyl alcohol,100.0
+x78.jpg,peg-100 stearate,100.0
+x78.jpg,palmitic acid,100.0
+x78.jpg,sodium ascorbyl phosphate,100.0
+x79.jpg,dipropylene glycol,100.0
+x79.jpg,glycerin,100.0
+x79.jpg,phenoxyethanol,92.9
+x79.jpg,saccharide isomerate,95.0
+x79.jpg,cetearyl alcohol,100.0
+x79.jpg,isononyl isononanoate,90.5
+x79.jpg,caprylyl glycol,100.0
+x79.jpg,sodium hyaluronate,97.1
+x79.jpg,serine,90.9
+x79.jpg,disodium caproyl glutamate,83.3
+x79.jpg,polyacrylate,100.0
+x8.jpg,sodium hydroxide,100.0
+x8.jpg,centella asiatica leaf extract,100.0
+x8.jpg,bacillus/soybean/folic acid ferment filtrate,69.2
+x8.jpg,sodium lauroyl lactylate,100.0
+x8.jpg,sodium hyaluronate,100.0
+x8.jpg,ceramide eop,100.0
+x80.jpg,water,75.0
+x80.jpg,glycerin,62.5
+x80.jpg,dimethicone,53.3
+x80.jpg,cyclopentasiloxane,64.0
+x80.jpg,butylene glycol,53.3
+x80.jpg,polymethylsilsesquioxane,58.3
+x80.jpg,simmondsia chinensis seed oil,46.2
+x80.jpg,lauryl peg-10 tris(trimethylsiloxy)silylethyl dimethicone,53.3
+x80.jpg,sodium chloride,66.7
+x80.jpg,isopentyldiol,47.1
+x80.jpg,octyldodecanol,66.7
+x80.jpg,dimethicone/peg-10/15 crosspolymer,50.0
+x80.jpg,panthenol,71.4
+x80.jpg,aloe barbadensis leaf juice,51.9
+x80.jpg,dimethicone crosspolymer,50.0
+x80.jpg,bisabolol,66.7
+x80.jpg,fragrance,53.3
+x80.jpg,polysilicone-11,50.0
+x80.jpg,sodium hyaluronate,73.7
+x80.jpg,hydrolyzed hyaluronic acid,47.6
+x80.jpg,echium plantagineum seed oil,66.7
+x80.jpg,polyglyceryl-3 diisostearate,50.0
+x80.jpg,polyglyceryl-10 laurate,63.2
+x80.jpg,helianthus annuus seed oil unsaponifiables,66.7
+x80.jpg,sodium polyglutamate,66.7
+x80.jpg,tocopherol,55.6
+x80.jpg,salicylic acid,51.9
+x80.jpg,amylopectin,54.5
+x80.jpg,dextrin,57.1
+x80.jpg,lactococcus ferment lysate,61.5
+x80.jpg,camellia sinensis leaf extract,53.3
+x80.jpg,zinc pca,62.5
+x80.jpg,gluconolactone,78.6
+x80.jpg,propylene glycol,62.5
+x80.jpg,betaine,57.1
+x80.jpg,magnesium aspartate,94.4
+x80.jpg,tromethamine,85.7
+x80.jpg,copper gluconate,85.7
+x81.jpg,diethylamino hydroxybenzoyl hexyl benzoate,100.0
+x81.jpg,sodium maltitol,100.0
+x81.jpg,dimethicone/vinyl dimethicone crosspolymer,100.0
+x81.jpg,citrullus lanatus fruit extract,100.0
+x81.jpg,hydrogenated fruit extract,75.6
+x81.jpg,citrus aurantium dulcis fragrance,100.0
+x81.jpg,aluminum hydroxide,100.0
+x81.jpg,tocopheryl acetate,90.0
+x82.jpg,aqua,75.0
+x82.jpg,butylene glycol,73.3
+x82.jpg,phenoxyethanol,71.4
+x82.jpg,polysorbate 20,71.4
+x82.jpg,triethanolamine,53.8
+x82.jpg,carbomer,37.5
+x82.jpg,allantoin,58.8
+x82.jpg,chlorphenesin,46.2
+x82.jpg,glycerin,62.5
+x82.jpg,disodium edta,84.6
+x82.jpg,xanthan gum,63.6
+x82.jpg,aloe barbadensis leaf juice powder,52.9
+x82.jpg,dipotassium glycyrrhizate,40.0
+x82.jpg,sodium hyaluronate,61.1
+x82.jpg,salicylic acid,72.7
+x82.jpg,amylopectin,45.5
+x82.jpg,fragrance,55.6
+x82.jpg,dextrin,42.9
+x82.jpg,collagen,62.5
+x82.jpg,peg-60 almond glycerides,45.8
+x82.jpg,"caprylyl glycol, 1,2-hexanediol",45.6
+x82.jpg,centella asiatica extract,46.2
+x82.jpg,caprylic/capric triglyceride,42.9
+x82.jpg,ceteareth-20,44.4
+x82.jpg,polyglyceryl-10 stearate,45.8
+x82.jpg,beta-glucan,45.5
+x82.jpg,ceramide 3,50.0
+x82.jpg,ci 19140,46.2
+x82.jpg,nordihydroguaiaretic acid,69.6
+x82.jpg,ci 42090,92.3
+x83.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,97.7
+x83.jpg,dictum gum,70.0
+x84.jpg,disodium cocoamphodiacetate,81.8
+x84.jpg,allium cepa bulb extract,83.9
+x84.jpg,sodium hyaluronate,70.0
+x84.jpg,centella asiatica extract,57.1
+x84.jpg,cephalins,57.1
+x84.jpg,pvp,100.0
+x84.jpg,salicylic acid,77.8
+x84.jpg,palmitoyl tripeptide-5,50.0
+x84.jpg,ethylhexylglycerin,100.0
+x84.jpg,hexylene glycol,88.9
+x85.jpg,aqua,100.0
+x85.jpg,acrylamide/sodium acryloyldimethyltaurate copolymer,100.0
+x85.jpg,citrullus lanatus (watermelon) fruit extract,100.0
+x86.jpg,croton lechleri resin extract,100.0
+x86.jpg,"disodium edta, 1,2-hexanediol",96.6
+x86.jpg,propylene glycol,100.0
+x86.jpg,caprylyl glycol,100.0
+x86.jpg,potassium phosphate,100.0
+x87.jpg,dipropylene glycol dibenzoate,100.0
+x87.jpg,alcohol,100.0
+x87.jpg,niacinamide,100.0
+x87.jpg,primula veris extract,100.0
+x88.jpg,cetrimonium methosulfate,82.9
+x88.jpg,caprylyl glycol,86.7
+x88.jpg,bellis perennis flower extract,100.0
+x89.jpg,methylene bis-benzotriazolyl tetramethylbutylphenol,100.0
+x89.jpg,caprylic/capric triglyceride,100.0
+x89.jpg,propylene carbonate,100.0
+x9.jpg,aqua,100.0
+x9.jpg,ethylhexyl salicylate,100.0
+x9.jpg,glyceryl stearate,100.0
+x9.jpg,ceteareth-11,100.0
+x9.jpg,cetyl palmitate,100.0
+x9.jpg,ceteareth-25,100.0
+x9.jpg,oxybenzone,100.0
+x9.jpg,cetyl alcohol,100.0
+x9.jpg,polyglyceryl-3 methylglucose distearate,100.0
+x9.jpg,ceteareth-12,100.0
+x9.jpg,polymethylsilsesquioxane,100.0
+x9.jpg,niacinamide,100.0
+x9.jpg,propylene glycol,100.0
+x9.jpg,diisopropyl dimer dilinoleate,100.0
+x9.jpg,cyclopentasiloxane,94.4
+x9.jpg,magnesium stearate,94.4
+x9.jpg,titanium dioxide,100.0
+x9.jpg,silica,100.0
+x9.jpg,tocopheryl acetate,83.3
+x9.jpg,polyglyceryl-4 isostearate,96.2
+x9.jpg,cetyl peg/ppg-10/1 dimethicone,96.7
+x9.jpg,hexyl laurate,100.0
+x9.jpg,c9-15 fluoroalcohol phosphate,100.0
+x9.jpg,alumina,100.0
+x9.jpg,phenoxyethanol,100.0
+x9.jpg,chlorphenesin,100.0
+x9.jpg,disodium edta,100.0
+x9.jpg,perfume,100.0
+x9.jpg,ci 77492,100.0
+x9.jpg,ci 77491,100.0
+x9.jpg,ci 77499,100.0
+x90.jpg,water,75.0
+x90.jpg,propylene glycol,100.0
+x90.jpg,propanediol,100.0
+x90.jpg,niacinamide,55.6
+x90.jpg,panthenol,100.0
+x90.jpg,c12-15 pareth-12,100.0
+x90.jpg,betaine,57.1
+x90.jpg,glycerin,85.7
+x90.jpg,ammonium polyacryldimethyl taurate,100.0
+x90.jpg,carbomer,54.5
+x90.jpg,xanthan gum,70.6
+x90.jpg,potassium hydroxide,100.0
+x90.jpg,caprylyl glycol,100.0
+x90.jpg,disodium edta,60.0
+x90.jpg,sodium hyaluronate,60.0
+x90.jpg,ethylhexylglycerin,52.2
+x90.jpg,benzoic acid,77.8
+x90.jpg,pentylene glycol,100.0
+x90.jpg,polysorbate 60,100.0
+x90.jpg,madecassic acid,77.8
+x90.jpg,centella asiatica flower oil,50.0
+x90.jpg,citrus aurantium dulcis peel oil expressed,100.0
+x90.jpg,lavandula angustifolia oil,52.6
+x90.jpg,asiaticoside,57.1
+x90.jpg,asiatic acid,85.7
+x90.jpg,pelargonium graveolens flower oil,100.0
+x90.jpg,triheptanoin,100.0
+x90.jpg,jasminum officinale flower oil,50.0
+x90.jpg,michelia alba flower oil,60.0
+x90.jpg,cetereth-25,50.0
+x90.jpg,cetyl alcohol,58.3
+x90.jpg,lavandula hybrida extract,55.0
+x90.jpg,behenic acid,77.8
+x90.jpg,ceramide np,100.0
+x90.jpg,cholesterol,58.8
+x90.jpg,ceramide ns,55.6
+x90.jpg,ceramide ap,100.0
+x90.jpg,ceramide eop,100.0
+x90.jpg,caprooyl phytosphingosine,100.0
+x90.jpg,caprooyl sphingosine,100.0
+x91.jpg,ethylhexyl triazone,68.4
+x91.jpg,diethylhexyl butamido triazone,72.2
+x91.jpg,triethanolamine,63.2
+x91.jpg,diethylamino hydroxybenzoyl hexyl benzoate,84.2
+x91.jpg,phenyl trimethicone,95.2
+x91.jpg,c10-30 alkyl acrylate crosspolymer,100.0
+x91.jpg,phenoxyethanol,64.3
+x91.jpg,chlorphenesin,64.0
+x91.jpg,disodium edetate,75.9
+x91.jpg,avena sativa kernel extract,58.3
+x91.jpg,camellia sinensis leaf extract,66.7
+x91.jpg,cetyl dimethicone,100.0
+x91.jpg,phenylbenzimidazole sulfonic acid,77.8
+x91.jpg,butylene glycol,92.9
+x91.jpg,boswellia serrata resin extract,60.0
+x91.jpg,portulaca oleracea extract,62.5
+x91.jpg,camellia japonica leaf extract,78.4
+x91.jpg,lactobacillus/soybean ferment extract,76.5
+x91.jpg,bifida ferment lysate,57.1
+x91.jpg,ceramide np,70.6
+x91.jpg,cholesterol,58.8
+x91.jpg,trehalose,58.8
+x91.jpg,adenosine,62.5
+x91.jpg,panthenol,71.4
+x91.jpg,retinyl palmitate,72.7
+x91.jpg,ethylhexylglycerin,66.7
+x91.jpg,tocopherol,100.0
+x92.jpg,isononyl isononanoate,100.0
+x92.jpg,hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer,94.4
+x92.jpg,cetearyl alcohol,60.0
+x92.jpg,citric acid,100.0
+x92.jpg,ethylhexylglycerin,100.0
+x93.jpg,aqua,100.0
+x93.jpg,niacinamide,100.0
+x93.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,95.2
+x93.jpg,disodium edta,100.0
+x93.jpg,allantoin,100.0
+x93.jpg,panthenol,100.0
+x93.jpg,milk exosomes,96.0
+x93.jpg,pentylene glycol,100.0
+x93.jpg,peg-9 diglycidyl ether/sodium hyaluronate crosspolymer,100.0
+x93.jpg,glycine,100.0
+x93.jpg,glutamic acid,100.0
+x93.jpg,ceramide np,100.0
+x93.jpg,carbomer,100.0
+x93.jpg,ethylhexylglycerin,100.0
+x94.jpg,water,40.0
+x94.jpg,alcohol denat,46.2
+x94.jpg,butylene glycol,40.0
+x94.jpg,cyclopentasiloxane,50.0
+x94.jpg,glycerin,37.5
+x94.jpg,cetearyl alcohol,43.8
+x94.jpg,isononyl isononanoate,45.0
+x94.jpg,dimethicone,45.5
+x94.jpg,glyceryl stearate,41.2
+x94.jpg,ammonium starch octenylsuccinate,49.0
+x94.jpg,propanediol,55.6
+x94.jpg,phenoxyethanol,38.5
+x94.jpg,peg-100 stearate,43.8
+x94.jpg,triglyceride,35.3
+x94.jpg,squalane,66.7
+x94.jpg,borago officinalis seed oil,40.0
+x94.jpg,phalaris sogd yukidan flower extract,46.2
+x94.jpg,ceteth-10 phosphate,34.3
+x94.jpg,dicetyl phosphate,41.2
+x94.jpg,disodium edta,60.9
+x94.jpg,dextrin,42.9
+x94.jpg,"fragrance, 1,2-hexanediol",41.9
+x94.jpg,adenosine,55.6
+x94.jpg,"chlorphenesin, 4-butylresorcinol",37.7
+x94.jpg,bht,80.0
+x94.jpg,bisabolol,36.4
+x94.jpg,tocopheryl acetate,44.4
+x94.jpg,disodium phosphate,57.1
+x94.jpg,glyceryl phosphate choline,34.6
+x94.jpg,sodium oleate,60.9
+x94.jpg,trehalose,44.4
+x94.jpg,urea,75.0
+x94.jpg,pentylene glycol,40.0
+x94.jpg,serine,60.0
+x94.jpg,algin,60.0
+x94.jpg,caprylyl glycol,37.5
+x95.jpg,butyl methoxydibenzoylmethane,76.6
+x95.jpg,silica,83.3
+x95.jpg,chlorphenesin,100.0
+x95.jpg,ethylhexyl triazone,75.0
+x95.jpg,diethylamino hydroxybenzoyl hexyl benzoate,68.8
+x95.jpg,disodium edta,100.0
+x95.jpg,sodium collagen,70.0
+x95.jpg,sodium ascorbyl phosphate,76.2
+x95.jpg,phytosphingosine,69.2
+x95.jpg,centella asiatica leaf extract,100.0
+x95.jpg,citrus junos peel extract,88.0
+x95.jpg,citrus unshiu peel extract,100.0
+x95.jpg,citrus aurantium amara (bitter orange) peel extract,74.5
+x95.jpg,ceramide eop,100.0
+x96.jpg,water,80.0
+x96.jpg,alcohol,100.0
+x96.jpg,ethylhexyl methoxycinnamate,100.0
+x96.jpg,lauryl methacrylate/sodium methacrylate crosspolymer,94.3
+x96.jpg,bis-ethylhexyloxyphenol methoxyphenyl triazine,100.0
+x96.jpg,c12-15 alkyl benzoate,100.0
+x96.jpg,glycerin,66.7
+x96.jpg,propanediol,66.7
+x96.jpg,butylene glycol,90.9
+x96.jpg,glyceryl stearate,66.7
+x96.jpg,glyceryl behenate,66.7
+x96.jpg,vinyl dimethicone/methicone silsesquioxane crosspolymer,71.8
+x96.jpg,hydrogenated lecithin,66.7
+x97.jpg,ammonium acryloyldimethyltaurate/vp copolymer,88.9
+x97.jpg,dl-alpha-tocopheryl acetate,83.0
+x97.jpg,benzophenone-3,100.0
+x97.jpg,"ethylhexyl methoxycinnamate, 4-methylbenzylidene camphor",92.6
+x98.jpg,sodium polyacrylate,97.3
+x98.jpg,caprylic/capric triglyceride,100.0
+x99.jpg,aqua,85.7
+x99.jpg,propanediol,77.8
+x99.jpg,glycerin,75.0
+x99.jpg,caprylic/capric triglyceride,52.2
+x99.jpg,cetearyl olivate,81.5
+x99.jpg,niacinamide,84.2
+x99.jpg,caprylyl glycol,92.9
+x99.jpg,ceramide np,66.7
+x99.jpg,ceramide ap,72.7
+x99.jpg,phytosphingosine,57.1
+x99.jpg,panthenol,62.5
+x99.jpg,ceramide eop,63.2
+x99.jpg,squalane,57.1
+x99.jpg,cholesterol,63.2
+x99.jpg,c13-14 isoparaffin,46.2
+x99.jpg,cetyl palmitate,72.0
+x99.jpg,propylene glycol,80.0
+x99.jpg,hydrolyzed sodium hyaluronate,100.0
+x99.jpg,hydrolyzed hyaluronic acid,81.8
+x99.jpg,"potassium hydroxide, 1,2-hexanediol",82.9
+x99.jpg,lactic acid,81.8
+x99.jpg,vitis vinifera seed oil,86.4
+x99.jpg,ethylhexylglycerin,83.3
+x99.jpg,polyacrylamide,92.9
+x99.jpg,laureth-7,100.0
+x99.jpg,ceteareth-12,100.0
+x99.jpg,glucose,71.4
+x99.jpg,hydroxypropyltrimonium hyaluronate,97.1
+x99.jpg,potassium cetyl phosphate,96.0
+x99.jpg,acrylates/c10-30 alkyl acrylate crosspolymer,86.4
+x99.jpg,myristyl myristate,88.9
+x99.jpg,xanthan gum,90.9
+x99.jpg,glyceryl stearate,94.1
+x99.jpg,phenoxyethanol,78.6
+x99.jpg,chlorphenesin,80.0
+x99.jpg,potassium sorbate,88.2
+x99.jpg,acrylates crosspolymer,86.4
+x99.jpg,potassium hyaluronate,95.2
+x99.jpg,chondrus crispus extract,93.6
