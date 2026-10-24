@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Label Review</title>
+<style>
+:root {
+  --bg:#f6f6f4; --card:#fff; --fg:#1c1b19; --muted:#6f6c66; --line:#e2e0db; --soft:#efeee9;
+  --accent:#2457c5; --accent-fg:#fff; --done:#1d7a3e; --done-bg:#eef7f0;
+  --wrong:#a35a00; --wrong-bg:#fff4e2; --extra:#b3261e; --extra-bg:#fdecea; --unread:#6a3fa0; --unread-bg:#f3edfa;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:#191917; --card:#242422; --fg:#efede8; --muted:#a29f98; --line:#3a3936; --soft:#2e2d2a;
+    --accent:#7aa2f7; --accent-fg:#111; --done:#6fd08f; --done-bg:#1e2e23;
+    --wrong:#f0b45a; --wrong-bg:#3a2e1c; --extra:#f28b82; --extra-bg:#3b2321; --unread:#c3a3f0; --unread-bg:#2e2638;
+  }
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, "Segoe UI", "Noto Sans Thai", sans-serif; }
+button, input, select, textarea { font:inherit; color:inherit; }
+button { cursor:pointer; }
+.top { position:sticky; top:0; z-index:5; background:var(--card); border-bottom:1px solid var(--line); padding:10px 16px; }
+.top-inner { max-width:1100px; margin:0 auto; display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; }
+.top h1 { font-size:16px; margin:0; }
+.progress { flex:1 1 240px; min-width:200px; }
+.bar { height:6px; background:var(--soft); border-radius:3px; overflow:hidden; margin-top:4px; }
+.bar > div { height:100%; background:var(--done); width:0; transition:width .2s; }
+.small { font-size:13px; color:var(--muted); }
+.top label { display:flex; align-items:center; gap:6px; font-size:13px; }
+.top input[type=text] { width:180px; padding:4px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); }
+.btn { padding:5px 12px; border-radius:6px; border:1px solid var(--line); background:var(--soft); }
+.btn.primary { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+.btn:focus-visible, .vb:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+.savestate { font-size:13px; }
+.savestate.warn { color:var(--extra); font-weight:600; }
+main { max-width:1100px; margin:0 auto; padding:16px; }
+.intro { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin-bottom:16px; }
+.intro p { margin:4px 0; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; margin-bottom:16px; }
+.card.done { border-color:var(--done); }
+.card header { display:flex; flex-wrap:wrap; gap:4px 12px; align-items:baseline; padding:10px 16px; border-bottom:1px solid var(--line); }
+.card.done header { background:var(--done-bg); border-radius:10px 10px 0 0; }
+.card h2 { font-size:16px; margin:0; }
+.badge { margin-left:auto; font-size:13px; font-weight:600; color:var(--done); }
+.imgwrap { position:sticky; top:var(--top-h, 60px); z-index:2; background:var(--card); padding:8px 16px; border-bottom:1px solid var(--line); text-align:center; }
+.imgwrap img { display:block; width:100%; max-height:40vh; object-fit:contain; }
+.body { padding:8px 16px 16px; }
+ol.names { list-style:none; margin:0; padding:0; }
+ol.names li { display:grid; grid-template-columns:2.4em 1fr auto; gap:2px 8px; align-items:center; padding:3px 6px; border-radius:6px; }
+ol.names li:nth-child(odd) { background:var(--soft); }
+.pos { color:var(--muted); text-align:right; font-variant-numeric:tabular-nums; }
+.nm { overflow-wrap:anywhere; }
+li[data-v=wrong] { background:var(--wrong-bg) !important; } li[data-v=wrong] .nm { color:var(--wrong); }
+li[data-v=extra] { background:var(--extra-bg) !important; } li[data-v=extra] .nm { color:var(--extra); text-decoration:line-through; }
+li[data-v=unreadable] { background:var(--unread-bg) !important; } li[data-v=unreadable] .nm { color:var(--unread); }
+.btns { display:flex; gap:4px; }
+.vb { padding:1px 8px; font-size:13px; border-radius:5px; border:1px solid var(--line); background:var(--card); color:var(--muted); }
+.vb.wrong[aria-pressed=true] { background:var(--wrong); border-color:var(--wrong); color:var(--card); }
+.vb.extra[aria-pressed=true] { background:var(--extra); border-color:var(--extra); color:var(--card); }
+.vb.unreadable[aria-pressed=true] { background:var(--unread); border-color:var(--unread); color:var(--card); }
+.fix { grid-column:2 / 4; display:none; gap:6px; flex-wrap:wrap; }
+li[data-v] .fix { display:flex; }
+li[data-v=""] .fix { display:none; }
+.fix input { flex:1 1 200px; padding:3px 8px; border:1px solid var(--line); border-radius:5px; background:var(--card); }
+li:not([data-v=wrong]) .fixtext { display:none; }
+.missing { margin-top:12px; padding-top:8px; border-top:1px dashed var(--line); }
+.missing h3 { font-size:14px; margin:0 0 6px; }
+.mrow { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px; }
+.mrow select { flex:0 1 260px; min-width:0; padding:3px 6px; border:1px solid var(--line); border-radius:5px; background:var(--card); }
+.mrow input { flex:1 1 200px; padding:3px 8px; border:1px solid var(--line); border-radius:5px; background:var(--card); }
+textarea.pnotes { width:100%; margin-top:10px; min-height:2.4em; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--card); resize:vertical; }
+.foot { display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; margin-top:10px; }
+.summary { font-size:13px; color:var(--muted); }
+.err { color:var(--extra); font-size:13px; font-weight:600; }
+.hide-done .card.done { display:none; }
+@media (max-width:640px) {
+  .top { position:static; }
+  .imgwrap { top:0; }
+  ol.names li { grid-template-columns:2em 1fr; }
+  .btns { grid-column:2; }
+  .fix { grid-column:1 / 3; }
+  .top input[type=text] { width:140px; }
+}
+</style>
+</head>
+<body>
+<div class="top" id="top">
+  <div class="top-inner">
+    <h1>__TITLE__</h1>
+    <div class="progress"><span id="progtext" class="small"></span><div class="bar"><div id="bar"></div></div></div>
+    <label>ชื่อผู้ตรวจ <input type="text" id="rname" autocomplete="off"></label>
+    <button class="btn" id="next" type="button">ไปผลิตภัณฑ์ที่ยังไม่เสร็จ</button>
+    <label><input type="checkbox" id="hidedone"> ซ่อนที่เสร็จแล้ว</label>
+    <button class="btn primary" id="export" type="button">ดาวน์โหลดไฟล์ผล</button>
+    <button class="btn" id="importbtn" type="button">โหลดไฟล์ผล</button>
+    <input type="file" id="importfile" accept=".json,application/json" hidden>
+    <span id="savestate" class="savestate small"></span>
+  </div>
+</div>
+<main>
+  <div class="intro">
+    <p>อ่านกฎก่อนเริ่ม: <a href="__GUIDE__" target="_blank">LABELING_GUIDELINES.md</a> · ตรวจแยกกัน ห้ามเปิดดูผลของผู้ตรวจอีกคน</p>
+    <p class="small">ชื่อที่ไม่ได้กดปุ่มใดถือว่า <b>ถูกต้อง</b> · กดปุ่มอีกครั้งเพื่อยกเลิก · เมื่อตรวจครบทุกชื่อและหาชื่อที่ขาดแล้ว กด "ตรวจผลิตภัณฑ์นี้เสร็จ" ·
+    ผลบันทึกในเบราว์เซอร์นี้อัตโนมัติ แต่ให้กด <b>ดาวน์โหลดไฟล์ผล</b> เป็นระยะ เพราะข้อมูลในเบราว์เซอร์อาจหายได้ (เช่น ล้างประวัติ หรือเปิดคนละเครื่อง)</p>
+  </div>
+  <div id="cards"></div>
+</main>
+<script type="application/json" id="data">__DATA__</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const RID = DATA.reviewer, HASH = DATA.hash, P = DATA.products;
+const KEY = "label_review:" + RID + ":" + HASH;
+const LABEL = { wrong: "ผิด", extra: "เกิน", unreadable: "อ่านไม่ออก" };
+const byLf = Object.fromEntries(P.map(p => [p.lf, p]));
+
+function blank() {
+  return { format: "label_review/1", reviewer_id: RID, data_hash: HASH, reviewer_name: "",
+           products: {}, saved_at: null, exported_at: null, dirty: false };
+}
+let S = blank();
+let storageOK = true;
+try {
+  const raw = localStorage.getItem(KEY);
+  if (raw) { const s = JSON.parse(raw); if (s && s.data_hash === HASH && s.reviewer_id === RID) S = s; }
+} catch (e) { storageOK = false; }
+
+const EMPTY = { checked: false, notes: "", verdicts: {}, missing: [] };
+function get(lf) { return S.products[lf] || EMPTY; }
+function mut(lf) {
+  if (!S.products[lf]) S.products[lf] = { checked: false, notes: "", verdicts: {}, missing: [] };
+  return S.products[lf];
+}
+
+function persist() {
+  S.saved_at = new Date().toISOString();
+  try { localStorage.setItem(KEY, JSON.stringify(S)); storageOK = true; } catch (e) { storageOK = false; }
+  showSave();
+}
+function changed() { S.dirty = true; persist(); updateTop(); }
+let timer = null;
+function changedSoon() { S.dirty = true; clearTimeout(timer); timer = setTimeout(persist, 400); }
+
+function el(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === "class") e.className = v;
+    else if (k === "text") e.textContent = v;
+    else if (k === "value") e.value = v;
+    else if (v !== false && v != null) e.setAttribute(k, v === true ? "" : v);
+  }
+  for (const c of kids) if (c != null) e.append(c);
+  return e;
+}
+
+function buildCard(p) {
+  const card = el("section", { class: "card", id: "p" + p.i, "data-lf": p.lf });
+  const split = p.split === "heldout" ? "Held-out" : "Dev";
+  card.append(el("header", {},
+    el("h2", { text: "#" + p.i + " · " + p.img }),
+    el("span", { class: "small", text: split + " · " + p.w + "×" + p.h + "px · " + p.names.length + " ชื่อ · " + p.lf }),
+    el("span", { class: "badge" })));
+  card.append(el("div", { class: "imgwrap" },
+    el("a", { href: p.href, target: "_blank", title: "เปิดภาพขนาดเต็ม" },
+      el("img", { src: p.href, alt: p.img, loading: "lazy" }))));
+  const body = el("div", { class: "body" });
+  const ol = el("ol", { class: "names" });
+  const st = get(p.lf);
+  p.names.forEach((name, k) => {
+    const pos = k + 1;
+    const li = el("li", { "data-pos": pos });
+    const btns = el("span", { class: "btns" });
+    for (const v of ["wrong", "extra", "unreadable"])
+      btns.append(el("button", { type: "button", class: "vb " + v, "data-v": v, "aria-pressed": "false",
+                                 "aria-label": LABEL[v] + ": ลำดับ " + pos, text: LABEL[v] }));
+    li.append(el("span", { class: "pos", text: pos }), el("span", { class: "nm", text: name }), btns,
+      el("div", { class: "fix" },
+        el("input", { type: "text", class: "fixtext", placeholder: "ชื่อที่ถูกต้องตามฉลาก", "aria-label": "ชื่อที่ถูกต้อง ลำดับ " + pos }),
+        el("input", { type: "text", class: "fixnote", placeholder: "หมายเหตุ (ถ้ามี)", "aria-label": "หมายเหตุ ลำดับ " + pos })));
+    applyLi(li, st.verdicts[pos]);
+    ol.append(li);
+  });
+  body.append(ol);
+  body.append(el("div", { class: "missing" },
+    el("h3", { text: "ชื่อที่มีบนฉลากแต่ไม่มีในรายการ (ขาด)" }),
+    el("div", { class: "mlist" }),
+    el("button", { type: "button", class: "btn addm", text: "+ เพิ่มชื่อที่ขาด" })));
+  body.append(el("textarea", { class: "pnotes", placeholder: "หมายเหตุของผลิตภัณฑ์นี้ (ถ้ามี)", "aria-label": "หมายเหตุผลิตภัณฑ์", value: st.notes || "" }));
+  body.append(el("div", { class: "foot" },
+    el("button", { type: "button", class: "btn primary done" }),
+    el("span", { class: "summary" }), el("span", { class: "err", role: "alert" })));
+  card.append(body);
+  renderMissing(card, p);
+  updateCard(card);
+  return card;
+}
+
+function applyLi(li, x) {
+  const v = x ? x.v : "";
+  li.dataset.v = v;
+  li.querySelectorAll(".vb").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === v)));
+  li.querySelector(".fixtext").value = x && x.text || "";
+  li.querySelector(".fixnote").value = x && x.note || "";
+}
+
+function renderMissing(card, p) {
+  const box = card.querySelector(".mlist");
+  box.replaceChildren();
+  get(p.lf).missing.forEach((m, k) => {
+    const sel = el("select", { class: "mafter", "aria-label": "ตำแหน่งของชื่อที่ขาด" });
+    for (let a = 0; a <= p.names.length; a++) {
+      const o = el("option", { value: a, text: a === 0 ? "ก่อนชื่อแรก" : "ต่อจาก " + a + ". " + p.names[a - 1] });
+      if (a === m.after) o.selected = true;
+      sel.append(o);
+    }
+    box.append(el("div", { class: "mrow", "data-k": k }, sel,
+      el("input", { type: "text", class: "mname", placeholder: "ชื่อที่ขาด ตามฉลาก", "aria-label": "ชื่อที่ขาด", value: m.name }),
+      el("input", { type: "text", class: "mnote", placeholder: "หมายเหตุ (ถ้ามี)", "aria-label": "หมายเหตุชื่อที่ขาด", value: m.note || "" }),
+      el("button", { type: "button", class: "btn mdel", text: "ลบ" })));
+  });
+}
+
+function counts(st) {
+  const c = { wrong: 0, extra: 0, unreadable: 0 };
+  for (const x of Object.values(st.verdicts)) c[x.v]++;
+  return c;
+}
+function updateCard(card) {
+  const st = get(card.dataset.lf);
+  card.classList.toggle("done", !!st.checked);
+  card.querySelector(".badge").textContent = st.checked ? "✓ ตรวจเสร็จ" : "";
+  card.querySelector(".done").textContent = st.checked ? "แก้ไขผลิตภัณฑ์นี้อีกครั้ง" : "ตรวจผลิตภัณฑ์นี้เสร็จ";
+  card.querySelector(".done").classList.toggle("primary", !st.checked);
+  const c = counts(st);
+  card.querySelector(".summary").textContent =
+    "ผิด " + c.wrong + " · เกิน " + c.extra + " · อ่านไม่ออก " + c.unreadable + " · ขาด " + st.missing.length;
+  card.querySelectorAll("input, select, textarea, .vb, .addm, .mdel").forEach(x => { x.disabled = !!st.checked; });
+}
+
+function problems(lf) {
+  const st = get(lf), out = [];
+  for (const [pos, x] of Object.entries(st.verdicts))
+    if (x.v === "wrong" && !(x.text || "").trim()) out.push("ลำดับ " + pos + " เลือก \"ผิด\" แต่ยังไม่กรอกชื่อที่ถูกต้อง");
+  if (st.missing.some(m => !(m.name || "").trim())) out.push("มีแถวชื่อที่ขาดที่ยังไม่กรอกชื่อ");
+  return out;
+}
+
+function updateTop() {
+  const done = P.filter(p => get(p.lf).checked);
+  const ho = P.filter(p => p.split === "heldout"), hoDone = done.filter(p => p.split === "heldout");
+  document.getElementById("progtext").textContent =
+    "ตรวจเสร็จ " + done.length + "/" + P.length + " (Held-out " + hoDone.length + "/" + ho.length +
+    " · Dev " + (done.length - hoDone.length) + "/" + (P.length - ho.length) + ")";
+  document.getElementById("bar").style.width = (100 * done.length / P.length) + "%";
+}
+function fmt(t) { return t ? new Date(t).toLocaleString("th-TH", { dateStyle: "short", timeStyle: "short" }) : "-"; }
+function showSave() {
+  const s = document.getElementById("savestate");
+  if (!storageOK) { s.textContent = "บันทึกในเบราว์เซอร์ไม่ได้ ต้องดาวน์โหลดไฟล์ผลก่อนปิดหน้า"; s.className = "savestate warn"; return; }
+  s.className = "savestate small" + (S.dirty ? " warn" : "");
+  s.textContent = S.dirty ? "มีผลที่ยังไม่ได้ดาวน์โหลด (ดาวน์โหลดล่าสุด " + fmt(S.exported_at) + ")"
+                          : "ดาวน์โหลดล่าสุด " + fmt(S.exported_at);
+}
+
+const cards = document.getElementById("cards");
+function renderAll() {
+  cards.replaceChildren(...P.map(buildCard));
+  document.getElementById("rname").value = S.reviewer_name || "";
+  updateTop(); showSave();
+}
+
+cards.addEventListener("click", ev => {
+  const card = ev.target.closest(".card");
+  if (!card) return;
+  const lf = card.dataset.lf, p = byLf[lf];
+  const vb = ev.target.closest(".vb");
+  if (vb) {
+    const li = vb.closest("li"), pos = li.dataset.pos, st = mut(lf);
+    const cur = st.verdicts[pos];
+    if (cur && cur.v === vb.dataset.v) delete st.verdicts[pos];
+    else st.verdicts[pos] = { v: vb.dataset.v, text: cur && cur.text || "", note: cur && cur.note || "" };
+    applyLi(li, st.verdicts[pos]);
+    if (vb.dataset.v === "wrong" && st.verdicts[pos]) li.querySelector(".fixtext").focus();
+    card.querySelector(".err").textContent = "";
+    updateCard(card); changed(); return;
+  }
+  if (ev.target.closest(".addm")) {
+    mut(lf).missing.push({ after: p.names.length, name: "", note: "" });
+    renderMissing(card, p); updateCard(card); changed();
+    const rows = card.querySelectorAll(".mrow"); rows[rows.length - 1].querySelector(".mafter").focus();
+    return;
+  }
+  const del = ev.target.closest(".mdel");
+  if (del) {
+    mut(lf).missing.splice(+del.closest(".mrow").dataset.k, 1);
+    renderMissing(card, p); updateCard(card); changed(); return;
+  }
+  if (ev.target.closest(".done")) {
+    const st = mut(lf);
+    if (!st.checked) {
+      const bad = problems(lf);
+      if (bad.length) { card.querySelector(".err").textContent = bad.join(" · "); return; }
+      st.checked = true;
+      updateCard(card); changed();
+      const next = P.find(q => !get(q.lf).checked && q.i > p.i) || P.find(q => !get(q.lf).checked);
+      if (next) document.getElementById("p" + next.i).scrollIntoView({ block: "start" });
+    } else {
+      st.checked = false; updateCard(card); changed();
+    }
+  }
+});
+
+cards.addEventListener("input", ev => {
+  const card = ev.target.closest(".card");
+  if (!card) return;
+  const lf = card.dataset.lf, t = ev.target;
+  if (t.classList.contains("fixtext") || t.classList.contains("fixnote")) {
+    const x = mut(lf).verdicts[t.closest("li").dataset.pos];
+    if (x) x[t.classList.contains("fixtext") ? "text" : "note"] = t.value;
+  } else if (t.classList.contains("mname") || t.classList.contains("mnote") || t.classList.contains("mafter")) {
+    const m = mut(lf).missing[+t.closest(".mrow").dataset.k];
+    if (t.classList.contains("mafter")) m.after = +t.value;
+    else m[t.classList.contains("mname") ? "name" : "note"] = t.value;
+  } else if (t.classList.contains("pnotes")) {
+    mut(lf).notes = t.value;
+  } else return;
+  card.querySelector(".err").textContent = "";
+  changedSoon();
+});
+cards.addEventListener("change", () => { persist(); showSave(); });
+
+document.getElementById("rname").addEventListener("input", ev => { S.reviewer_name = ev.target.value; changedSoon(); });
+document.getElementById("hidedone").addEventListener("change", ev => document.body.classList.toggle("hide-done", ev.target.checked));
+document.getElementById("next").addEventListener("click", () => {
+  const next = P.find(q => !get(q.lf).checked);
+  if (next) document.getElementById("p" + next.i).scrollIntoView({ block: "start" });
+  else alert("ตรวจครบทุกผลิตภัณฑ์แล้ว");
+});
+
+document.getElementById("export").addEventListener("click", () => {
+  if (!(S.reviewer_name || "").trim()) { alert("กรุณากรอกชื่อผู้ตรวจก่อนดาวน์โหลด"); document.getElementById("rname").focus(); return; }
+  clearTimeout(timer);
+  S.exported_at = new Date().toISOString(); S.dirty = false; persist();
+  const blob = new Blob([JSON.stringify(S, null, 1)], { type: "application/json" });
+  const a = el("a", { href: URL.createObjectURL(blob), download: "label_review_" + RID + ".json" });
+  document.body.append(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+});
+document.getElementById("importbtn").addEventListener("click", () => document.getElementById("importfile").click());
+document.getElementById("importfile").addEventListener("change", async ev => {
+  const f = ev.target.files[0];
+  ev.target.value = "";
+  if (!f) return;
+  try {
+    const s = JSON.parse(await f.text());
+    if (s.format !== "label_review/1") throw new Error("ไม่ใช่ไฟล์ผลการตรวจ");
+    if (s.reviewer_id !== RID) throw new Error("เป็นไฟล์ของผู้ตรวจ " + s.reviewer_id + " ไม่ใช่ " + RID);
+    if (s.data_hash !== HASH) throw new Error("สร้างจากชุดเฉลยคนละรุ่นกับหน้านี้");
+    if (!confirm("แทนที่ผลในหน้านี้ด้วยไฟล์ที่เลือก (บันทึกเมื่อ " + fmt(s.saved_at) + ")?")) return;
+    S = s; persist(); renderAll();
+  } catch (e) { alert("โหลดไฟล์ไม่ได้: " + e.message); }
+});
+
+window.addEventListener("beforeunload", ev => {
+  clearTimeout(timer);
+  if (S.dirty) persist();
+  if (!storageOK && S.dirty) { ev.preventDefault(); ev.returnValue = ""; }
+});
+const topBar = document.getElementById("top");
+function setTopH() {
+  const sticky = getComputedStyle(topBar).position === "sticky";
+  document.documentElement.style.setProperty("--top-h", (sticky ? topBar.offsetHeight : 0) + "px");
+}
+window.addEventListener("resize", setTopH);
+renderAll(); setTopH();
+</script>
+</body>
+</html>
